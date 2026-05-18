@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.local
+
+# Credentials
+mcp-config/google-sheets-credentials.json
+mcp-config/*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (optionnel - à garder pour que GitHub serve les données)
+# outputs/ — on va garder ce dossier dans le repo

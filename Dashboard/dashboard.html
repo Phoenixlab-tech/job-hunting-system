@@ -1775,8 +1775,8 @@ function fetchOffres() {
 
   showToast('⟳ Récupération depuis GitHub...');
 
-  // URL GitHub (remplacer GITHUB_USERNAME par ton username)
-  const githubUrl = 'https://raw.githubusercontent.com/GITHUB_USERNAME/job-hunting-system/main/outputs/offers_scored.json';
+  // URL GitHub
+  const githubUrl = 'https://raw.githubusercontent.com/Phoenixlab-tech/job-hunting-system/main/outputs/offers_scored.json';
 
   fetch(githubUrl)
     .then(res => {
