@@ -1,0 +1,8 @@
+{
+  "name": "job-hunting-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for Job Hunting System",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.45.1"
+  }
+}

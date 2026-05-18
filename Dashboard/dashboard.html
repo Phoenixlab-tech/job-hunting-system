@@ -819,6 +819,36 @@
   </div>
 </div>
 
+<!-- CV MODAL -->
+<div class="modal-overlay" id="cv-modal">
+  <div class="modal" style="max-width: 900px; max-height: 90vh; overflow-y: auto;">
+    <h2>CV Généré — <span id="cv-title"></span></h2>
+    <div class="modal-section">
+      <div id="cv-content" style="font-family: 'DM Mono', monospace; font-size: 13px; line-height: 1.6; white-space: pre-wrap; color: var(--text2); background: var(--surface); padding: 15px; border-radius: 4px;"></div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-close" onclick="closeCVModal()">Fermer</button>
+      <button class="btn-gen-single" onclick="downloadCV()">⬇️ Télécharger</button>
+      <button class="btn-gen-single" onclick="copyCVToClipboard()">📋 Copier</button>
+    </div>
+  </div>
+</div>
+
+<!-- LM MODAL -->
+<div class="modal-overlay" id="lm-modal">
+  <div class="modal" style="max-width: 900px; max-height: 90vh; overflow-y: auto;">
+    <h2>Lettre Générée — <span id="lm-title"></span></h2>
+    <div class="modal-section">
+      <div id="lm-content" style="font-family: 'DM Mono', monospace; font-size: 13px; line-height: 1.6; white-space: pre-wrap; color: var(--text2); background: var(--surface); padding: 15px; border-radius: 4px;"></div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-close" onclick="closeLMModal()">Fermer</button>
+      <button class="btn-gen-single" onclick="downloadLM()">⬇️ Télécharger</button>
+      <button class="btn-gen-single" onclick="copyLMToClipboard()">📋 Copier</button>
+    </div>
+  </div>
+</div>
+
 <!-- TOAST -->
 <div class="toast" id="toast"></div>
 
@@ -1046,6 +1076,83 @@ function genSingle() {
   }
 }
 
+// ======= CV/LM MODALS =======
+function showCVModal(content, titre) {
+  document.getElementById('cv-title').textContent = titre;
+  document.getElementById('cv-content').textContent = content;
+  document.getElementById('cv-modal').classList.add('open');
+  document.getElementById('cv-modal').cvContent = content;
+  // Close on overlay click
+  document.getElementById('cv-modal').onclick = (e) => {
+    if (e.target.id === 'cv-modal') closeCVModal();
+  };
+}
+
+function closeCVModal() {
+  document.getElementById('cv-modal').classList.remove('open');
+}
+
+function showLMModal(content, titre) {
+  document.getElementById('lm-title').textContent = titre;
+  document.getElementById('lm-content').textContent = content;
+  document.getElementById('lm-modal').classList.add('open');
+  document.getElementById('lm-modal').lmContent = content;
+  // Close on overlay click
+  document.getElementById('lm-modal').onclick = (e) => {
+    if (e.target.id === 'lm-modal') closeLMModal();
+  };
+}
+
+function closeLMModal() {
+  document.getElementById('lm-modal').classList.remove('open');
+}
+
+function downloadCV() {
+  const content = document.getElementById('cv-modal').cvContent;
+  const titre = document.getElementById('cv-title').textContent;
+  const filename = `CV_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.md`;
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('✓ CV téléchargé');
+}
+
+function downloadLM() {
+  const content = document.getElementById('lm-modal').lmContent;
+  const titre = document.getElementById('lm-title').textContent;
+  const filename = `LM_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.md`;
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('✓ Lettre téléchargée');
+}
+
+function copyCVToClipboard() {
+  const content = document.getElementById('cv-modal').cvContent;
+  navigator.clipboard.writeText(content).then(() => {
+    showToast('✓ CV copié');
+  }).catch(() => {
+    showToast('❌ Erreur copie');
+  });
+}
+
+function copyLMToClipboard() {
+  const content = document.getElementById('lm-modal').lmContent;
+  navigator.clipboard.writeText(content).then(() => {
+    showToast('✓ Lettre copiée');
+  }).catch(() => {
+    showToast('❌ Erreur copie');
+  });
+}
+
 // ======= GENERATION PANEL =======
 function openGenPanel() {
   const panel = document.getElementById('gen-panel');
@@ -1070,59 +1177,97 @@ function openGenPanel() {
   panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-function genCV(id) {
-  const o = allOffres.find(x => x.id === id);
-  const prompt = `Tu es un expert RH et rédacteur de CV ATS-friendly.
+// Profil candidat (chargé une fois au démarrage)
+let userProfile = null;
 
-PROFIL CANDIDAT : Arnaud Chédeville
-- 28 ans d'expérience technique et managériale
-- Casquette visée : ${o.casquette}
-- Compétences clés : support N3, management équipe, services généraux, réseaux, Make/n8n
-- Habilitations électriques B1V-B2V-BR-BC
-- Localisation : Izon (33), rayon 25km Libourne
-
-OFFRE CIBLÉE :
-- Poste : ${o.titre}
-- Entreprise : ${o.entreprise}
-- Lieu : ${o.lieu}
-- Compétences requises : ${o.skills}
-
-INSTRUCTIONS :
-1. Génère un CV ATS-friendly en format Markdown
-2. Adapte l'accroche exactement à cette offre
-3. Mets en avant les expériences SFR (RSG, Adjoint), Madic Industries et Neuf Cegetel
-4. Utilise les mots-clés de l'offre dans les bullet points
-5. Format : Accroche → Expériences → Compétences → Formations → Certifications
-6. Maximum 1 page (bullet points concis)`;
-
-  navigator.clipboard.writeText(prompt).catch(() => {});
-  showToast('📋 Prompt CV copié ! Colle-le dans Claude.');
+async function loadProfile() {
+  if (userProfile) return userProfile;
+  try {
+    const res = await fetch('https://raw.githubusercontent.com/Phoenixlab-tech/job-hunting-system/main/data/mon-profil.json');
+    if (!res.ok) throw new Error('Profil non disponible');
+    userProfile = await res.json();
+    return userProfile;
+  } catch (e) {
+    console.error('Erreur chargement profil:', e);
+    showToast('⚠️ Impossible de charger le profil');
+    return null;
+  }
 }
 
-function genLM(id) {
+async function genCV(id) {
   const o = allOffres.find(x => x.id === id);
-  const prompt = `Tu es expert en rédaction de lettres de motivation percutantes.
+  const profile = await loadProfile();
+  if (!profile) return;
 
-PROFIL : Arnaud Chédeville
-- Autodidacte, 28 ans d'expérience
-- Points forts : terrain + management + technique + automatisation
-- Casquette : ${o.casquette}
+  const btn = document.querySelector(`button[onclick="genCV(${id})"]`);
+  const originalText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '⟳ Génération...';
+  showToast('⟳ Génération du CV...');
 
-OFFRE :
-- Poste : ${o.titre} chez ${o.entreprise}
-- Lieu : ${o.lieu}
-- Compétences : ${o.skills}
+  try {
+    const res = await fetch('/.netlify/functions/generate-cv-lm', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        offerId: id,
+        profile: profile,
+        offer: o,
+        docType: 'cv'
+      })
+    });
 
-INSTRUCTIONS :
-1. LM courte (3 paragraphes max), ton professionnel mais direct
-2. Para 1 : Accroche forte liée à l'offre
-3. Para 2 : 2-3 réalisations concrètes avec chiffres
-4. Para 3 : Motivation + call to action
-5. Évite les formules génériques
-6. Format : prêt à copier-coller dans un email`;
+    const data = await res.json();
+    if (!data.success) throw new Error(data.error || 'Erreur génération');
 
-  navigator.clipboard.writeText(prompt).catch(() => {});
-  showToast('📋 Prompt LM copié ! Colle-le dans Claude.');
+    // Affiche le CV dans un modal
+    showCVModal(data.content, o.titre);
+    showToast('✓ CV généré !');
+  } catch (err) {
+    console.error('Erreur:', err);
+    showToast('❌ Erreur: ' + err.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = originalText;
+  }
+}
+
+async function genLM(id) {
+  const o = allOffres.find(x => x.id === id);
+  const profile = await loadProfile();
+  if (!profile) return;
+
+  const btn = document.querySelector(`button[onclick="genLM(${id})"]`);
+  const originalText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '⟳ Génération...';
+  showToast('⟳ Génération de la lettre...');
+
+  try {
+    const res = await fetch('/.netlify/functions/generate-cv-lm', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        offerId: id,
+        profile: profile,
+        offer: o,
+        docType: 'lm'
+      })
+    });
+
+    const data = await res.json();
+    if (!data.success) throw new Error(data.error || 'Erreur génération');
+
+    // Affiche la LM dans un modal
+    showLMModal(data.content, o.titre);
+    showToast('✓ Lettre générée !');
+  } catch (err) {
+    console.error('Erreur:', err);
+    showToast('❌ Erreur: ' + err.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = originalText;
+  }
 }
 
 // ======= TOAST =======
