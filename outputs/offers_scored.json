@@ -289,6 +289,23 @@
     "casquette_match": "RSG"
   },
   {
+    "id_offre": "208HNSM",
+    "titre": "Paysagiste (h/f)",
+    "entreprise": "ADECCO",
+    "lieu": "33281 (33700)",
+    "distance_km": 70.61736745688978,
+    "salaire": "Salaire selon profil",
+    "contrat": "Intérim - 3 Mois",
+    "date_publication": "2026-05-15",
+    "casquette": 2,
+    "description": "\nOffre d'emploi - Ouvrier Paysagiste Expérimenté (H/F) - Intérim. \nDescription du poste :. Dans le cadre d'une mission en intérim pour l'un de nos clients, nous recherchons un Ouvrier Paysagiste Expérimenté (H/F), autonome sur les travaux d'entretien et/ou de création paysagère.\nNous recherchons avant tout un professionnel issu du métier des espaces verts, ayant construit son parcours principalement en paysagisme, et capable d'intervenir efficacement sur chantier dès sa prise de poste.\n\n\nVos missions selon les besoins du chantier, vous pourrez intervenir sur :. Entretien des espaces verts : \n\n - Tonte, débroussaillage, désherbage\n - Taille de haies, arbustes et petits végétaux\n - Soufflage, ramassage, entretien général des extérieurs\n - Entretien courant du matériel utilisé\n\n\nTravaux de création / aménagement paysager :. \n - Préparation de sols\n - Plantation de végétaux\n - Engazonnement / semis / pose de gazon\n - Pose de bordures, dallage, petits travaux d'aménagement extérieur\n - Aide à la réalisation d'aménagements paysagers\n\n\nProfil recherché. Nous recherchons un candidat qui :\n\n - Justifie d'une expérience significative et régulière en tant qu'ouvrier paysagiste\n - A évolué sur des postes majoritairement orientés espaces verts / paysagisme\n - Maîtrise les travaux terrain et les gestes du métier\n - Est capable de travailler en équipe tout en étant opérationnel rapidement\n - Respecte les consignes de sécurité et le matériel\n\nCritères importants : . \n - Expérience solide et cohérente en paysagisme\n - Bonne connaissance des travaux d'entretien et/ou de création\n - Profil terrain, fiable, ponctuel et impliqué\n - Le permis B est un plus\n\n\nCe que nous recherchons en priorité. Nous privilégions les candidats ayant un parcours stable et spécialisé en espaces verts, avec une vraie expérience du métier d'ouvrier paysagiste.\n",
+    "competences": "",
+    "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1f4dc15d9b1edc4eb2d2ee7862a4d2d9ffAEADECAAAADAAAAAAAAAAAAAAAAOTXV5BQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
+    "statut": "nouveau",
+    "score_match": 23,
+    "casquette_match": "RSG"
+  },
+  {
     "id_offre": "207XLYS",
     "titre": "Chef de Projets Digitaux (h/f)",
     "entreprise": "ADECCO FRANCE",
@@ -304,6 +321,23 @@
     "statut": "nouveau",
     "score_match": 36,
     "casquette_match": "RSG"
+  },
+  {
+    "id_offre": "208JFRK",
+    "titre": "Chef / Cheffe de partie (H/F)",
+    "entreprise": "RO'CHA",
+    "lieu": "33069 (33110)",
+    "distance_km": 67.22178566929819,
+    "salaire": "entre 1800€ et 2100€ NET selon expérience",
+    "contrat": "CDI",
+    "date_publication": "2026-05-18",
+    "casquette": 2,
+    "description": "Restaurant situé près de Parc Bordelais, nous recherchons un chef de partie (H/F) confirmé et autonome  pour rejoindre notre équipe en cuisine.\n\nNous proposons une cuisine de marché élaborée à partir de produits frais et locaux de saison. La carte est mise à jour toutes les semaines avec les ingrédients du moment, des recettes sur mesure.\n\nPoste chaud en autonomie\nConnaissances en pâtisserie demandées. \nMise en place, services en coupure, commande, gestion appro/ nettoyage et entretien... \nCapacité 30 couverts/service.\n\n2 repas par jour\nRestaurant fermé le samedi, dimanche et lundi soir. \nCongés 3 semaines en Août / septembre\nFermeture Noël et nouvel an / 1er et 8 mai\nForfait cadre 218 jours de travail\n\n",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 42,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "207HXGY",
@@ -378,7 +412,7 @@
     "titre": "LEADER TECHNIQUE SERVICENOW - H/F",
     "entreprise": "DGA Tech France Travail",
     "lieu": "33318 (33600)",
-    "distance_km": 73.42718277930955,
+    "distance_km": 70.97587498841754,
     "salaire": "N/A",
     "contrat": "CDI",
     "date_publication": "2026-05-07",
@@ -455,7 +489,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 52,
+    "score_match": 47,
     "casquette_match": "RSG"
   },
   {
@@ -591,7 +625,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 50,
+    "score_match": 45,
     "casquette_match": "Manager"
   },
   {
@@ -1152,7 +1186,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 37,
     "casquette_match": "Support"
   },
   {
@@ -1305,7 +1339,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 47,
+    "score_match": 42,
     "casquette_match": "Support"
   },
   {
@@ -1322,7 +1356,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 49,
+    "score_match": 44,
     "casquette_match": "RSG"
   },
   {
@@ -1330,7 +1364,7 @@
     "titre": "ENCADRANT ATELIER CVC/FROID - H/F",
     "entreprise": "CENTRE HOSPITALIER UNIVERSITAIRE DE BORDEAUX",
     "lieu": "33063 (33000)",
-    "distance_km": 65.39875690625941,
+    "distance_km": 63.81280513143607,
     "salaire": "N/A",
     "contrat": "CDI",
     "date_publication": "2026-05-13",
@@ -1375,6 +1409,23 @@
     "statut": "nouveau",
     "score_match": 26,
     "casquette_match": "RSG"
+  },
+  {
+    "id_offre": "208GSDW",
+    "titre": "RESPONSABLE DE SALLE (H/F)",
+    "entreprise": "LE CAFE LAVINAL",
+    "lieu": "33314 (33250)",
+    "distance_km": 85.00182486479238,
+    "salaire": "A définir selon profil",
+    "contrat": "CDI",
+    "date_publication": "2026-05-13",
+    "casquette": 2,
+    "description": "Le Café Lavinal, brasserie nichée au cœur des vignes et près de l'océan, sur la route des vins et à proximité des châteaux emblématiques de la région bordelaise, recherche son Responsable de salle H/F.\n\nSous la responsabilité du Directeur opérationnel, vous dirigez le personnel de la salle, développez la rentabilité du restaurant en adéquation avec les objectifs fixés par la direction, gérez et développez les relations clients. \n\nMissions principales\n- Manager toute l'équipe de salle : recrutement, organisation du travail, formation etc.\n- Assurer un bon échange des informations entre la cuisine et la salle \n- Effectuer les réservations, et suivi de dossier des groupes\n- Appliquer la politique tarifaire du restaurant et les procédures qui en découlent\n- Gérer la bonne « tenue » du restaurant\n- Gérer la caisse du restaurant et contrôler les encaissements effectués \n- Suivi de la facturation des paiements différés et contrôle des débiteurs\n- Editer les rapports mensuels et statistiques de production.\n- Gérer les commandes, approvisionnements et tenue des stocks \n- Accueillir, conseiller et répondre aux questions « techniques » des clients sur un plat en français et en anglais, prendre les commandes\n- Orchestrer et veiller au bon déroulement du service sur l'ensemble de la salle\n- S'assurer de la satisfaction du client et fidéliser la clientèle\n\nCompétences:\n- Domaine d'études : Hôtellerie - Restauration\n- Expérience professionnelle : 2 ans d'expérience minimum\n- Langues exigées : Français, anglais\n- Maitrise des logiciels de caisse et de gestion des plannings\n \nQualités souhaitées:\n- Sens du service et de l'accueil\n- Bonne communication et écoute\n- Rigoureux\n- Excellent relationnel\n- Goût du détail\n\nRejoignez Le Café Lavinal, mettons en scène vos compétences et notre savoir-faire\nChez nous chaque personne compte !",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 36,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208GHNM",
@@ -1683,6 +1734,23 @@
     "casquette_match": "Support"
   },
   {
+    "id_offre": "208HBKL",
+    "titre": "Technicien de maintenance industrielle F/H",
+    "entreprise": "SYNERGIE",
+    "lieu": "33004 (33810)",
+    "distance_km": 62.751802077025964,
+    "salaire": "N/A",
+    "contrat": "Intérim - 12 Mois",
+    "date_publication": "2026-05-13",
+    "casquette": 2,
+    "description": "Votre agence SYNERGIE Cenon recherche pour son client spécialisé dans le conditionnement de gaz , un TECHNICIEN DE MAINTENANCE (H/F).\nPoste basé à Ambès, à pourvoir pour du long terme.En relation avec le responsable maintenance, votre role est d'assurer le bon fonctionnement des machines et effectuer la maintenance préventive, corrective et curative. Vos missions : \n- Procéder  aux révisions, diagnostics, réparations, réglages des machines \n- Identifier et résoudre les dysfonctionnements \n- Gérer les stocks des pièces des machines et équipements \n- Remonter les informations et interventions \n- Etre force de proposition afin de participer à l'amélioration continue\n\nVous avez un Bac pro maintenance des équipements industriels ou un Bac génie mécanique, électronique ou électrotechnique, ainsi qu'une expérience confirmée sur un poste similaire. \nVous avez la fibre technique et vous êtes polyvalent, rigoureux, méthodique ? Vous aimez travailler en équipe ?\nCette offre vous correspond ? N'hésitez plus ! Postulez directement à cette offre ou contactez-nous au *** (voir postuler) - Vous maitrisez les différentes techniques de maintenance industrielle : automatisme, mécanique, hydraulique, robotique, pneumatique, électrique\n- Vous êtes dynamique, autonome, sérieux, rigoureux, avoir un esprit d'équipe et veiller au bon respect des process.\n- Vous avez un bon relationnel\nVos avantages Synergie:\n+10% IFM + 10% CP,\nCSE Synergie,\nPrime Participation + CET à 6%,\nAides et Services (Mutuelle - Logement - Garde d'enfants...)",
+    "competences": "",
+    "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=Pju8OhggAozDSIwlVgnK8A==",
+    "statut": "nouveau",
+    "score_match": 25,
+    "casquette_match": "Support"
+  },
+  {
     "id_offre": "208CWYR",
     "titre": "Technicien d'Atelier Monteur en Équipement de Loisirs H/F (H/F)",
     "entreprise": "CAPACTUEL TRAVAIL TEMPORAIRE",
@@ -1747,7 +1815,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 49,
+    "score_match": 44,
     "casquette_match": "RSG"
   },
   {
@@ -1884,23 +1952,6 @@
     "url_offre": "",
     "statut": "nouveau",
     "score_match": 22,
-    "casquette_match": "Support"
-  },
-  {
-    "id_offre": "207CSCD",
-    "titre": "METALLIER ATELIER (H/F)",
-    "entreprise": "TRIANGLE 5",
-    "lieu": "33273 (33127)",
-    "distance_km": 81.22771754446963,
-    "salaire": "N/A",
-    "contrat": "Intérim - 6 Mois",
-    "date_publication": "2026-04-17",
-    "casquette": 2,
-    "description": "Nous recherchons activement un(e) METALLIER ATELIER N3 H/F pour notre client spécialisé dans le BTP. \nLe poste est à pourvoir tout de suite, maintenant ! \nVous serez affecté à la fabrication. \nVous ferez : \n- Fabrication ouvrages métalliques en atelier (gardes corps etc.) \n- Découpe de pièces \n- Assemblage \n- Pliage \n- Débit \n- Soudure \n\nZone non desservie par les transports\n\nAutonome, rigoureux et organisé. \nEsprit d'équipe et motivation appréciés.\n\nNous recherchons un(e) METALLIER ATELIER en Interim pour notre client basé à Martignas.\n",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 5,
     "casquette_match": "Support"
   },
   {
@@ -2053,7 +2104,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 53,
+    "score_match": 48,
     "casquette_match": "Manager"
   },
   {
@@ -2414,23 +2465,6 @@
     "casquette_match": "Manager"
   },
   {
-    "id_offre": "1612370",
-    "titre": "Responsable moyens généraux & système de management de l'énergie f/h",
-    "entreprise": "",
-    "lieu": "33063 (33000)",
-    "distance_km": 68.59423602774726,
-    "salaire": "N/A",
-    "contrat": "CDI",
-    "date_publication": "2026-04-17",
-    "casquette": 2,
-    "description": "Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe emploie 100 000 collaborateurs pour un chiffre d'affaires de 27,3 milliards d'euros en 2024, et occupe, seul ou en partenariat, des positions de premier plan mondial ou européen sur ses marchés. \n\nSafran est la 2ème entreprise du secteur aéronautique et défense du classement « World's Best Companies 2024 » du magazine TIME.Descriptif missionSafran Additive Manufacturing Campus (SAMC) est une entreprise du groupe Safran, pôle d'excellence 100% dédié à la Fabrication Additive.\nLe campus a ouvert ses portes en octobre 2021 et rassemble en un seul lieu les meilleurs experts, les matériels et les machines dernière génération dans le but de:\n- Fluidifier et accélérer le partage des connaissances et savoir-faire.\n- Servir la performance de tous les clients de toutes les sociétés du Groupe.\n- Préparer le futur en se dotant d'infrastructures innovantes pour notre compétitivité.\nCette nouvelle technologie permet aux machines d'être plus performantes et d'obtenir des pièces plus légères qui répond au premier objectif de Safran : la décarbonisation.\n\nLa fabrication additive est un levier stratégique pour Safran, permettant d'optimiser en profondeur nos produits et d'apporter des solutions de compétitivité significative. Safran Additive Manufacturing Campus est l'entité du groupe en charge de l'ensemble des activités de fabrication additive, au service des sociétés.\n\nDans le cadre du maintien opérationnel du site et de l'amélioration continue de la performance énergétique, nous recherchons un Responsable Moyens Généraux & Système de Management de l'Énergie qui aura en charge les missions suivantes :\n\n1. Gestion et pilotage des Moyens Généraux\no\tAssurer la gestion opérationnelle du site, des bâtiments et des installations techniques (CVC, électricité, fluides, réseaux, équipements de sécurité...).\no\tPiloter notre prestataire de facility management en charge de la gestion des contrats de maintenance.\no\tPlanifier et suivre les travaux, réimplantations, projets d'aménagement et investissements.\no\tGarantir la conformité réglementaire : contrôles périodiques, levée des observations, suivi des installations classées. \no\tAssurer la fiabilité et la disponibilité des installations supports à la production.\no\tOptimiser les coûts d'exploitation et la performance énergétique des équipements.\no\tGérer les services généraux (déchets, énergie, flotte de matériels...).\n\nVous assurez la disponibilité et la conformité des installations du site tout en pilotant le SME, élément essentiel pour la bonne tenue du poste.\n\n2. Pilotage du SME (Système de Management de l'Énergie - ISO 50001, standard interne)\no\tPiloter, maintenir et améliorer le SME conformément à nos standards internes équivalents á l'ISO 50001.\no\tIdentifier les usages énergétiques significatifs et définir les plans d'amélioration associés.\no\tMettre en place les indicateurs énergétiques et en assurer le suivi.\no\tPréparer et accompagner les audits internes/externes de certification.\no\tAssurer la veille réglementaire en matière d'énergie et d'infrastructures.\no\tDéfinir et déployer les actions de réduction des consommations et d'amélioration de l'efficacité énergétique.\no\tSensibiliser et former le personnel aux bonnes pratiques et exigences du SME.",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 40,
-    "casquette_match": "RSG"
-  },
-  {
     "id_offre": "2381639",
     "titre": "Chef de projet MOE hydraulique urbaine H/F",
     "entreprise": "",
@@ -2512,7 +2546,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 48,
+    "score_match": 43,
     "casquette_match": "Manager"
   },
   {
@@ -2618,11 +2652,28 @@
     "casquette_match": "RSG"
   },
   {
+    "id_offre": "208JDPP",
+    "titre": "Agent de maintenance (F/H)",
+    "entreprise": "RANDSTAD SEARCH",
+    "lieu": "33063 (33000)",
+    "distance_km": 63.81280513143607,
+    "salaire": "N/A",
+    "contrat": "CDI",
+    "date_publication": "2026-05-18",
+    "casquette": 2,
+    "description": "** Ce qui vous attend au sein de la Régie de Bordeaux Métropole **\n\n* Rattaché(e) à la Responsable d'Unité, vous êtes garant du maintien de la performance des installations d'eaux usées dans un environnement de haute technicité. \nMissions :\n* Pilotage du process : Vous contribuez à la surveillance, la maintenance, l'optimisation des installations et assurez la conformité des rejets, la continuité du service et la protection du milieu naturel.\n* Maintenance : Vous réalisez le nettoyage, les réglages et le diagnostic de dysfonctionnements (maintenance de niveau 1).\n* Suivi technique : Vous effectuez les prélèvements pour l'autosurveillance (normes COFRAC) et renseigner les supports de suivi informatisés (GMAO).\n* Sécurité : Appliquer strictement les procédures liées aux risques chimiques, biologiques, électriques, ATEX et aux interventions en espaces confinés dans le respect des règles établies par l'entreprise.\n* Astreintes : Participer aux astreintes en respectant une capacité à intervenir en moins d'une heure en cas d'alerte (véhicule de service fournis sur ces périodes - permis B obligatoire).            \n\n** Vos conditions de travail **\n* Contrat en CDI de droit privé base 38 h - 18 JRTT\n*  Rémunération fixe à partir de 22 K€ bruts selon niveau d'expérience\n* Primes de 13ème mois et indemnités d'astreintes & intéressement\n*  TR 10€ pris en charge à 60% par l'employeur\n* Lieu de travail : Bordeaux Bassins à flot. Une résidence à moins de 45 minutes du site est impérative pour respecter les délais d'intervention.",
+    "competences": "",
+    "url_offre": "https://www.randstad.fr/offre/001-SBX-R002320_02R/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
+    "statut": "nouveau",
+    "score_match": 50,
+    "casquette_match": "Support"
+  },
+  {
     "id_offre": "2702968",
     "titre": "Technicien de maintenance industrielle H/F",
     "entreprise": "",
     "lieu": "33063 (33000)",
-    "distance_km": 65.55135749908442,
+    "distance_km": 63.81280513143607,
     "salaire": "N/A",
     "contrat": "CDI",
     "date_publication": "2026-05-15",
@@ -2750,7 +2801,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 40,
     "casquette_match": "Réseau"
   },
   {
@@ -2769,6 +2820,23 @@
     "statut": "nouveau",
     "score_match": 40,
     "casquette_match": "Support"
+  },
+  {
+    "id_offre": "207WTMW",
+    "titre": "Chargé d'affaire Maintenance (H/F)",
+    "entreprise": "EPSYL",
+    "lieu": "33063 (33000)",
+    "distance_km": 68.49495959214566,
+    "salaire": "N/A",
+    "contrat": "CDI",
+    "date_publication": "2026-05-05",
+    "casquette": 2,
+    "description": "EPSYL, c'est l'énergie de demain pensée avec la rigueur d'hier. Dans le cadre de notre développement, nous recrutons un(e) Chargé(e) d'Affaires Service & Maintenance pour piloter plusieurs contrats de services liés aux installations ENR sur la zone EMEA.\n\nVos missions :\n- Interface directe avec les clients.\n- Coordination des équipes terrain.\n- Surveillance à distance de l'état des équipements et suivi des performances.\n- Lecture, application et suivi des contrats.\n- Mise en place et négociation d'avenants.\n- Suivi financier : rentabilité, analyse des écarts budgétaires, actions correctives.\n- Supervision des interventions de maintenance\n- Vérification de la conformité documentaire (plans de prévention, permis de travail).\n- Application stricte des règles HSE et sécurité des personnes/équipements.\n\nLes + du poste :\n- Suivi de contrats long terme complexes et stratégiques.\n- Déplacements internationales\n- Expérience significative en affaires chantiers ou installations.\n- Environnement technique exigeant et à forte valeur ajoutée.\n\nProfil recherché :\n- Formation ingénieur ou équivalent (électrotechnique, maintenance industrielle, énergétique).\n- Expérience en gestion d'affaires, maintenance industrielle ou installations ENR.\n- Bonne compréhension des contrats de services long terme.\n- Capacité à piloter plusieurs projets simultanément.\n- Anglais professionnel indispensable (zone EMEA).\n- Sens du service client, rigueur contractuelle et culture sécurité forte.\n\nCe poste vous challenge ?\nN'hésitez plus et déposez votre Cv !",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 39,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "2692379",
@@ -2937,7 +3005,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 41,
+    "score_match": 36,
     "casquette_match": "RSG"
   },
   {
@@ -2972,6 +3040,23 @@
     "url_offre": "",
     "statut": "nouveau",
     "score_match": 40,
+    "casquette_match": "Support"
+  },
+  {
+    "id_offre": "208JDFG",
+    "titre": "Gestionnaire encours SAV (H/F)",
+    "entreprise": "P.N.Y.TECHNOLOGIES EUROPE",
+    "lieu": "33281 (33700)",
+    "distance_km": 70.61736745688978,
+    "salaire": "N/A",
+    "contrat": "CDI",
+    "date_publication": "2026-05-18",
+    "casquette": 2,
+    "description": "PNY Technologies Europe a acquis en 30 ans de présence européenne une position incontournable sur le marché des produits informatiques et multimédia grand public. Historiquement leader dans le domaine de la mémoire, l'entreprise adresse les marchés Consumers avec une solution complète de cartes graphiques, mémoires flash et accessoires ainsi que les marchés Professionnels avec des solutions d'Intelligence Artificielle allant de la carte graphique au Datacenter.\nPartenaire privilégié de NVIDIA depuis plus de 20 ans, PNY apporte les dernières technologies de GPU aussi bien pour les marchés de l'intégration, du gaming et professionnels (médical, aéronautique, média...).\nPlus récemment, le spécialiste a su faire évoluer son offre vers des solutions à forte valeur ajoutée dans le domaine de l'Intelligence Artificielle et se place désormais parmi les acteurs majeurs du domaine\n\nNous recherchons un (une) Gestionnaire encours SAV H/F\n\nVous êtes chargé(e) d'assurer la coordination des opérations du service après-vente et gérer le stock des produits retournés dans le respect des objectifs d'encours fixés par le manager.\n\nVos activités principales : \n- Réaliser le déballage et l'identification des produits retournés\n- Enregistrer dans le système informatique les retours et les non-conformités\n- Enregistrer les mouvements de stock dans le système informatique\n- Préparer l'emballage des retours fournisseurs\n- Suivre quantitativement et financièrement l'encours du service après-vente\n- Alerter en cas de dépassement des objectifs fixés par le supérieur hiérarchique\n- Organiser les inventaires \n- Proposer des actions d'optimisation\nVos compétences : \n- Aisance en informatique, bonne connaissance des logiciels informatiques (pack Office, mail) et ERP\n- Rigoureux(se), réactif(ve) et impliqué(e), vous savez travailler en équipe \n- Vous avez une bonne capacité d'adaptation et une bonne communication écrite et orale \n\n\nRémunération et avantages: \n- Le salaire mensuel de base est compris entre 1850 € et 1900 € en fonction de l'expérience, à laquelle s'ajoute les éléments variables (intéressement et participation) portant la rémunération globale à 30 000 €.\n- Vous bénéficiez de nombreux avantages (Mutuelle, CSE, tickets restaurant).\n- Nous sommes desservis par le tram A et un réseau de Bus + possibilité de parking dans l'enceinte de l'établissement.\nLe poste est situé ZI du Phare à Mérignac, il est à pourvoir dès que possible. \nLes horaires sont en journée du lundi au vendredi, le poste est à temps plein (35 heures par semaine).\nNotre succès durable repose sur un fort esprit d'équipe et une culture de confiance mutuelle.",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 45,
     "casquette_match": "Support"
   },
   {
@@ -3154,7 +3239,7 @@
     "contrat": "CDI",
     "date_publication": "2026-05-12",
     "casquette": 3,
-    "description": "Dans le cadre de son développement, Camarol recherche un(e) technicien(ne) SAV spécialisé(e) en électrotechnique et équipements techniques piscine.\n\nLe poste consiste à accompagner nos clients professionnels et particuliers sur les volets de piscine, pompes à chaleur, robots et équipements associés, tout en assurant un haut niveau de service client et de suivi commercial.\n\nVous participerez au suivi des dossiers clients, à l'accompagnement technique des installateurs et particuliers, au traitement des demandes SAV ainsi qu'au conseil avant et après-vente.\n\nLe poste intègre également une participation à l'amélioration continue des contenus techniques et produits, notamment via la mise à jour des fiches techniques et l'enrichissement des supports web et documentaires.\n\nSupport technique & SAV\nRéceptionner les demandes techniques par téléphone et mail\nRéaliser des diagnostics à distance\nAccompagner les clients dans la résolution des problèmes\nConseiller les installateurs lors des mises en service\nRépondre aux questions de montage, paramétrage et maintenance\nAssurer le suivi des dossiers SAV jusqu'à leur résolution\nService client & suivi commercial\nGarantir un accompagnement client de qualité\nAssurer le suivi des demandes et relances\nCoordonner les échanges avec les fournisseurs et partenaires\nParticiper à la fidélisation clients grâce à un service réactif et professionnel\nMise à jour contenus techniques & web\n\nPendant les périodes plus calmes :\n\nMise à jour des fiches techniques\nEnrichissement des fiches produits du site internet\nIntégration de notices, visuels et caractéristiques produits\nParticipation à l'amélioration des contenus d'aide clients\nProfil recherché\n\nNous recherchons avant tout une personne technique, organisée et orientée service client.\n\nFormation / expérience\nFormation technique appréciée :\nélectrotechnique\nmaintenance\nfroid & climatisation\néquipements techniques\nUne expérience en SAV ou support technique est un plus\nCompétences attendues\nBonne compréhension technique\nCapacité à réaliser des diagnostics à distance\nSens du service client\nAisance téléphonique\nBonne organisation\nMaîtrise des outils informatiques",
+    "description": "Dans le cadre de son développement, Camarol recherche un(e) technicien(ne) SAV spécialisé(e) en électrotechnique et équipements de piscine.\n\nLe poste consiste à accompagner nos clients professionnels et particuliers sur les volets de piscine, pompes à chaleur, robots et équipements associés, tout en assurant un service client de qualité.\n\nVos missions\nSupport technique & SAV\n- Répondre aux demandes techniques par téléphone et mail \n- Réaliser des diagnostics à distance \n- Accompagner les clients dans la résolution des problèmes \n- Conseiller les installateurs lors des mises en service \n- Assurer le suivi des dossiers SAV \n\nService client & suivi commercial\n- Assurer un accompagnement client réactif et professionnel \n- Suivre les demandes clients et les relances \n- Échanger avec les fournisseurs et partenaires \n- Participer à la fidélisation clients \n\nMise à jour des contenus techniques\nPendant les périodes plus calmes :\n- Mettre à jour les fiches techniques \n- Enrichir les fiches produits du site internet \n- Ajouter notices, visuels et caractéristiques produits \n- Participer à l'amélioration des contenus d'aide clients\n\nProfil recherché\nNous recherchons une personne technique, organisée et orientée service client.\nFormation / expérience\nFormation appréciée en :\n- électrotechnique \n- maintenance \n- froid & climatisation \n- équipements techniques \nUne expérience en SAV ou support technique est un plus.\n\nCompétences recherchées\n- Bonne compréhension technique \n- Sens du service client \n- Aisance téléphonique \n- Bonne organisation \n- Maîtrise des outils informatiques \n- Capacité à diagnostiquer des pannes à distance",
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
@@ -3634,7 +3719,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 40,
     "casquette_match": "Support"
   },
   {
@@ -3702,7 +3787,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 43,
+    "score_match": 38,
     "casquette_match": "RSG"
   },
   {
@@ -3787,7 +3872,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 24,
+    "score_match": 19,
     "casquette_match": "RSG"
   },
   {
@@ -3804,7 +3889,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 37,
     "casquette_match": "Support"
   },
   {
@@ -3821,7 +3906,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 15,
     "casquette_match": "Support"
   },
   {
@@ -4097,6 +4182,23 @@
     "casquette_match": "RSG"
   },
   {
+    "id_offre": "208HLHR",
+    "titre": "Technicien de maintenance tramway (H/F)",
+    "entreprise": "PROMAN",
+    "lieu": "33063 (33000)",
+    "distance_km": 63.81280513143607,
+    "salaire": "N/A",
+    "contrat": "Intérim - 4 Mois",
+    "date_publication": "2026-05-15",
+    "casquette": 3,
+    "description": "Le poste :\nNotre agence PROMAN INDUSTRIE recherche pour son client, acteur majeur des transports en commun de Bordeaux, un TECHNICIEN DE MAINTENANCE H/F Vos missions sont les suivantes: Maintenance préventive des rames de tramway : nettoyage, contrôles, remplacements, réglages, tests Maintenance curative : assistance à la mise en route des rames, diagnostic, dépannage, intervention sur le réseau, remorquage -poussage Maintenance en station service : examen rapide des rames, réparations rapides, remisage des rames Ces opérations portent sur tous les systèmes de la rame : mécaniques, électrotechniques, hydrauliques, pneumatiques, Des procédures de maintenance existent et doivent être appliquées pour ces opérations. Les interventions de maintenance sont renseignées sur le logiciel de GMAO et il est nécessaire d'informer son responsable par un compte rendu en fin d'intervention. \n\n\nProfil recherché :\nBEP à BAC Pro électrotechnique ou électromécanique. \nHabilitation à la conduite du tram hors clientèle indispensable (formation assurée). \nConnaissance du langage PL 7 souhaitée. \nExpérience en maintenance demandée. \nExpérience bienvenue en matériel ferroviaire ou maintenance systèmes industriels automatisés. COMPETENCES \nConnaissances générales de la maintenance, \nElectrotechnique : méthode de diagnostic simples, utilisation de consoles automates \nMécanique : démontages, examens, remontages et réglages \nMise en oeuvre de modes opératoires ou procédures \nTous nos postes sont ouverts aux personnes en situation de handicap.",
+    "competences": "",
+    "url_offre": "https://www.proman-emploi.fr/?job=MP1146349&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
+    "statut": "nouveau",
+    "score_match": 32,
+    "casquette_match": "Support"
+  },
+  {
     "id_offre": "208HKSD",
     "titre": "Technicien maintenance (H/F)",
     "entreprise": "PROMAN",
@@ -4112,6 +4214,23 @@
     "statut": "nouveau",
     "score_match": 25,
     "casquette_match": "Support"
+  },
+  {
+    "id_offre": "208HHFL",
+    "titre": "TECHNICIEN DE MAINTENANCE (H/F)",
+    "entreprise": "PARTNAIRE",
+    "lieu": "33063 (33000)",
+    "distance_km": 63.81280513143607,
+    "salaire": "N/A",
+    "contrat": "Intérim - 1 Mois",
+    "date_publication": "2026-05-15",
+    "casquette": 3,
+    "description": "L'agence Partnaire de Libourne accompagne le Groupe Bénéteau, n°1 mondial de la construction nautique, dans la constitution de son futur équipage. Rejoindre le groupe Bénéteau, c'est vivre une aventure collective et avoir l'opportunité de choisir son métier et d'être acteur de son parcours professionnel.\n\nDans cet accompagnement, nous recherchons un  ou une Technicien de maintenance (H/F)\n\nLa mission principale consiste à assurer la maintenance préventive et corrective, notamment\nsur un bâtiment doté de machines de type machines bois, mais aussi machines composite, ponts roulants, matériel roulant, portes, portails, rideaux, infrastructure bâtiment.\n- Réaliser les maintenances préventives et correctives des équipements et\ndes infrastructures en respectant les règles de sécurité et assurer un suivi via la\nGMAO\n- Suivre et analyser les indicateurs de maintenance et proposer des actions\nd'amélioration\n- Réaliser et suivre les correctifs associés aux contrôles réglementaires et contrats de\nmaintenance\n- Accompagner les interventions de maintenance préventives et correctives\n- Planifier, suivre et modifier les programmations via une gestion technique centralisée\n- Réaliser des travaux et suivre les interventions de prestataires externes\n- Accompagner les sous-traitants sur tout type d'intervention\n- Participer aux actions d'amélioration continue\n- Participer à la définition des axions préventives maintenance de niveau 1, 2 et 3\n\nTravail sur 37h / semaine avec compteur d'heures majoré soldé en fin de mission\nHoraire de journée : 07h30-15h39\nPermanences d'astreinte selon les besoins : astreinte une semaine, du lundi au lundi, toutes les 4 semaines\nPoste basé à Bordeaux (33100) à pourvoir en contrat de mission d'une durée de 5 semaines avec possibilité de renouvellement De formation technique ou en maintenance (type BTS maintenance industrielle, maintenance\ndes systèmes, ou BTS électrotechnique,...), vous justifiez d'une expérience confirmée en\nmaintenance au sein d'un environnement industriel. Votre formation et votre expérience vous\npermettent de maîtriser plusieurs domaines techniques parmi les suivants : électricité,\nélectro-mécanique, électrotechnique, automatismes, hydraulique, pneumatique.\nVous avez déjà travaillé sur un logiciel de GMAO, disposez d'une habilitation électrique BT et\nHT, et justifiez idéalement d'un CACES 3.\nVous êtes connu/e pour vos qualités de rigueur, organisation, gestion des priorités et sens du\ntravail en équipe. Vous saurez mettre vos qualités relationnelles et votre sens de la\ncommunication au service des clients internes de l'entreprise.\n\nRémunération :\n- Taux horaire selon barème entre 12.84EUR et 13.92EUR + 13ème mois\n\nMes avantages :\n-10% de congés payés et 10 % d'indemnité viennent compléter votre salaire en fin de contrat\n- Accès à la mutuelle intérimaire santé\n- Un CET, compte épargne temps qui rémunère votre épargne à 5%\n- Des indemnités de fin de mission à hauteur de 10%\n- Un comité d'entreprise dès le premier mois de mission",
+    "competences": "",
+    "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=2IvEcQDY1GxWv+WcG2TuZQ==",
+    "statut": "nouveau",
+    "score_match": 32,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "208HFLD",
@@ -6086,40 +6205,6 @@
     "casquette_match": "Support"
   },
   {
-    "id_offre": "207KXQK",
-    "titre": "Opératrice / Opérateur de centre de conduite ENR 5x8 H/F (H/F)",
-    "entreprise": "ENGIE GBS SOLUTIONS",
-    "lieu": "33063 (33000)",
-    "distance_km": 68.59423602774726,
-    "salaire": "12 mois",
-    "contrat": "CDI",
-    "date_publication": "2026-04-24",
-    "casquette": 3,
-    "description": "Opératrice / Opérateur de centre de conduite ENR 5x8 H/F\n\n\nEngie Green\n\nChâlons-en-champagne (51) \n\n \n\nLeader dans le domaine de l'Eolien en France, ENGIE Green accompagne ses clients dans le développement, la construction et l'exploitation des installations de production d'énergies vertes. (parcs éoliens, centrales solaires,). Nos équipes réalisent des projets sur-mesure performants et novateurs qui donnent sens à la transition énergétique.\n\nVous êtes à la recherche de nouveaux challenges dans une entreprise innovante et engagée ?\n\nNous recherchons justement notre futur : Opérateur/trice de centre de conduite ENR H/F\n\nRattaché-e au Responsable du Centre de Conduite des ENR (CCE), vous supervisez à distance, 7 jours sur 7, les installations ENR Vous êtes garants de la disponibilité des équipements et du matériel. La sécurité des biens et des personnes est votre priorité.\n\n \n\nVos missions\n\nSuperviser durant vos quarts, l'état des actifs (éoliens et PV) et leur bon fonctionnement\nRelever des informations de fonctionnement, suivre des alarmes logicielles\nExécuter à distance des manœuvres sur les machines\nRépondre aux appels émis vers le Centre de Conduite\nGérer les accès aux parcs lors des interventions\nInformer et interagir avec les exploitants Engie Green et les opérateurs de réseaux externes (RTE, Enedis)\nEffectuer l'analyse et le reporting des données, identifier des comportements machine anormaux, investiguer\nParticiper aux opérations de raccordement de parc\nRespecter et faire respecter les consignes Hygiène, Sécurité et Environnement dans toutes vos actions.\nCe poste se réalisera : de manière postée, par roulement d'équipes 5X8, 7 jours sur 7.\n\n \n\nCe qui nous plaira le plus chez vous :\n\nVotre capacité à observer, analyser des remontées de données ainsi que votre réactivité à prendre les bonnes décisions.\n\nUne expérience sur des installations de production électrique ainsi que des compétences en électrotechnique et/ou automatisme, voire en technologie éolienne serait un plus\n\nNiveau d'étude souhaité : Bac+2/3.\n\nVous appréciez vous appuyer sur des standards professionnels exigeants orientés sécurité et qualité et rédiger des documents de procédures\n\ntechniques.\n\nVous êtes quelqu'un de méthodique et de rigoureux.\n\nVous êtes à l'aise avec l'informatique et possédez une expérience sur un outils de supervision d'exploitation en temps réel.\n\nVous saurez vous montrer pertinent et efficace dans un environnement contraignant (respect des délais, des procédures sécuritaires.)\n\nVous êtes proactif et porteur de solutions dans la recherche de pannes exceptionnelles.\n\nSi vous aimez vous sentir responsable, et engagé.e dans la réussite de votre équipe, vous contribuerez à l'amélioration de nos pratiques. Vous êtes à l'aise avec les outils informatiques et maîtrisez l'anglais technique.\n\n\nCe qui vous plaira le plus chez nous :\n\nNos ambitions, succès et perspectives de croissance nous permettent d'envisager l'avenir durablement. Nos projets ouvrent la porte à l'acquisition de compétences\n\nvariées et permettent à chaque collaborateur d'envisager plusieurs métiers au sein d'Engie Green.\n\n \n\nRejoignez les équipes d'ENGIE Green!\n\nENGIE est un employeur engagé dans la diversité, l'égalité des chances et la création d'un environnement inclusif pour tous. Toutes les candidatures sont examinées en fonction des besoins de l'entreprise, des exigences du poste et des qualifications individuelles, sans aucun égard quant à l'origine, l'âge, le patronyme, l'identité, l'orientation ou la préférence sexuelle, la religion, la situation familiale, l'état de santé, le handicap, les opinions politiques, les engagements syndicats ou encore la citoyenneté. Nos différences font notre force !",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
-  },
-  {
-    "id_offre": "207JPTL",
-    "titre": "Ingénieur(e) de Service OneSource sur site (H/F)",
-    "entreprise": "PerkinElmer",
-    "lieu": "33003 (33440)",
-    "distance_km": 58.50459197371989,
-    "salaire": "A négocier",
-    "contrat": "CDI",
-    "date_publication": "2026-04-23",
-    "casquette": 3,
-    "description": "PerkinElmer est un leader mondial des solutions d'analyse et d'instrumentation au service de la santé, de la sécurité des personnes et de l'environnement.\n\nSon offre OneSource Enterprise propose une solution complète de services aux laboratoires : maintenance multimarques, gestion de parc, conformité réglementaire, relocalisation et qualification/validation automatisée des instruments.\nDans ce cadre, PerkinElmer recrute un(e) Ingénieur(e) de Service OneSource, basé(e) sur le site d'Ambarès (33).\n\nMissions principales \n\nÀ partir d'un ordre d'intervention, dans le respect du mode opératoire ainsi que des engagements contractuels, et dans le respect des règles QHSE :\n- Planifier son activité en suivant les priorités et donner de la visibilité sur son planning à sa hiérarchie et aux Gestionnaires Clients\n- Assurer la maintenance des instruments en application des recommandations constructeurs\n- Réaliser la qualification des instruments à la suite de l'expertise des besoins clients\n- Réaliser les mises à jour logicielles et matérielles\n- Appliquer les protocoles de maintenance et de qualification\n- Effectuer les diagnostics et dépanner les instruments multimarques\n- Gérer le stock de pièces détachées de manière optimale\n- Documenter systématiquement et assurer la traçabilité de chaque intervention dans le respect de la Qualité\n- Rédiger et mettre à jour les protocoles de maintenance et de qualification\n- Animer les formations techniques internes et/ou externes sur les instruments.\n\nProfil recherché :\n\n- Bac +2 à Bac +5 (chimie, biologie, physique, électronique ou équivalent)\n- Minimum 3 ans d'expérience en maintenance d'instruments de laboratoire\n- Solides compétences techniques (HPLC/GC, MS, UV, centrifugeuses, dissolution.)\n- Autonomie, rigueur, excellent relationnel, esprit d'équipe\n- Anglais professionnel requis\n\nPourquoi nous rejoindre ?\n\n- Mutuelle d'entreprise\n- Tickets restaurant\n- JRTT",
-    "competences": "",
-    "url_offre": "https://newperkinelmer.wd1.myworkdayjobs.com/External/job/Ambares-Sanofi-France---Customer-Site/Ingnieur-e--de-Service-OneSource-sur-site_REQ-057193",
-    "statut": "nouveau",
-    "score_match": 34,
-    "casquette_match": "RSG"
-  },
-  {
     "id_offre": "207ZVCX",
     "titre": "TECHNICIEN GEOMETRE DETECTION DE RESEAU (H/F)",
     "entreprise": "SAUGEX",
@@ -6202,6 +6287,23 @@
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=TQoiq7vbfOLkoVYMVuI6RA==",
     "statut": "nouveau",
     "score_match": 7,
+    "casquette_match": "Support"
+  },
+  {
+    "id_offre": "208HJSS",
+    "titre": "Technicien courant faible (H/F)",
+    "entreprise": "GROUPE SOVITRAT",
+    "lieu": "33063 (33000)",
+    "distance_km": 63.81280513143607,
+    "salaire": "N/A",
+    "contrat": "Intérim - 6 Mois",
+    "date_publication": "2026-05-15",
+    "casquette": 4,
+    "description": "Le groupe SOVITRAT, est à la recherche d'un TECHNICIEN COURANT FAIBLE (H/F) pour mission au départ de BORDEAUX (33)\n\nMissions :\n\nTravail en extérieur\nDéplacements en Nouvelle Aquitaine : \n\n- Maintenance installations de sûreté (vidéoprotection, anti intrusion, contrôle d'accès, interphonie) \n- Câblage réseau ethernet (RJ45), et basse tension (220V)\n- Pose, raccordement et mise en service d'équipements actifs (caméras, switchs ethernet, serveurs, antennes)\n\nProfil :\n\nExpérience exigée de 2 ans minimum, connaissance sur le contrôle d'accès\nMaitrise de l'outil informatique, et rédaction de comptes rendus.\nHabilitations électriques B1V + CACES Nacelle obligatoire",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 27,
     "casquette_match": "Support"
   },
   {
@@ -6339,6 +6441,23 @@
     "statut": "nouveau",
     "score_match": 13,
     "casquette_match": "Manager"
+  },
+  {
+    "id_offre": "208HXRX",
+    "titre": "Electrotechnicien (H/F)",
+    "entreprise": "CRIT INTERIM",
+    "lieu": "33063 (33000)",
+    "distance_km": 63.81280513143607,
+    "salaire": "N/A",
+    "contrat": "Intérim - 18 Mois",
+    "date_publication": "2026-05-15",
+    "casquette": 4,
+    "description": "Crit Bordeaux / Gradignan recherche pour son client, spécialisé dans le secteur de la maintenance industrielle, un Electrotechnicien (H/F) pour une mission en intérim à Bordeaux (33000). \n\n Les horaires de travail sont de 37 heures par semaine, avec une rémunération selon expérience + panier 9.90/j.\n\nMissions sur site industriels, en accompagnement de nos chefs d'équipes,\nChantiers autour de bordeaux + 1h00\n\n-Pose de cheminements\n-Tirage de câbles\n-Raccordements équipements et coffrets électriques\n-Assurer la maintenance préventive et corrective des équipements électriques CFO/CFA et contrôle-commande.\n-Vérifier le bon fonctionnement et la conformité des installations après intervention.\n-Analyser les schémas électriques pour intervenir en toute sécurité sur les installations en marche ou à l'arrêt.\n-Utiliser et alimenter la GMAO pour assurer un suivi rigoureux des interventions.\n-Respecter strictement les consignes de sécurité, en veillant à la propreté et à la mise en sécurité du site.\n-Être force de proposition pour améliorer la fiabilité et la performance des installations.\n\n\nModalités du contrat :\n- Intitulé du poste : Electrotechnicien \n- Lieu : Bordeaux (33000)\n- Horaires : 37 heures par semaine\n- Salaire : Selon profil\n\nVous disposerez aussi des avantages CRIT : \n- Taux horaire fixe + 10% fin de mission + 10% congés payés.\n- Compte Epargne Temps (CET) déblocable à tout moment.\n- Acompte de paie hebdomadaire si besoin.\n- Aides diverses (via FASTT) : mutuelle, logement, garde d'enfants, etc.\n- Application My Crit pour un suivi facile.\n- Comité Social et Économique (CSE) : cartes cadeaux, remboursement chèques vacances, etc.\n Description du profil recherché :\n\n- Vous devez être mobile entre les différents sites\n- Formation C18510 à jour\n- VM à jour\n- Caces PEMP cat3 serait un plus\n- Sécurité entreprises extérieures N1 serait un plus\n\nUne Première expérience réussie en maintenance électrique, idéalement en environnement industriel ou nucléaire.\n\nSi vous souhaitez rejoindre une entreprise dynamique et participer à des projets variés dans le domaine de la maintenance industrielle, n'hésitez pas à postuler à cette offre d'Electromécanicien à Bordeaux (33000).\n",
+    "competences": "",
+    "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=c2k27hyYfydVXGlwpn6Y1Q==",
+    "statut": "nouveau",
+    "score_match": 26,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "208FTNW",
@@ -6562,23 +6681,6 @@
     "casquette_match": "Réseau"
   },
   {
-    "id_offre": "1614861",
-    "titre": "TECHNICIEN TELECOM ET RESEAUX (H/F)",
-    "entreprise": "",
-    "lieu": "33063 (33000)",
-    "distance_km": 62.94895027278157,
-    "salaire": "N/A",
-    "contrat": "Intérim - 6 Mois",
-    "date_publication": "2026-04-17",
-    "casquette": 4,
-    "description": "Société incontournable sur le marché du recrutement français, LTd est un Cabinet de Recrutement et une Agence de Travail Temporaire spécialisé dans les métiers de l'Ingénierie et des Entreprises.\n\nLe poste : \n\nAu sein de la Direction régionale et rattaché au responsable de production, vous prendrez en charge des interventions de maintenances et installations environnementales pour le compte de nos clients opérateurs et équipementiers télécoms.\nVos missions sont les suivantes : \n- Vous installez et maintenez en condition opérationnelle des équipements informatiques, télécoms et réseaux. Vous répondez à la demande de nos clients sur des délais court terme, moyen terme et programmés.\n- Vous réalisez des opérations de déploiement, d'installation, d'exploitation et de maintenance (sur site) de ces équipements et traitez les incidents.\n- Vous assurez la gestion courante des équipements physiques et logiques du système d'information.\n- Vous communiquerez en anglais avec des services supports basés à l'étranger (ou en France).\n\n\nProfil recherché : \n\nProfil\n- Vous êtes issu(e) d'une formation dans le domaine des télécoms réseaux, électrotechnique ou équivalent, et vous avez acquis de solides compétences en maintenance des équipements télécoms\n- Vous avez acquis de solides compétences en maintenance des équipements télécoms tels que Routeurs, Box, Switch, Fibre Optique, maitrise de l'outil informatique, des technos ADSL, SHDSL, TRANS, WDM, DSLAM, WIFI, câblage cuivre et fibre, maintenance de niveau 1 électricité, préventive, infrastructure site télécoms, CR d'intervention, gestion de stock...\n- Vous maîtrisez les environnements Microsoft (Windows), en terme d'usages (Teams, OneNote, OneDrive, Skype,?) et un environnement mobile (iOS et/ou Android)\n- Vous êtes à l'aise en anglais (technique)\n- Vous êtes autonome tout en sachant travailler en équipe\n- Vous êtes pédagogue et savez rédiger\n- Vous êtes rigoureux, inventif, curieux, aimez innover et proposer des nouveaux usages\n- Vous avez une volonté, une motivation, une envie de construire avec méthode et organisation\n- \n- Habilitations électriques souhaitées (basse tension)\n- CACEIS nacelle (A et B)\n- Anglais technique (certains supports sont à l'étranger)\n",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 19,
-    "casquette_match": "Réseau"
-  },
-  {
     "id_offre": "2713269",
     "titre": "TECHNICIEN(NE) FIBRE OPTIQUE D3 (H/F)",
     "entreprise": "",
@@ -6766,23 +6868,6 @@
     "casquette_match": "Support"
   },
   {
-    "id_offre": "1614970",
-    "titre": "Technicien fibre optique (H/F)",
-    "entreprise": "",
-    "lieu": "33009 (33120)",
-    "distance_km": 115.4596219813601,
-    "salaire": "N/A",
-    "contrat": "Intérim - 18 Mois",
-    "date_publication": "2026-04-17",
-    "casquette": 4,
-    "description": "Société incontournable sur le marché du recrutement français, LTd est un Cabinet de Recrutement et une Agence de Travail Temporaire spécialisé dans les métiers de l'Ingénierie et des Entreprises.\n\nLe poste : \n\nPoste et missions :\n\nPour cette mission, vous serez sous la responsabilité du chef de chantier ou du chef d'équipe. Vos principales missions seront : Maintenance et déploiement d'infrastructures fibre pour les particuliers, tirage de câbles, soudure, teste, mesures et mises en service - PM à la PTO.\n\nProfil recherché : \n\nProfil recherché :\n\nCompétences et connaissances techniques : De formation technique (BEP Électrotechnique ou CAP)\nVous justifiez idéalement d'un an d'expérience dans le déploiement et/ou la maintenance de réseau fibre optique\nVous êtes à jour sur vos habilitations\nUne expérience chez Free serait un atout supplémentaire\nSavoir être : Rigoureux et organisé Bon relationnel et esprit d'équipe Vous avez le goût du travail bien fait et souhaitez monter en compétences sur les métiers du Télécom - Alors ce poste est fait pour vous !",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 7,
-    "casquette_match": "Support"
-  },
-  {
     "id_offre": "2672410",
     "titre": "TECHNICIEN COURANT FAIBLE EN SÉCURITÉ INCENDIE H/F",
     "entreprise": "",
@@ -6966,7 +7051,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 51,
+    "score_match": 46,
     "casquette_match": "Réseau"
   },
   {
@@ -6974,7 +7059,7 @@
     "titre": "ADMINISTRATEUR SYSTÈMES & RÉSEAUX LINUX JUNIOR (H/F)",
     "entreprise": "",
     "lieu": "33318 (33600)",
-    "distance_km": 79.95919316069487,
+    "distance_km": 70.97587498841754,
     "salaire": "N/A",
     "contrat": "CDI",
     "date_publication": "2026-04-23",
@@ -6983,7 +7068,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 28,
+    "score_match": 33,
     "casquette_match": "Réseau"
   },
   {
@@ -7206,6 +7291,23 @@
     "statut": "nouveau",
     "score_match": 45,
     "casquette_match": "Réseau"
+  },
+  {
+    "id_offre": "208HRXP",
+    "titre": "Conseiller Relation Client (appels entrants) (h/f)",
+    "entreprise": "IZIWORK",
+    "lieu": "33281 (33700)",
+    "distance_km": 70.61736745688978,
+    "salaire": "N/A",
+    "contrat": "Intérim - 55 Jour(s)",
+    "date_publication": "2026-05-15",
+    "casquette": 5,
+    "description": "Notre client est une filiale d'un grand groupe industriel français. \nIl fait de la mise à disposition de matériel médical auprès de personnes hospitalisées / médicalisées à domicile\n\n\nÀ propos de la mission\n\nEn tant que chargé de la relation client, vous serez en charge de \n- réceptionner les appels des clients et de répondre à leur différentes demandes en lien avec leur équipement et mettre en œuvre les actions nécessaires \n- réceptionner les demandes des prescripteurs (médecins et pharmaciens) et saisir les bons de commandes\n\nRythme de travail :\n\n- Travail en journée\n- Travail le samedi\n\n\nRémunération & Avantages\n\nRémunération : 13,85 EUR par heure\nVolume horaire hebdomadaire de base : 35 heures par semaine\nAvantages :\n- 10% d'indemnités de fin de mission (IFM) + 10% de prime de congés payés (CP), soit un salaire total brut de 16,76EUR\n- Demandes d'acompte en 24h\n- Un des meilleurs CET de France avec un taux d'intérêt de 10% par an\n- Tous vos services dans une application\n- Accès rapide à tous vos documents sur notre application\n- Accompagnement de nos intérimaires tout au long de leur carrière avec notre service formation- tickets restaurant\n- mission longue \n- prime transport\n- site accessible en transport en commun\n\n\nProfil recherché\n\nNous recherchons pour ce poste des personnes ayant déjà travaillé en centre d'appels ou ayant un lien avec les métiers de la santé avec un lien étroit avec la patientele.\n\nUne bonne dextérité informatique est absolument indispensable\n\nLe savoir être, l'assiduité, l'implication et l'esprit d'équipe seront des qualités indispensables pour être retenu sur ce poste\n\n- Expérience : Au moins 1 an\n\n\nCertificats requis\n\n- Aucun certificat requis\n",
+    "competences": "",
+    "url_offre": "https://jobs.iziwork.com/fr/offre-emploi/conseiller-relation-client-appels-entrants-h-f-merignac-33-1327906091?utm_source=poleemploi_jtmo",
+    "statut": "nouveau",
+    "score_match": 25,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "208GBKS",
@@ -7654,7 +7756,7 @@
     "titre": "CONSEILLER SERVICE CLIENT (H/F)",
     "entreprise": "",
     "lieu": "33063 (33000)",
-    "distance_km": 65.55135749908442,
+    "distance_km": 63.81280513143607,
     "salaire": "N/A",
     "contrat": "Intérim - 83 Jour(s)",
     "date_publication": "2026-05-01",
@@ -7767,23 +7869,6 @@
     "statut": "nouveau",
     "score_match": 30,
     "casquette_match": "Support"
-  },
-  {
-    "id_offre": "1601620",
-    "titre": "Chargé de Clientèle - Agence du Personnel (H/F) h/f",
-    "entreprise": "",
-    "lieu": "33063 (33000)",
-    "distance_km": 62.94895027278157,
-    "salaire": "N/A",
-    "contrat": "CDI",
-    "date_publication": "2026-04-17",
-    "casquette": 5,
-    "description": "Description de l'entrepriseDepuis 1818, la Caisse d'Epargne est pionnière dans les transitions de la société. Vous souhaitez contribuer à son développement ? Et si c'était vous le prochain acteur de son ambition ?  Appartenant au groupe BPCE, nous sommes le 2ème groupe bancaire français. Cela nous permet de créer des emplois durables et de vous offrir des opportunités de carrière qui répondront à vos projets !    Avec nos 2500 collaborateurs, aujourd'hui, la Caisse d'Epargne Aquitaine Poitou Charentes est une banque régionale, coopérative, solide, puissante, qui couvre 9 départements. #proximité  Indépendante des marchés financiers, la Caisse d'Epargne Aquitaine Poitou Charentes appartient à plus de 295 000 clients sociétaires en région. #sociétariat  Trouver le juste équilibre entre performance économique et engagement sociétal : c'est là tout l'enjeu de notre démarche de responsabilité sociétale et environnementale. #rse.   Pour cela, nous sommes présents sur le marché des particuliers (344 agences), des professionnels (14 agences), des entreprises (11 centres d'affaires), des investisseurs mais aussi des collectivités locales. #coopératif.    Fidèles à nos valeurs coopératives, nous sommes engagés dans une politique de ressources humaines responsable et volontariste. #inclusif.   C'est pour tout cela que nous souhaitons « Être utile à chacun, en étant utile à tous » !   Poste et missionsEt si on parlait de votre futur quotidien ?   Nous innovons en créant une agence dédiée à la gestion des comptes de nos collaborateurs clients.  Dans ce cadre, notre agence du personnel recherche 2 Chargés de Clientèle (H/F) en CDI basé à Bordeaux ou Poitiers. Vous intégrerez une équipe de 9 collaborateurs, tous animés par la même motivation : être au service de nos collaborateurs clients.   Et vous alors ? Quel est votre rôle dans cette agence ? :   En tant que Chargé de Clientèle, nous vous confierons un portefeuille en moyenne de 440 relations, sur le marché des particuliers. En qualité de principal interlocuteur de vos clients, vous gérez et développez votre portefeuille, en le valorisant et en le renouvelant, ainsi qu'en identifiant leurs besoins. Vous apporterez votre expertise dans le cadre d'entretiens structurés avec vos clients et vous gérez votre portefeuille dans le respect des normes de risques et de conformité. Vous aurez également pour mission d'être en conquête de nouveaux clients. Ne manquez pas cette opportunité de rejoindre cette équipe, et de jouer un rôle clé dans le développement territorial, en synergie avec l'ensemble des marchés.   Un dernier coup de pouce pour vous convaincre ?   Dès votre embauche, vous intégrerez un parcours de formation initiale de 5 semaines.  Tout au long de votre carrière, vous bénéficierez d'un accompagnement RH personnalisé et l'accès aux dispositifs de formation continue.   Au-delà de ça .  Votre contrat de travail prévoit de multiples avantages tels que :   Une rémunération fixe, une part variable, un intéressement (PEE) Non pas 25 jours mais 28 jours de congés payés et 11 jours de RTT Car chez nous l'équilibre vie personnelle et vie professionnelle est important, vous travaillerez 4,5 jours / semaine (du lundi au vendredi &gt; choix de la demi-journée en concertation avec le manager).  Mutuelle d'entreprise avec participation employeur à hauteur de 52 %.   Attendez . nous vous proposons également d'autres avantages sociaux :   Tickets restaurants 12€ (7.18 € de prise en charge par l'entreprise. Avantages CSE (CESU, chèques vacances, .) Tarifs préférentiels sur nos produits et services  Une participation aux frais de transports en commun à hauteur de 60% Un forfait \"mobilités durables\" pour les trajets domicile-travail (vélo et covoiturage)  Et bien d'autres éléments à vous faire découvrir !   Profil et compétences requisesConvaincu(e) ? A votre tour de nous convaincre !   Vous êtes titulaire d'un Bac +2 validé. Vous bénéficiez d'une expérience réussie dans le secteur Banque/Assurance Votre intérêt pour le secteur bancaire est significatif et vous êtes sensible à nos valeurs.  Bravo, vous avez passé le 1er cap.  Un cursus, c'est bien ! Mais nous aimons aussi chez vous les valeurs et les traits de votre personnalité !  Les véritables atouts pour mener à bien votre future mission :  Votre dynamisme, votre proactivité.  Votre autonomie, votre organisation et votre écoute active.  Votre fibre commerciale et votre sens du résultat.   Tous nos emplois sont ouverts aux personnes en situation de handicap.  \" Alors prêt(e) à relever le défi ? Postulez et rejoignez-nous !\".   Venez à notre rencontre afin d'échanger avec le département recrutement et votre futur manager.  Notre valeur ajoutée, votre personnalité !",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 28,
-    "casquette_match": "Manager"
   },
   {
     "id_offre": "207LYHM",
