@@ -1175,29 +1175,37 @@ function closeLMModal() {
 
 function downloadCV() {
   const titre = document.getElementById('cv-title').textContent;
-  const element = document.getElementById('cv-print-zone');
+  const content = document.getElementById('cv-content').innerHTML;
   const filename = `CV_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.pdf`;
+  const tmp = document.createElement('div');
+  tmp.style.cssText = 'position:fixed;left:-9999px;top:0;width:794px;background:white;';
+  tmp.innerHTML = `<div style="background:white;color:#1a1a2e;padding:40px 50px;font-family:Georgia,serif;font-size:13px;line-height:1.75;">${content}</div>`;
+  document.body.appendChild(tmp);
   html2pdf().set({
     margin: [10, 10],
     filename,
     image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2, useCORS: true },
+    html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-  }).from(element).save();
+  }).from(tmp).save().then(() => document.body.removeChild(tmp));
   showToast('⬇️ Téléchargement PDF...');
 }
 
 function downloadLM() {
   const titre = document.getElementById('lm-title').textContent;
-  const element = document.getElementById('lm-print-zone');
+  const content = document.getElementById('lm-content').innerHTML;
   const filename = `LM_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.pdf`;
+  const tmp = document.createElement('div');
+  tmp.style.cssText = 'position:fixed;left:-9999px;top:0;width:794px;background:white;';
+  tmp.innerHTML = `<div style="background:white;color:#1a1a2e;padding:50px 60px;font-family:Georgia,serif;font-size:13px;line-height:1.9;">${content}</div>`;
+  document.body.appendChild(tmp);
   html2pdf().set({
-    margin: [15, 20],
+    margin: [15, 15],
     filename,
     image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2, useCORS: true },
+    html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-  }).from(element).save();
+  }).from(tmp).save().then(() => document.body.removeChild(tmp));
   showToast('⬇️ Téléchargement PDF...');
 }
 
