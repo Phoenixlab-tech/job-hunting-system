@@ -13,7 +13,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 46,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -30,7 +30,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 50,
     "casquette_match": "RSG"
   },
   {
@@ -47,7 +47,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 3,
+    "score_match": 27,
     "casquette_match": "RSG"
   },
   {
@@ -64,7 +64,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 41,
+    "score_match": 62,
     "casquette_match": "Manager"
   },
   {
@@ -81,7 +81,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 57,
     "casquette_match": "Manager"
   },
   {
@@ -98,7 +98,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 54,
     "casquette_match": "Manager"
   },
   {
@@ -115,8 +115,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
-    "casquette_match": "Support"
+    "score_match": 59,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208CKPX",
@@ -132,7 +132,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 54,
     "casquette_match": "Manager"
   },
   {
@@ -149,7 +149,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 57,
     "casquette_match": "Manager"
   },
   {
@@ -166,7 +166,7 @@
     "competences": "",
     "url_offre": "https://www.startpeople.fr/offre-emploi/merignac/chef_dequipe_hf/3119817",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 58,
     "casquette_match": "Manager"
   },
   {
@@ -183,8 +183,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
+    "score_match": 55,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207NYBF",
@@ -200,7 +200,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 6,
+    "score_match": 35,
     "casquette_match": "Manager"
   },
   {
@@ -217,8 +217,8 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=2qZG7BNbwW0CvWUtUsF7VA==",
     "statut": "nouveau",
-    "score_match": 11,
-    "casquette_match": "RSG"
+    "score_match": 40,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207NFNC",
@@ -234,7 +234,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 55,
     "casquette_match": "Manager"
   },
   {
@@ -251,8 +251,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 29,
-    "casquette_match": "RSG"
+    "score_match": 42,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207LHMV",
@@ -268,8 +268,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "RSG"
+    "score_match": 42,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207DZBB",
@@ -285,8 +285,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
+    "score_match": 40,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208HNSM",
@@ -302,8 +302,25 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1f4dc15d9b1edc4eb2d2ee7862a4d2d9ffAEADECAAAADAAAAAAAAAAAAAAAAOTXV5BQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 23,
+    "score_match": 22,
     "casquette_match": "RSG"
+  },
+  {
+    "id_offre": "208JMLM",
+    "titre": "Second/e d'exploitation viticole (H/F)",
+    "entreprise": "ANEFA Gironde",
+    "lieu": "33446 (33540)",
+    "distance_km": 34.01787500613265,
+    "salaire": "N/A",
+    "contrat": "CDI",
+    "date_publication": "2026-05-18",
+    "casquette": 2,
+    "description": "Au sein de  cette propriété viticole de l'Entre Deux Mers de 100 hectares, vous réaliserez le suivi et l'entretien du matériel viticole, tracteurs et outils avant toute intervention extérieure. Vous gérerez l'organisation et le rangement de l'atelier et vous assurez que les outils soient fonctionnels et en ordre.\n\nVous participerez aux travaux manuels et mécanisés du vignoble : taille, sécaillage, travaux en vert, conduite ...\n\nEn l'absence de l'employeur vous superviserez la qualité des travaux en cours, sachant que chaque salarié est autonome dans son activité, y compris ceux réalisés par les prestataires. Vous contrôlerez la qualité des opérations réalisées sur le terrain et l'état du vignoble et remonterez les informations.\n\nVous assurez le rangement du local phytosanitaire conformément aux dispositions réglementaires l'entretien de l'aire de préparation et de lavage des pulvérisateurs.\n\nContrat de 39 heures par semaine.\n\nConvention collective nationale production agricole, palier 7 selon votre parcours.\n",
+    "competences": "",
+    "url_offre": "http://mesevenementsemploi.francetravail.fr/mes-evenements-emploi/evenement/652927?at_medium=CMP&at_campaign=DSIMonstreuil&at_cmp_indicateur1=PromotionEvenementConseiller&at_cmp_indicateur2=Multicanal&at_cmp_indicateur3=Multidate",
+    "statut": "nouveau",
+    "score_match": 62,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207XLYS",
@@ -319,8 +336,8 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1f9a2c380c7b9cbeb2a8d84d760267fddcAEADECAAAADAAAAAAAAAAAAAAAAGFISXBQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208JFRK",
@@ -336,8 +353,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
-    "casquette_match": "Support"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207HXGY",
@@ -353,8 +370,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 28,
-    "casquette_match": "RSG"
+    "score_match": 47,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208FQJN",
@@ -370,8 +387,8 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=UjuZh1J3/n5xqm0bbfCKRA==",
     "statut": "nouveau",
-    "score_match": 51,
-    "casquette_match": "RSG"
+    "score_match": 57,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "1930783",
@@ -387,8 +404,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
+    "score_match": 55,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2590873",
@@ -404,7 +421,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 50,
+    "score_match": 81,
     "casquette_match": "Support"
   },
   {
@@ -421,8 +438,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
-    "casquette_match": "RSG"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "1775247",
@@ -438,8 +455,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 34,
-    "casquette_match": "RSG"
+    "score_match": 47,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2713239",
@@ -455,8 +472,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 23,
-    "casquette_match": "RSG"
+    "score_match": 42,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2526436",
@@ -472,7 +489,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 41,
+    "score_match": 61,
     "casquette_match": "RSG"
   },
   {
@@ -489,7 +506,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 47,
+    "score_match": 55,
     "casquette_match": "RSG"
   },
   {
@@ -506,8 +523,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
-    "casquette_match": "Réseau"
+    "score_match": 40,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2178350",
@@ -523,7 +540,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 11,
+    "score_match": 39,
     "casquette_match": "RSG"
   },
   {
@@ -540,8 +557,8 @@
     "competences": "",
     "url_offre": "https://servitgroupe.com/chef-de-projet-technique-expert-active-directory/",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
+    "score_match": 40,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2070963",
@@ -557,7 +574,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Manager"
   },
   {
@@ -574,7 +591,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 60,
     "casquette_match": "Support"
   },
   {
@@ -591,7 +608,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -608,8 +625,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
-    "casquette_match": "RSG"
+    "score_match": 43,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2651718",
@@ -625,7 +642,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Manager"
   },
   {
@@ -642,7 +659,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Manager"
   },
   {
@@ -659,7 +676,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 37,
     "casquette_match": "Manager"
   },
   {
@@ -676,7 +693,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 11,
+    "score_match": 20,
     "casquette_match": "Manager"
   },
   {
@@ -693,7 +710,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 28,
     "casquette_match": "Réseau"
   },
   {
@@ -710,7 +727,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 21,
+    "score_match": 26,
     "casquette_match": "RSG"
   },
   {
@@ -718,7 +735,7 @@
     "titre": "(H/F) Chef d'entreprise dépendance à domicile (H/F)",
     "entreprise": "Les Bienveillants",
     "lieu": "33063 (33000)",
-    "distance_km": 65.86460236193277,
+    "distance_km": 63.81280513143607,
     "salaire": "N/A",
     "contrat": "Franchise",
     "date_publication": "2026-05-15",
@@ -727,8 +744,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
-    "casquette_match": "Réseau"
+    "score_match": 35,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208HMNT",
@@ -744,8 +761,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
-    "casquette_match": "Réseau"
+    "score_match": 40,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207QPQZ",
@@ -761,8 +778,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
-    "casquette_match": "RSG"
+    "score_match": 35,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207VBDT",
@@ -778,8 +795,8 @@
     "competences": "",
     "url_offre": "https://www.startpeople.fr/offre-emploi/pessac/projeteur_batiment_hf/1666083",
     "statut": "nouveau",
-    "score_match": 13,
-    "casquette_match": "RSG"
+    "score_match": 34,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2587747",
@@ -795,7 +812,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 54,
     "casquette_match": "Support"
   },
   {
@@ -812,8 +829,8 @@
     "competences": "",
     "url_offre": "https://groupepiment.nicoka.com/public/jobs/1177-2231bd2d7b4e578/?source=90",
     "statut": "nouveau",
-    "score_match": 13,
-    "casquette_match": "Manager"
+    "score_match": 34,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2281488",
@@ -829,7 +846,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 56,
     "casquette_match": "Support"
   },
   {
@@ -846,7 +863,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 54,
     "casquette_match": "Manager"
   },
   {
@@ -863,8 +880,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
-    "casquette_match": "RSG"
+    "score_match": 34,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207SHTP",
@@ -880,8 +897,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
-    "casquette_match": "Support"
+    "score_match": 31,
+    "casquette_match": "Freelance"
   },
   {
     "id_offre": "2433322",
@@ -897,8 +914,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 12,
-    "casquette_match": "Support"
+    "score_match": 14,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2538353",
@@ -914,7 +931,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 44,
+    "score_match": 68,
     "casquette_match": "RSG"
   },
   {
@@ -931,8 +948,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
-    "casquette_match": "Support"
+    "score_match": 50,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "207KQBZ",
@@ -948,7 +965,7 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/responsable-d-agence-immobiliere-en-cdi-h-f-lege-cap-ferret-cabinet-bedin-immobilier-cdi-1/applying",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 48,
     "casquette_match": "Client"
   },
   {
@@ -965,8 +982,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
-    "casquette_match": "Support"
+    "score_match": 38,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2305280",
@@ -982,7 +999,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 57,
     "casquette_match": "RSG"
   },
   {
@@ -999,7 +1016,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 73,
     "casquette_match": "Support"
   },
   {
@@ -1016,7 +1033,24 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 35,
+    "casquette_match": "Manager"
+  },
+  {
+    "id_offre": "208BXNR",
+    "titre": "RESPONSABLE TECHNIQUE EXPLOITATION MAINTENANCE (H/F)",
+    "entreprise": "SYNDICAT SUD-GIRONDE MOBILITES",
+    "lieu": "33227 (33210)",
+    "distance_km": 55.373394700991284,
+    "salaire": "selon grille fonction publique",
+    "contrat": "CDI",
+    "date_publication": "2026-05-11",
+    "casquette": 2,
+    "description": "Faisant suite à une réorganisation interne de nos services, nous recherchons notre futur Responsable  Technique exploitation et maintenance.\nRattaché au directeur infrastructures et développement, et travaillant en étroite collaboration avec le  Responsable du réseaux de transport, vous aurez la mission d'assurer le pilotage technique global des  moyens matériels, des infrastructures et des équipements nécessaires au bon fonctionnement du service de mobilité. Le Responsable technique assure aussi l'encadrement de l'atelier mécanique, composé d'un responsable d'atelier et d'un alternant.\n\nAgent opérationnel et détenant des qualités de gestion, les missions du Responsable Technique sont les suivantes :\n- Gestion technique des bâtiments et de ses équipement\n\no Garantir le bon état et le fonctionnement des bâtiments et de ses installations\no Organiser et/ou effectuer les interventions, et les travaux nécessaires dans le cadre de\nl'entretien courant et des dysfonctionnements identifiés\no Coordonner les interventions effectuées par les prestataires\no Participer aux projet d'aménagement des locaux, et gérer la location des salles et de\nleur organisation logistique\no Veiller au respect des obligations de sécurité\n\n- Encadrement de l'atelier mécanique et suivi du parc véhicules\no Encadrer la cellule mécanique composée d'un responsable d'atelier et d'un alternant\no Intervention mécanique en support du Responsable d'atelier en cas de nécessité\no Suivi du parc de véhicules : Organiser les priorités d'intervention, assurer le planning\nd'entretien, assurer le suivi de l'état des véhicules et identifier les besoins\nd'intervention\no Organisation et fonctionnement de l'atelier\no Gestion budget et  carburant\n\n- Pilotage technique de l'infrastructure du réseau de transport :\n\no Suivi technique des infrastructures\no Suivi des arrêts (état des points d'arrêt, renouvellement en cas de dégradation, mise à jour)\nCoordination du réseau et appui à l'exploitation\no Appui technique de l'exploitation (graphicage, veille sur les travaux, manifestation)\no Suivi opérationnel en temps réel (suivi direct des véhicules via le logiciel)\no Intervention en cas d'incident (panne véhicule, défaut embarqué, immobilisation)\n\n- Gestion opérationnelle des urgences et continuité du service\n\no Organisation des opérations techniques en situation urgente\no Assurer les déplacements nécessaires en cas de force majeures\no Participer au dispositif d'astreinte selon l'organisation du service\n\n- Accompagnement humain et intégration\n\no Assurer la transmission des informations auprès des agents\no Participer à la montée en compétence technique des agents\no Prendre en considération les remontées d'informations des conducteurs\no Être le relais entre les différents interlocuteurs des services et l'équipe technique\n- Participation au développement du réseau et à des projets spécifiques :\no Projet de réemploi et innovation technique (projet de seconde vie des véhicules et\nmatériels)\no Développement des infrastructures et des nouveaux services\no Programmation des investissements (bilan technique des bâtiments et équipements)",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 82,
     "casquette_match": "RSG"
   },
   {
@@ -1033,8 +1067,8 @@
     "competences": "",
     "url_offre": "https://www.hellowork.com/fr-fr/emplois/77682980.html",
     "statut": "nouveau",
-    "score_match": 35,
-    "casquette_match": "Support"
+    "score_match": 53,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207KNCP",
@@ -1050,8 +1084,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
+    "score_match": 55,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2558863",
@@ -1067,7 +1101,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 44,
+    "score_match": 68,
     "casquette_match": "RSG"
   },
   {
@@ -1084,7 +1118,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 58,
     "casquette_match": "Manager"
   },
   {
@@ -1101,7 +1135,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 58,
     "casquette_match": "Manager"
   },
   {
@@ -1118,7 +1152,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 28,
+    "score_match": 47,
     "casquette_match": "RSG"
   },
   {
@@ -1135,7 +1169,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 34,
+    "score_match": 61,
     "casquette_match": "RSG"
   },
   {
@@ -1152,7 +1186,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 34,
+    "score_match": 61,
     "casquette_match": "RSG"
   },
   {
@@ -1169,7 +1203,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 28,
+    "score_match": 47,
     "casquette_match": "RSG"
   },
   {
@@ -1186,8 +1220,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
-    "casquette_match": "Support"
+    "score_match": 47,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "2300136",
@@ -1203,7 +1237,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 16,
+    "score_match": 43,
     "casquette_match": "Manager"
   },
   {
@@ -1220,7 +1254,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 54,
     "casquette_match": "Support"
   },
   {
@@ -1237,7 +1271,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -1254,7 +1288,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 60,
     "casquette_match": "Client"
   },
   {
@@ -1271,8 +1305,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "RSG"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2553158",
@@ -1288,7 +1322,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Manager"
   },
   {
@@ -1305,7 +1339,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 16,
+    "score_match": 43,
     "casquette_match": "Manager"
   },
   {
@@ -1322,7 +1356,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 60,
     "casquette_match": "Support"
   },
   {
@@ -1339,7 +1373,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 64,
     "casquette_match": "Support"
   },
   {
@@ -1356,7 +1390,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 44,
+    "score_match": 68,
     "casquette_match": "RSG"
   },
   {
@@ -1373,7 +1407,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 49,
     "casquette_match": "Manager"
   },
   {
@@ -1390,7 +1424,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 65,
     "casquette_match": "Support"
   },
   {
@@ -1407,8 +1441,25 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "RSG"
+    "score_match": 50,
+    "casquette_match": "Manager"
+  },
+  {
+    "id_offre": "208HDXM",
+    "titre": "Responsable salon de coiffure (H/F)",
+    "entreprise": "LMK COIFFURE",
+    "lieu": "33063 (33800)",
+    "distance_km": 65.55135749908442,
+    "salaire": "Primes suivant CA et investissement",
+    "contrat": "CDI",
+    "date_publication": "2026-05-15",
+    "casquette": 2,
+    "description": "Dans le cadre du développement de notre salon, nous recherchons un(e) responsable passionné(e), autonome et impliqué(e), capable d'assurer la gestion quotidienne du salon tout en garantissant une expérience client de qualité. \n\nLe poste\n\nNous recherchons un(e) responsable de salon de coiffure capable de :\n\n- Accueillir et conseiller les clients\n- Réaliser coupes, coiffages et prestations techniques (dégradé américain, balayage.) \n- Gérer et anticiper un stock + commande produits \n- Encadrer une équipe \n- Gestion et organisation du planning \n- Développement du chiffres d'affaires et fidélisation de la clientèle \n\n\nProfil recherché : \n\n- Diplôme BP avec 3 ans d'expérience minimum \n- Sens du relationnel et du service client \n- Dynamique, organisé(e) et autonome \n- Passionné(e), motivé(e) et impliqué(e)\n- Qui a le sens du détail, du service, mais aussi de la présentation  \n- Une expérience en management pourrait être un plus\n\nLe salon \n\nSitué à Bordeaux, nous proposons tous les services de coiffure mixte, ainsi que des extensions capillaires et des lissages permanents de dernière génération (formation interne possible).\n\nNotre objectif : offrir un moment de bien-être et un résultat impeccable à chaque client, pour qu'il reparte avec le sourire et l'envie de revenir.\n\n\nCe que nous proposons \n\n - CDI 39h \n - Participation moyen de transports  \n - Salaires selon expérience + primes selon implication et CA \n\n\nSi tu es coiffeur(se) passionné(e), que tu aimes le contact humain et que tu veux travailler dans un salon où ton talent sera réellement valorisé, cette opportunité est peut-être faite pour toi.\nNous recherchons quelqu'un de fiable, avec qui construire sur le long terme.",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 56,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "208GSDW",
@@ -1424,7 +1475,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 57,
     "casquette_match": "Manager"
   },
   {
@@ -1441,7 +1492,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Manager"
   },
   {
@@ -1458,8 +1509,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 51,
-    "casquette_match": "RSG"
+    "score_match": 72,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208FKHS",
@@ -1475,7 +1526,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
+    "score_match": 34,
     "casquette_match": "RSG"
   },
   {
@@ -1492,8 +1543,25 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 24,
+    "score_match": 53,
     "casquette_match": "RSG"
+  },
+  {
+    "id_offre": "208DJMT",
+    "titre": "Responsable de secteur (H/F)",
+    "entreprise": "EFFICIENCE",
+    "lieu": "N/A",
+    "distance_km": "N/A",
+    "salaire": "N/A",
+    "contrat": "CDI",
+    "date_publication": "2026-05-12",
+    "casquette": 2,
+    "description": "Rejoignez EFFICIENCE\n\nEFFICIENCE est une entreprise indépendante en forte croissance, spécialisée dans les prestations de propreté technique et multiservices. \n  \nNotre développement repose sur des valeurs simples : proximité terrain, réactivité, technicité et respect de nos engagements clients. \n  \nContrairement aux structures traditionnelles du secteur, nous intervenons principalement sur des environnements techniques et exigeants : \n- sites aéronautiques,\n- industries agroalimentaires,\n- espaces santé,\n- sites industriels,\n- grande distribution.\n\nNous privilégions des sites à forte valeur ajoutée, avec de véritables enjeux qualité et opérationnels. \nChez EFFICIENCE, le Responsable de Secteur est un véritable pilote opérationnel reconnu pour son expertise et sa capacité à accompagner les équipes sur le terrain. \n  \n________________________________________\nVos missions\n\nPilotage client & suivi opérationnel\n- Assurer le suivi quotidien d'un portefeuille clients exigeants.\n- Garantir la qualité des prestations et le respect des engagements contractuels.\n- Être force de proposition auprès des clients afin d'améliorer continuellement les organisations et les résultats.\n\nManagement des équipes terrain\n- Encadrer, accompagner et faire monter en compétences les agents et chefs d'équipe.\n- Organiser les remplacements, gérer les imprévus et maintenir un haut niveau d'exigence opérationnelle.\n- Développer une culture terrain basée sur le respect, la rigueur et la cohésion d'équipe.\n\nOrganisation & exploitation\n- Planifier les prestations et optimiser les moyens humains et matériels.\n- Participer aux recrutements et à l'intégration des nouveaux salariés.\n- Assurer le suivi des contrôles qualité, des reportings et des indicateurs de performance.\n\nDéveloppement & technicité\n- Participer au développement de solutions techniques adaptées aux contraintes clients.\n- Accompagner le déploiement de nouveaux matériels, méthodes et innovations du secteur.\n- Être un véritable relais entre les équipes terrain, les clients et la direction.\n________________________________________\nProfil recherché\n\n- Expérience dans le secteur de la propreté ou des services techniques.\n- Expérience en management d'équipes opérationnelles.\n- Forte présence terrain et capacité à gérer des environnements exigeants.\n- Sens du service client et excellent relationnel.\n- Organisation, autonomie et réactivité.\n- Bonne maîtrise des outils informatiques.\n- Permis B indispensable.\n\nUne expérience sur des sites techniques ou industriels sera particulièrement appréciée. \n  \n________________________________________\nCe que nous proposons\n\n- Une entreprise à taille humaine avec une direction proche du terrain.\n- Des dossiers variés et techniquement intéressants.\n- Un portefeuille clients qualitatif et valorisant.\n- Des perspectives d'évolution réelles dans une structure en développement.\n- Des outils et matériels performants.\n- Un environnement dynamique où les décisions se prennent rapidement.\n________________________________________\nConditions\n\n- CDI - Temps plein\n- Poste basé en région bordelaise\n- Véhicule de service\n- Téléphone et ordinateur fournis\n- Salaire à définir selon expérience, profil et technicité\n(à partir de 2 600 € brut/mois)\n\nPrise de poste dès que possible.",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 57,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207TPLQ",
@@ -1509,8 +1577,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
-    "casquette_match": "Réseau"
+    "score_match": 43,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "207SCWH",
@@ -1526,8 +1594,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
+    "score_match": 55,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207RWXQ",
@@ -1543,7 +1611,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 40,
     "casquette_match": "RSG"
   },
   {
@@ -1560,7 +1628,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
+    "score_match": 50,
     "casquette_match": "Manager"
   },
   {
@@ -1577,7 +1645,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -1594,7 +1662,7 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/responsable-d-agence-immobiliere-en-cdi-h-f-libourne-cabinet-bedin-immobilier-cdi-1/applying",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 58,
     "casquette_match": "Client"
   },
   {
@@ -1611,7 +1679,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 7,
     "casquette_match": "RSG"
   },
   {
@@ -1628,7 +1696,7 @@
     "competences": "",
     "url_offre": "https://emploi.armatis.com/offre/charge-de-clientele-bilingue-portugais-f-h-2026-5369/?origin=518&utm_medium=annonce&utm_campaign=&utm_id=46126",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 63,
     "casquette_match": "Client"
   },
   {
@@ -1645,8 +1713,8 @@
     "competences": "",
     "url_offre": "https://www.altays-progiciels.com/sncf-recrutement-externe/back/offre/redirectOffreSiteCarriere/1?NoOffre=2615009&NoSociete=389&NoLangue=1&NoSource=16003",
     "statut": "nouveau",
-    "score_match": 41,
-    "casquette_match": "Réseau"
+    "score_match": 64,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "207QMBZ",
@@ -1662,8 +1730,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
-    "casquette_match": "Support"
+    "score_match": 40,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "2559577",
@@ -1679,7 +1747,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 47,
     "casquette_match": "RSG"
   },
   {
@@ -1696,7 +1764,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Manager"
   },
   {
@@ -1713,8 +1781,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 28,
-    "casquette_match": "Manager"
+    "score_match": 46,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "208HPZG",
@@ -1730,7 +1798,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=lGGTF/R/uCXp3/6sMfpV2Q==",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 61,
     "casquette_match": "Support"
   },
   {
@@ -1747,7 +1815,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=Pju8OhggAozDSIwlVgnK8A==",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 54,
     "casquette_match": "Support"
   },
   {
@@ -1764,7 +1832,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Support"
   },
   {
@@ -1781,8 +1849,8 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101427918?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 12,
-    "casquette_match": "Support"
+    "score_match": 34,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207LXDM",
@@ -1798,7 +1866,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101423831?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 51,
     "casquette_match": "Support"
   },
   {
@@ -1815,8 +1883,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 44,
-    "casquette_match": "RSG"
+    "score_match": 58,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "2692129",
@@ -1832,8 +1900,25 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 43,
+    "score_match": 37,
     "casquette_match": "RSG"
+  },
+  {
+    "id_offre": "208JJVF",
+    "titre": "Technicien qualité (F/H)",
+    "entreprise": "RANDSTAD PROFESSIONAL-APPEL MEDICAL SEAR",
+    "lieu": "33243 (33500)",
+    "distance_km": 39.166119578194504,
+    "salaire": "N/A",
+    "contrat": "Intérim - 6 Mois",
+    "date_publication": "2026-05-18",
+    "casquette": 2,
+    "description": "Dans le cadre des objectifs opérationnels et dans le respect des procédures de sécurité, qualité et environnement, votre mission est de garantir la conformité des produits aux exigences normatives et de répondre aux besoins des clients.  \nVotre rôle s'articule autour des missions suivantes : \n- Maîtrise Qualité & Standardisation : Vous élaborez les exigences pour la maîtrise qualité des produits et des processus (plans de contrôle qualité, dossiers de formation) de votre secteur. Vous garantissez l'application du plan de contrôle et animez sa révision selon les standards. \n- Gestion des Non-Conformités : Vous analysez les retours clients pour implémenter des actions correctives. Vous mettez en place des indicateurs qualité, traitez les non-conformités en production et pilotez les actions correctives en lien avec les services supports. \n- Pilotage de la Production : Vous proposez et mettez en œuvre, après validation hiérarchique, des dérogations, des arrêts de fabrication éventuels et le redémarrage de la production. \n- Qualifications de Lignes : Vous garantissez la réalisation des procès-verbaux de qualification lors de l'intégration d'une nouvelle production ou d'une évolution significative du process. \n- Amélioration Continue & Animation : Vous utilisez les outils qualité pour animer des groupes de travail visant l'amélioration permanente du système. Vous formez et vous assurez de la bonne formation qualité des acteurs de production.  \n- Relations Transverses : Vous assurez l'interface avec les supports production, la Business Unit, l'industrialisation, ainsi qu'avec les fournisseurs et les auditeurs externes. \n\nVous agissez par délégation du responsable qualité usine pour piloter l'ensemble des actions visant à garantir le bon niveau de qualité de votre secteur.",
+    "competences": "",
+    "url_offre": "https://www.randstadprofessional.fr/offre/307-U20-0001980_01C/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
+    "statut": "nouveau",
+    "score_match": 46,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2327718",
@@ -1849,7 +1934,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 19,
+    "score_match": 49,
     "casquette_match": "RSG"
   },
   {
@@ -1866,8 +1951,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 58,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207YZSQ",
@@ -1883,7 +1968,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 71,
     "casquette_match": "Support"
   },
   {
@@ -1900,8 +1985,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
-    "casquette_match": "Manager"
+    "score_match": 34,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2073194",
@@ -1917,8 +2002,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 7,
-    "casquette_match": "Support"
+    "score_match": 31,
+    "casquette_match": "Freelance"
   },
   {
     "id_offre": "1754892",
@@ -1934,7 +2019,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 36,
     "casquette_match": "Support"
   },
   {
@@ -1951,7 +2036,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 20,
     "casquette_match": "Support"
   },
   {
@@ -1968,7 +2053,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -1985,7 +2070,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 80,
     "casquette_match": "RSG"
   },
   {
@@ -2002,7 +2087,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
+    "score_match": 52,
     "casquette_match": "Support"
   },
   {
@@ -2019,8 +2104,8 @@
     "competences": "",
     "url_offre": "https://joinus.saint-gobain.com/description?nPostingTargetId=305051&id=Q2FFK026203F3VBQBLO7V8M1O&LG=FR&languageSelect=FR&cType=JobBoard&sType=FranceTravail",
     "statut": "nouveau",
-    "score_match": 28,
-    "casquette_match": "RSG"
+    "score_match": 45,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207MMLD",
@@ -2036,7 +2121,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 16,
     "casquette_match": "Support"
   },
   {
@@ -2053,7 +2138,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Manager"
   },
   {
@@ -2070,7 +2155,7 @@
     "competences": "",
     "url_offre": "https://www.groupe-netco.com/fr/carrieres/nos-offres-demplois/offre?id=rec08h7n40a7atq7z",
     "statut": "nouveau",
-    "score_match": 44,
+    "score_match": 48,
     "casquette_match": "RSG"
   },
   {
@@ -2087,7 +2172,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 44,
+    "score_match": 66,
     "casquette_match": "RSG"
   },
   {
@@ -2104,7 +2189,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 48,
+    "score_match": 77,
     "casquette_match": "Manager"
   },
   {
@@ -2121,7 +2206,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 48,
+    "score_match": 77,
     "casquette_match": "Manager"
   },
   {
@@ -2138,7 +2223,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -2155,7 +2240,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 65,
     "casquette_match": "Support"
   },
   {
@@ -2172,7 +2257,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 43,
+    "score_match": 73,
     "casquette_match": "Manager"
   },
   {
@@ -2189,7 +2274,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 66,
     "casquette_match": "RSG"
   },
   {
@@ -2206,7 +2291,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 50,
+    "score_match": 83,
     "casquette_match": "RSG"
   },
   {
@@ -2223,7 +2308,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 19,
+    "score_match": 49,
     "casquette_match": "RSG"
   },
   {
@@ -2240,7 +2325,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 68,
     "casquette_match": "RSG"
   },
   {
@@ -2257,7 +2342,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Manager"
   },
   {
@@ -2274,7 +2359,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 48,
+    "score_match": 85,
     "casquette_match": "RSG"
   },
   {
@@ -2291,7 +2376,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 51,
+    "score_match": 88,
     "casquette_match": "Manager"
   },
   {
@@ -2308,7 +2393,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 14,
+    "score_match": 46,
     "casquette_match": "RSG"
   },
   {
@@ -2325,7 +2410,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 11,
+    "score_match": 39,
     "casquette_match": "RSG"
   },
   {
@@ -2342,7 +2427,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 50,
+    "score_match": 72,
     "casquette_match": "Manager"
   },
   {
@@ -2359,8 +2444,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 41,
-    "casquette_match": "RSG"
+    "score_match": 62,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2560883",
@@ -2376,8 +2461,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 41,
-    "casquette_match": "RSG"
+    "score_match": 62,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2320338",
@@ -2393,7 +2478,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -2410,7 +2495,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 75,
     "casquette_match": "RSG"
   },
   {
@@ -2427,8 +2512,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
-    "casquette_match": "RSG"
+    "score_match": 58,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2291382",
@@ -2444,7 +2529,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -2461,7 +2546,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 55,
     "casquette_match": "Manager"
   },
   {
@@ -2478,8 +2563,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
-    "casquette_match": "Support"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2713657",
@@ -2495,7 +2580,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 46,
+    "score_match": 65,
     "casquette_match": "Manager"
   },
   {
@@ -2512,8 +2597,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 5,
-    "casquette_match": "Support"
+    "score_match": 27,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "1768231",
@@ -2529,7 +2614,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 70,
     "casquette_match": "Manager"
   },
   {
@@ -2546,7 +2631,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 43,
+    "score_match": 73,
     "casquette_match": "Manager"
   },
   {
@@ -2563,7 +2648,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 58,
     "casquette_match": "Manager"
   },
   {
@@ -2580,8 +2665,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
+    "score_match": 35,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2196743",
@@ -2597,8 +2682,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "RSG"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2197002",
@@ -2614,8 +2699,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
-    "casquette_match": "Support"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2709183",
@@ -2631,7 +2716,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 47,
+    "score_match": 73,
     "casquette_match": "RSG"
   },
   {
@@ -2648,7 +2733,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 19,
+    "score_match": 49,
     "casquette_match": "RSG"
   },
   {
@@ -2665,7 +2750,7 @@
     "competences": "",
     "url_offre": "https://www.randstad.fr/offre/001-SBX-R002320_02R/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
     "statut": "nouveau",
-    "score_match": 50,
+    "score_match": 72,
     "casquette_match": "Support"
   },
   {
@@ -2682,7 +2767,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 52,
+    "score_match": 78,
     "casquette_match": "RSG"
   },
   {
@@ -2699,7 +2784,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 12,
+    "score_match": 40,
     "casquette_match": "Support"
   },
   {
@@ -2716,8 +2801,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 16,
-    "casquette_match": "RSG"
+    "score_match": 43,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2416801",
@@ -2733,7 +2818,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 39,
     "casquette_match": "Support"
   },
   {
@@ -2750,7 +2835,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 54,
     "casquette_match": "Manager"
   },
   {
@@ -2767,7 +2852,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 24,
     "casquette_match": "Support"
   },
   {
@@ -2784,7 +2869,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 55,
     "casquette_match": "Manager"
   },
   {
@@ -2801,7 +2886,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 60,
     "casquette_match": "Réseau"
   },
   {
@@ -2818,7 +2903,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 74,
     "casquette_match": "Support"
   },
   {
@@ -2835,7 +2920,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -2852,7 +2937,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 47,
+    "score_match": 67,
     "casquette_match": "Support"
   },
   {
@@ -2869,7 +2954,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 46,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -2886,7 +2971,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 48,
+    "score_match": 77,
     "casquette_match": "Manager"
   },
   {
@@ -2903,7 +2988,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 54,
     "casquette_match": "Support"
   },
   {
@@ -2920,7 +3005,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -2937,7 +3022,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 39,
+    "score_match": 64,
     "casquette_match": "RSG"
   },
   {
@@ -2954,7 +3039,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 56,
     "casquette_match": "RSG"
   },
   {
@@ -2971,7 +3056,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=3OMs756xec+guZ5tCqeFTg==",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 63,
     "casquette_match": "Support"
   },
   {
@@ -2988,7 +3073,7 @@
     "competences": "",
     "url_offre": "https://corporate.huttopia.com/offre/?id=32",
     "statut": "nouveau",
-    "score_match": 5,
+    "score_match": 31,
     "casquette_match": "Support"
   },
   {
@@ -3005,8 +3090,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 42,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2585764",
@@ -3022,8 +3107,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
-    "casquette_match": "Manager"
+    "score_match": 68,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "2246073",
@@ -3039,7 +3124,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 65,
     "casquette_match": "Support"
   },
   {
@@ -3056,7 +3141,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 41,
     "casquette_match": "Support"
   },
   {
@@ -3073,7 +3158,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 8,
+    "score_match": 32,
     "casquette_match": "Manager"
   },
   {
@@ -3090,8 +3175,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
-    "casquette_match": "RSG"
+    "score_match": 42,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2521283",
@@ -3107,7 +3192,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 18,
+    "score_match": 39,
     "casquette_match": "Manager"
   },
   {
@@ -3124,7 +3209,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=eQjXdPjWJ1AxKKwJPJTUFw==",
     "statut": "nouveau",
-    "score_match": 21,
+    "score_match": 47,
     "casquette_match": "Manager"
   },
   {
@@ -3141,7 +3226,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 37,
     "casquette_match": "Support"
   },
   {
@@ -3158,7 +3243,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 73,
     "casquette_match": "Support"
   },
   {
@@ -3175,7 +3260,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 77,
     "casquette_match": "Support"
   },
   {
@@ -3192,7 +3277,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 77,
     "casquette_match": "Support"
   },
   {
@@ -3209,7 +3294,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 68,
     "casquette_match": "Support"
   },
   {
@@ -3226,7 +3311,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
+    "score_match": 45,
     "casquette_match": "Client"
   },
   {
@@ -3243,24 +3328,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
-    "casquette_match": "Support"
-  },
-  {
-    "id_offre": "207VTFG",
-    "titre": "Technicien sav hotline (H/F)",
-    "entreprise": "ADEMI PESAGE",
-    "lieu": "33448 (33650)",
-    "distance_km": 63.52722571442861,
-    "salaire": "N/A",
-    "contrat": "CDI",
-    "date_publication": "2026-05-05",
-    "casquette": 3,
-    "description": "Votre mission\n\nAu sein de l'équipe informatique (12 collaborateurs), vous intervenez en tant que Technicien(ne) Support Client. Vous assurez le support, la maintenance et l'accompagnement des utilisateurs sur nos bornes d'accès et équipements de pesée.\n\nUne formation initiale complète à nos solutions, outils et processus sera assurée à votre arrivée afin de vous permettre de monter en compétences progressivement et efficacement.\n\nVos principales missions seront :\n\nPréparer, installer et configurer les matériels et logiciels destinés à nos clients\nAssurer l'assistance et le support hotline auprès des utilisateurs des solutions ADEMI PESAGE\nDiagnostiquer les dysfonctionnements signalés et analyser les incidents\nApporter les corrections nécessaires et garantir le bon fonctionnement des équipements\nRéaliser les opérations de maintenance préventive\nRédiger, mettre à jour et structurer la documentation technique et les procédures internes (diagnostic, support, exploitation)\nCentraliser, analyser et transmettre les besoins d'amélioration des applications et des outils\nSuivre les incidents, les retours matériels et participer à l'amélioration continue des services\nProfil recherché\n\nNous recherchons avant tout une personne orientée service client, curieuse, et à l'aise avec les environnements informatiques.\n\nLe poste est ouvert à des profils issus d'autres métiers, en reconversion ou avec une première expérience, dès lors que vous démontrez un réel intérêt pour l'informatique et le support utilisateurs.\n\nIdéalement, vous disposez de :\n\nUne formation ou une appétence forte pour l'informatique (Bac +2 apprécié mais non exclusif)\nUne première expérience en support, maintenance, hotline ou relation client technique\nDe bonnes bases en environnements matériels et logiciels\nUne capacité à rédiger clairement des procédures et à formaliser des connaissances\nUn excellent sens de l'écoute, de la pédagogie et du service\nDe la rigueur, de l'autonomie et un bon esprit d'équipe\nLe permis B est apprécié (déplacements ponctuels possibles)\nCe que nous vous offrons\n\nUn poste en CDI à 39 heures hebdomadaires\nUne formation complète à nos systèmes et méthodes dès votre intégration\nUn environnement de travail collaboratif au sein d'une entreprise familiale et indépendante\nDes missions variées, mêlant technique, relation client et amélioration continue\nDes perspectives d'évolution selon vos compétences et votre implication\nType d'emploi : Temps plein, CDI\n\nAvantages :\n\n\nIntéressement et participation\nLieu du poste : En présentiel",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 44,
+    "score_match": 65,
     "casquette_match": "Client"
   },
   {
@@ -3277,7 +3345,7 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/technicien-de-maintenance-bordeaux-firstname-bordeaux-cdi/applying",
     "statut": "nouveau",
-    "score_match": 34,
+    "score_match": 61,
     "casquette_match": "RSG"
   },
   {
@@ -3294,8 +3362,8 @@
     "competences": "",
     "url_offre": "https://www.aplitrak.com/?adid=bGF1cmUudmFuYnV0c2VsLjM0Mjg0LjEwNDIwQGNyb2l4cm91Z2UuYXBsaXRyYWsuY29t",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 56,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207KXKJ",
@@ -3311,8 +3379,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
-    "casquette_match": "Support"
+    "score_match": 46,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "207KXBY",
@@ -3328,8 +3396,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
-    "casquette_match": "Support"
+    "score_match": 46,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "208HKWB",
@@ -3345,7 +3413,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 51,
+    "score_match": 76,
     "casquette_match": "Client"
   },
   {
@@ -3362,8 +3430,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 8,
-    "casquette_match": "RSG"
+    "score_match": 31,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "208DCBH",
@@ -3379,7 +3447,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=6aJJMNJEVowwju3yfLEgqA==",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 58,
     "casquette_match": "Support"
   },
   {
@@ -3396,7 +3464,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 63,
     "casquette_match": "Support"
   },
   {
@@ -3413,7 +3481,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 12,
+    "score_match": 33,
     "casquette_match": "Support"
   },
   {
@@ -3430,7 +3498,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 55,
     "casquette_match": "Support"
   },
   {
@@ -3447,7 +3515,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 71,
     "casquette_match": "Support"
   },
   {
@@ -3464,7 +3532,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Support"
   },
   {
@@ -3481,7 +3549,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
+    "score_match": 45,
     "casquette_match": "Client"
   },
   {
@@ -3498,7 +3566,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -3515,7 +3583,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 80,
     "casquette_match": "Support"
   },
   {
@@ -3532,7 +3600,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 53,
     "casquette_match": "Support"
   },
   {
@@ -3549,7 +3617,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 42,
     "casquette_match": "Support"
   },
   {
@@ -3566,7 +3634,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 29,
+    "score_match": 65,
     "casquette_match": "Client"
   },
   {
@@ -3583,7 +3651,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 66,
     "casquette_match": "Support"
   },
   {
@@ -3600,7 +3668,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 56,
     "casquette_match": "Support"
   },
   {
@@ -3617,8 +3685,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
-    "casquette_match": "Support"
+    "score_match": 51,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2246474",
@@ -3634,7 +3702,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 18,
+    "score_match": 48,
     "casquette_match": "Réseau"
   },
   {
@@ -3651,8 +3719,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 28,
-    "casquette_match": "RSG"
+    "score_match": 46,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2116050",
@@ -3668,7 +3736,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 53,
     "casquette_match": "Support"
   },
   {
@@ -3685,7 +3753,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 35,
     "casquette_match": "Manager"
   },
   {
@@ -3702,8 +3770,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
-    "casquette_match": "Support"
+    "score_match": 43,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2633207",
@@ -3719,7 +3787,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 58,
     "casquette_match": "Support"
   },
   {
@@ -3736,7 +3804,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 47,
+    "score_match": 67,
     "casquette_match": "Support"
   },
   {
@@ -3753,7 +3821,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -3770,7 +3838,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 43,
+    "score_match": 57,
     "casquette_match": "RSG"
   },
   {
@@ -3787,7 +3855,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 34,
     "casquette_match": "RSG"
   },
   {
@@ -3804,8 +3872,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
-    "casquette_match": "RSG"
+    "score_match": 40,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2095427",
@@ -3821,7 +3889,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 60,
     "casquette_match": "Client"
   },
   {
@@ -3838,8 +3906,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
-    "casquette_match": "RSG"
+    "score_match": 32,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2246190",
@@ -3855,7 +3923,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 37,
     "casquette_match": "RSG"
   },
   {
@@ -3872,7 +3940,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 19,
+    "score_match": 48,
     "casquette_match": "RSG"
   },
   {
@@ -3889,7 +3957,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 59,
     "casquette_match": "Support"
   },
   {
@@ -3906,7 +3974,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 38,
     "casquette_match": "Support"
   },
   {
@@ -3923,8 +3991,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 43,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2083430",
@@ -3940,7 +4008,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 3,
+    "score_match": 7,
     "casquette_match": "RSG"
   },
   {
@@ -3957,8 +4025,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
-    "casquette_match": "Support"
+    "score_match": 47,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208CVBB",
@@ -3974,7 +4042,58 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 53,
+    "casquette_match": "Support"
+  },
+  {
+    "id_offre": "208JTSG",
+    "titre": "Technicien de Maintenance CVC (h/f)",
+    "entreprise": "ADECCO FRANCE",
+    "lieu": "33318 (33600)",
+    "distance_km": 70.97587498841754,
+    "salaire": "N/A",
+    "contrat": "CDI",
+    "date_publication": "2026-05-18",
+    "casquette": 3,
+    "description": "Le cabinet de recrutement ADECCO recherche un Technicien CVC (h/f) en CDI pour l'un de ses partenaires, entreprise référencée en installation/maintenance basée à Pessac (33).\n\nLES INDISPENSABLES DU POSTE :\n\nOrganisation du travail\n- Recevoir les consignes des opérations à réaliser.\n- Vérifier l'adéquation du matériel, des matériaux et de l'outillage aux opérations à réaliser.\n- Respecter le planning établi en lien avec les clauses contractuelles et les procédures d'interventions prédéfinies ainsi que les temps d'immobilisation définie par le client.\n- Entretenir l'outillage et les matériels mis à sa disposition.\n- Assurer le rangement et le nettoyage du poste de travail et/ou de son véhicule.\n \nQualité, santé, sécurité et environnement\n- Prendre connaissance et appliquer les procédures, règles et mesures de prévention sécurité et environnementales (port des EPI, tri des déchets .).\n- Remonter les informations (anomalie, bonne pratique.) et les dysfonctionnements ou situations dangereuses (incident/accident).\n \nActivités opérationnelles\n- Assurer l'exploitation de l'installation (relevés, mesures, rondes).\n- Contribuer à trouver des solutions d'amélioration techniques économiques ou organisationnelles.\n- Réaliser des opérations de maintenance préventive (systématique, conditionnelle ou prévisionnelle).\n- Assurer les prestations curatives et correctives en fonction des urgences sur les équipements : diagnostic, dépannage, remise en service.\n- Réaliser les opérations de maintenance et/ou d'exploitation sur les équipements.\n- Assurer la traçabilité des interventions.\n \nCommunication\n- Rendre compte de son activité\n\nNiveau de Formation :\nDe formation : BAC à BAC +2 en CVC, ou possédant une expérience significative en maintenance CVC\n \nDe formation technique en CVC vous bénéficiez d'une expérience réussie dans une fonction similaire. Vous êtes dynamique, rigoureux(se) et volontaire.\n \nQualités / Compétences :\nVous faites preuve d'esprit d'analyse, de rigueur, d'autonomie, d'organisation, et d'un bon sens relationnel.\n \nContexte / Environnement de travail :\nPoste basé à Pessac (33)\nDéplacements à prévoir sur le département\n\nCette opportunité vous intéresse et vous souhaitez en savoir davantage ?\nAlors n'attendez plus et postulez ! \n\n",
+    "competences": "",
+    "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1f47496e705e3ea893d2afc2f77ef1c7e9AEADECAAAADAAAAAAAAAAAAAAAAILWG6BQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
+    "statut": "nouveau",
+    "score_match": 72,
+    "casquette_match": "Support"
+  },
+  {
+    "id_offre": "208JKLK",
+    "titre": "Technicien de maintenance industrielle (H/F)",
+    "entreprise": "MALTHA GLASS RECYCLING FRANCE",
+    "lieu": "33207 (33450)",
+    "distance_km": 48.33248620055866,
+    "salaire": "N/A",
+    "contrat": "CDI",
+    "date_publication": "2026-05-18",
+    "casquette": 3,
+    "description": "Notre usine de recyclage du verre se modernise, les projets se multiplient, nous avons donc besoin de renforcer notre équipe maintenance !\nNous recrutons notre nouveau Technicien de Maintenance pour rejoindre l'équipe sur le site Maltha d'Izon.\nVotre mission : assurer la maintenance préventive et curative des divers équipements et installations du site.\nVotre qualité n°1 : vous connaissez et appliquez les règles en matière de Qualité, hygiène Sécurité et Environnement.\nSi vous vous reconnaissez dans ces premières lignes, découvrez le poste plus en détails ci-dessous.\n\nVos missions, si vous les acceptez :\n*Réaliser l'entretien et le dépannage des machine de production\n*Réaliser l'entretien préventif selon le planning préventif de GMAO\n*Réaliser l'entretien et le dépannage des installations électriques en basse tension\n*Enregistrer les opérations de maintenance sur la GMAO\n*Réaliser les opérations de soudage de 1er niveau\n*Respecter les procédures et instructions de travail afférentes à ce poste\n\nVos Atouts :\n\nFormation technique (Maintenance des équipements Industriels, Electromécanicien).\nVotre polyvalence vous permet d'intervenir sur différentes technologies (mécanique, automatisme, électricité, pneumatique.).\nVous faites preuve de rigueur et de réactivité pour intervenir rapidement et réduire le temps d'immobilisation des machines.",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 76,
+    "casquette_match": "RSG"
+  },
+  {
+    "id_offre": "208JHVX",
+    "titre": "Technicien de maintenance (F/H)",
+    "entreprise": "RANDSTAD PROFESSIONAL-APPEL MEDICAL SEAR",
+    "lieu": "33063 (33000)",
+    "distance_km": 63.81280513143607,
+    "salaire": "N/A",
+    "contrat": "Intérim - 6 Mois",
+    "date_publication": "2026-05-18",
+    "casquette": 3,
+    "description": "Sous la responsabilité du Responsable de l'agence de Bordeaux, vous devenez le garant de la disponibilité des systèmes et de la satisfaction des clients sur la région bordelaise.  \n\nVotre mission consiste à assurer la maintenance préventive et curative des systèmes de péage pour les parkings de nos clients régionaux.  \nVotre rôle s'articule autour des missions suivantes : \n- Maintenance et Dépannage : vous analysez et résolvez les pannes matérielles (hardware) et logicielles (software) sur les sites clients, avec l'appui des équipes de télémaintenance.  \n- Gestion des Engagements : vous respectez les contrats de maintenance en termes de délais d'intervention et de remise en service.  \n- Suivi  Administratif Digital : vous utilisez quotidiennement l'outil interne (Service Now) pour suivre vos interventions, de la prise d'appel à la résolution, et rédigez vos comptes rendus.  \n- Installation et Mise en Service : vous pouvez être amené à participer  au déploiement des nouveaux équipements et systèmes avec l'équipe Installations Neuves.  \n- Qualité et Amélioration : vous contribuez à l'amélioration continue du SAV en partageant vos solutions techniques et en alertant sur l'usure de certaines pièces.  \n- Suivi Logistique : vous assurez le suivi des pièces détachées utilisées lors de vos interventions.",
+    "competences": "",
+    "url_offre": "https://www.randstadprofessional.fr/offre/307-U20-0001978_01C/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
+    "statut": "nouveau",
+    "score_match": 52,
     "casquette_match": "Support"
   },
   {
@@ -3991,7 +4110,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 46,
     "casquette_match": "Support"
   },
   {
@@ -4008,7 +4127,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 69,
     "casquette_match": "Support"
   },
   {
@@ -4025,7 +4144,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=GDpOuVb22WJGFpXuSRDqMw==",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 46,
     "casquette_match": "Support"
   },
   {
@@ -4042,7 +4161,7 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1fe68e6c630ccbd6ed4ed2870cb64d32a6AEADECAAAADAAAAAAAAAAAAAAAAISI57BQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 48,
     "casquette_match": "Client"
   },
   {
@@ -4059,7 +4178,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=QcaOHPSxRmKIkScSvRMDoA==",
     "statut": "nouveau",
-    "score_match": 47,
+    "score_match": 67,
     "casquette_match": "Support"
   },
   {
@@ -4076,7 +4195,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=kfzSI5iPDtI0xBBEY/gMow==",
     "statut": "nouveau",
-    "score_match": 29,
+    "score_match": 56,
     "casquette_match": "RSG"
   },
   {
@@ -4093,7 +4212,7 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1146480&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 46,
     "casquette_match": "Support"
   },
   {
@@ -4110,7 +4229,7 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1146422&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 26,
+    "score_match": 49,
     "casquette_match": "RSG"
   },
   {
@@ -4127,7 +4246,24 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1146385&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 27,
+    "score_match": 52,
+    "casquette_match": "Support"
+  },
+  {
+    "id_offre": "208HNPV",
+    "titre": "Technicien de maintenance en 3x8 (H/F)",
+    "entreprise": "PROMAN",
+    "lieu": "33056 (33290)",
+    "distance_km": 69.41092701267641,
+    "salaire": "Salaire selon profil et expériences. ",
+    "contrat": "Intérim - 6 Mois",
+    "date_publication": "2026-05-15",
+    "casquette": 3,
+    "description": "Le poste :\nVotre agence Proman Bordeaux Industrie recrute pour un client basé sur Blanquefort et spécialisé en fabrication de desserts, un Technicien de Maintenance (H/F). Missions : rattaché au service maintenance, vous contribuez à assurer le bon fonctionnement des lignes de production grâces aux actions suivantes : - maintenance préventive des équipements - interventions de maintenance curative : recherche de panne, diagnostic, réparation, - participation à l'installation de nouveaux équipements ou de mises à niveau, - suivi des interventions sur logiciel GMAO - interventions ponctuelles de maintenance tertiaire selon les besoins \n\nProfil recherché :\nVous possédez une formation de niveau bac professionnel (ou supérieur) en maintenance industrielle, électromécanique ou équivalent. Vous justifiez d'une première approche de la maintenance en environnement industriel, idéalement sur des lignes de production automatisées. Dynamique, volontaire, vous faites preuve de disponibilité et appréciez le travail en équipe. Vous avez une bonne culture technique en général et souhaitez acquérir de nouvelles compétences. Vous souhaitez développer vos compétences en maintenance et vous investir à long terme au sein d'une entreprise indépendante et à taille humaine, ce poste est pour vous !",
+    "competences": "",
+    "url_offre": "https://www.proman-emploi.fr/?job=MP1146371&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
+    "statut": "nouveau",
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -4144,7 +4280,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101433100?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 52,
+    "score_match": 78,
     "casquette_match": "RSG"
   },
   {
@@ -4161,7 +4297,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101433065?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 52,
+    "score_match": 78,
     "casquette_match": "RSG"
   },
   {
@@ -4178,7 +4314,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101432910?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 49,
+    "score_match": 71,
     "casquette_match": "RSG"
   },
   {
@@ -4195,7 +4331,7 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1146349&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 63,
     "casquette_match": "Support"
   },
   {
@@ -4212,7 +4348,7 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1146329&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 46,
     "casquette_match": "Support"
   },
   {
@@ -4229,7 +4365,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=2IvEcQDY1GxWv+WcG2TuZQ==",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 63,
     "casquette_match": "RSG"
   },
   {
@@ -4246,7 +4382,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 63,
     "casquette_match": "Support"
   },
   {
@@ -4263,7 +4399,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Support"
   },
   {
@@ -4280,7 +4416,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 49,
     "casquette_match": "RSG"
   },
   {
@@ -4297,7 +4433,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 43,
     "casquette_match": "Support"
   },
   {
@@ -4314,7 +4450,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Support"
   },
   {
@@ -4331,7 +4467,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -4348,7 +4484,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 64,
     "casquette_match": "Support"
   },
   {
@@ -4365,7 +4501,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=VaUWG7kxN0Gp8rUj43IGhA==",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 49,
     "casquette_match": "Support"
   },
   {
@@ -4382,7 +4518,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 49,
     "casquette_match": "Support"
   },
   {
@@ -4399,7 +4535,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 49,
     "casquette_match": "Support"
   },
   {
@@ -4416,7 +4552,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 44,
     "casquette_match": "Support"
   },
   {
@@ -4433,7 +4569,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 58,
     "casquette_match": "Support"
   },
   {
@@ -4450,7 +4586,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101431333?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 49,
     "casquette_match": "Support"
   },
   {
@@ -4467,7 +4603,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 57,
+    "score_match": 87,
     "casquette_match": "Support"
   },
   {
@@ -4484,7 +4620,7 @@
     "competences": "",
     "url_offre": "https://jobs.iziwork.com/fr/offre-emploi/technicien-de-maintenance-industrielle-h-f-beychac-et-caillau-33-1327903180?utm_source=poleemploi_jtmo",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 65,
     "casquette_match": "Support"
   },
   {
@@ -4501,7 +4637,7 @@
     "competences": "",
     "url_offre": "https://www.aio-jobs.com/jobs/CESTAS-(33)/Jungheinrich/TECHNICIEN-DE-MAINTENANCE-(POSTE-FIXE)-H-F/69fd35ff136d5ca9efceee47?utm_source=FranceTravail&utm_medium=TargetingSourcing&utm_campaign=JUNGHEINRICH",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 59,
     "casquette_match": "Support"
   },
   {
@@ -4518,7 +4654,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=Q6KaZJuFeAaOh5h5Yi1JuA==",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 54,
     "casquette_match": "Support"
   },
   {
@@ -4535,7 +4671,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101428917?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 41,
     "casquette_match": "Réseau"
   },
   {
@@ -4552,7 +4688,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 71,
     "casquette_match": "Support"
   },
   {
@@ -4569,7 +4705,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 50,
     "casquette_match": "Support"
   },
   {
@@ -4586,7 +4722,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 56,
     "casquette_match": "Support"
   },
   {
@@ -4603,7 +4739,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 50,
     "casquette_match": "Support"
   },
   {
@@ -4620,7 +4756,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 39,
     "casquette_match": "Support"
   },
   {
@@ -4637,7 +4773,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 45,
     "casquette_match": "Support"
   },
   {
@@ -4654,7 +4790,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=EanAvcsgzd5jGclBFeL6Xg==",
     "statut": "nouveau",
-    "score_match": 12,
+    "score_match": 40,
     "casquette_match": "Support"
   },
   {
@@ -4671,7 +4807,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=PZi+IHYDDz7iFjqrQWSN4g==",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 45,
     "casquette_match": "Support"
   },
   {
@@ -4688,7 +4824,7 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/technicien-de-maintenance-itinerant-f-h-bordeaux-bertin-technologies-cdi/applying",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 65,
     "casquette_match": "Support"
   },
   {
@@ -4705,7 +4841,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 8,
+    "score_match": 30,
     "casquette_match": "RSG"
   },
   {
@@ -4722,7 +4858,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
+    "score_match": 35,
     "casquette_match": "RSG"
   },
   {
@@ -4739,7 +4875,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 56,
     "casquette_match": "Support"
   },
   {
@@ -4756,7 +4892,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=LsqQj2VA+6yoBZ+Lu4VeaQ==",
     "statut": "nouveau",
-    "score_match": 23,
+    "score_match": 58,
     "casquette_match": "Manager"
   },
   {
@@ -4773,7 +4909,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101427551?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 19,
+    "score_match": 49,
     "casquette_match": "RSG"
   },
   {
@@ -4790,7 +4926,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101427399?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 57,
     "casquette_match": "RSG"
   },
   {
@@ -4807,7 +4943,7 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1ffd1357a8153221c5ac1267e730072c74AEADECAAAADAAAAAAAAAAAAAAAACZMKFBQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -4824,7 +4960,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 62,
     "casquette_match": "Support"
   },
   {
@@ -4841,7 +4977,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 60,
     "casquette_match": "Manager"
   },
   {
@@ -4858,7 +4994,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 59,
     "casquette_match": "Support"
   },
   {
@@ -4875,8 +5011,8 @@
     "competences": "",
     "url_offre": "https://www.randstad.fr/offre/001-RBX-0027923_01C/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
     "statut": "nouveau",
-    "score_match": 10,
-    "casquette_match": "Support"
+    "score_match": 38,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207SMNX",
@@ -4892,7 +5028,7 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1141670&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 11,
+    "score_match": 39,
     "casquette_match": "RSG"
   },
   {
@@ -4909,7 +5045,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 68,
     "casquette_match": "Support"
   },
   {
@@ -4926,7 +5062,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 68,
     "casquette_match": "Support"
   },
   {
@@ -4943,7 +5079,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 74,
     "casquette_match": "Support"
   },
   {
@@ -4960,7 +5096,7 @@
     "competences": "",
     "url_offre": "https://www.randstad.fr/offre/001-RBX-0027911_01C/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
     "statut": "nouveau",
-    "score_match": 8,
+    "score_match": 32,
     "casquette_match": "RSG"
   },
   {
@@ -4977,24 +5113,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101426221?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 7,
-    "casquette_match": "Support"
-  },
-  {
-    "id_offre": "207QVZH",
-    "titre": "Technicien de maintenance industrielle en alternance  (H/F)",
-    "entreprise": "INSTITUT DE FORMATION REGIONAL DES INDUS",
-    "lieu": "33227 (33210)",
-    "distance_km": 55.373394700991284,
-    "salaire": "Selon la grille de l'apprentissage",
-    "contrat": "CDD - 24 Mois",
-    "date_publication": "2026-04-29",
-    "casquette": 3,
-    "description": "OFFRE D'ALTERNANCE - technicien recherche et développement en agroalimentaire (H/F)\n\nNous recherchons pour l'un de nos partenaires, une entreprise du secteur agroalimentaire située dans le Sud-Gironde (1h de Bordeaux, Agen ou Mont de Marsan), un alternant en maintenance des systèmes.\nL'entreprise fait partie d'un groupe en pleine croissance, solide et pérenne avec des marques qui revendiquent la qualité de ses produits. Elle est reconnue au niveau européens pour ses volailles et sa partie traiteur, elle offre un environnement professionnalisant et formateur.\n\nCette alternance est accessible selon le parcours suivant au sein de notre CFA IFRIA Nouvelle-Aquitaine :\n- BTS Maintenance des Systèmes - Libourne (33) à privilégier mais formation disponible aussi à Agen, Oloron Sainte-Marie, Poitiers et Brive\nL'IFRIA vous aide à organiser la mobilité si besoin. \n\nVos missions\n- effectuez le diagnostic et le dépannage des pannes électriques et/ou mécaniques\n- préparez et réalisez les activités de maintenance préventive, curative et améliorative \n- renseignez la GMAO (saisie des interventions, suivi des équipements)\n- réalisez de petits travaux neufs ou de rénovation\n\nVotre profil\nVous souhaitez préparer un diplôme bac+2 en maintenance des systèmes de production\nVous êtes :\n- Curieux \n- Ouvert d'esprit \n- Force de proposition \n\nConditions\n- Contrat : Alternance \n- Durée : 24 mois\n- Rythme : 40% en formation / 60% en entreprise\n- Rémunération : selon la grille de l'apprentissage en vigueur et les avantages de l'entreprise à découvrir lors de l'entretien\n\nPourquoi rejoindre notre CFA ?\n- Un accompagnement individualisé & des aides possibles (à la mobilité, au prêt d'outils informatiques, à la restauration.)\n- Des formations reconnues dans la filière agroalimentaire \n- Un réseau d'entreprises partenaires en Nouvelle-Aquitaine \n- De réelles opportunités d'insertion professionnelle",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 37,
     "casquette_match": "Support"
   },
   {
@@ -5011,7 +5130,7 @@
     "competences": "",
     "url_offre": "https://www.randstadprofessional.fr/offre/307-U72-R000325_01R/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -5028,7 +5147,7 @@
     "competences": "",
     "url_offre": "https://www.randstad.fr/offre/001-RBX-R000245_01R/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -5045,7 +5164,7 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1f22adf2c156992a12bc0f0657a83ee590AEADECAAAADAAAAAAAAAAAAAAAAOM6P6BM&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 7,
+    "score_match": 37,
     "casquette_match": "Support"
   },
   {
@@ -5062,7 +5181,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 51,
     "casquette_match": "Support"
   },
   {
@@ -5079,41 +5198,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
-    "casquette_match": "Support"
-  },
-  {
-    "id_offre": "207NTGL",
-    "titre": "Technicien de maintenance industrielle en alternance (H/F)",
-    "entreprise": "INSTITUT DE FORMATION REGIONAL DES INDUS",
-    "lieu": "33227 (33210)",
-    "distance_km": 55.373394700991284,
-    "salaire": "Selon la grille de l'apprentissage",
-    "contrat": "CDD - 12 Mois",
-    "date_publication": "2026-04-28",
-    "casquette": 3,
-    "description": "OFFRE D'ALTERNANCE - technicien recherche et développement en agroalimentaire (H/F)\n\nNous recherchons pour l'un de nos partenaires, une entreprise du secteur agroalimentaire située dans le Sud-Gironde (1h de Bordeaux, Agen ou Mont de Marsan), un alternant en maintenance des systèmes.\nL'entreprise fait partie d'un groupe en pleine croissance, solide et pérenne avec des marques qui revendiquent la qualité de ses produits. Elle est reconnue au niveau européens pour ses volailles et sa partie traiteur, elle offre un environnement professionnalisant et formateur.\n\nCette alternance est accessible selon le parcours suivant au sein de notre CFA IFRIA Nouvelle-Aquitaine :\n- Titre pro technicien de maintenance industrielle - Oloron Sainte Marie (64) ou Agen (47)\nL'IFRIA vous aide à organiser la mobilité si besoin. \n\nVos missions\n- effectuez le diagnostic et le dépannage des pannes électriques et/ou mécaniques\n- préparez et réalisez les activités de maintenance préventive, curative et améliorative \n- renseignez la GMAO (saisie des interventions, suivi des équipements)\n- réalisez de petits travaux neufs ou de rénovation\n\nVotre profil\nVous souhaitez préparer un diplôme bac+2 en maintenance des systèmes de production\nVous êtes :\n- Curieux \n- Ouvert d'esprit \n- Force de proposition \n\nConditions\n- Contrat : Alternance \n- Durée : 12 mois\n- Rythme : 3 semaines en entreprise, 1 semaine en formation\n- Rémunération : selon la grille de l'apprentissage en vigueur et les avantages de l'entreprise à découvrir lors de l'entretien\n\nPourquoi rejoindre notre CFA ?\n- Un accompagnement individualisé & des aides possibles (à la mobilité, au prêt d'outils informatiques, à la restauration.)\n- Des formations reconnues dans la filière agroalimentaire \n- Un réseau d'entreprises partenaires en Nouvelle-Aquitaine \n- De réelles opportunités d'insertion professionnelle",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 17,
-    "casquette_match": "Support"
-  },
-  {
-    "id_offre": "207NTFN",
-    "titre": "Technicien de maintenance énergies en alternance (H/F)",
-    "entreprise": "INSTITUT DE FORMATION REGIONAL DES INDUS",
-    "lieu": "33227 (33210)",
-    "distance_km": 55.373394700991284,
-    "salaire": "Selon la grille de l'apprentissage",
-    "contrat": "CDD - 24 Mois",
-    "date_publication": "2026-04-28",
-    "casquette": 3,
-    "description": "OFFRE D'ALTERNANCE - technicien de maintenance des énergies en agroalimentaire (H/F)\n\nNous recherchons pour l'un de nos partenaires, une entreprise du secteur agroalimentaire située dans le Sud-Gironde (1h de Bordeaux, Agen ou Mont de Marsan), un alternant en maintenance énergies des systèmes de production.\nL'entreprise fait partie d'un groupe en pleine croissance, solide et pérenne avec des marques qui revendiquent la qualité de ses produits. Elle est reconnue au niveau européens pour ses volailles et sa partie traiteur, elle offre un environnement professionnalisant et formateur.\n\nCette alternance est accessible selon le parcours suivant au sein de notre CFA IFRIA Nouvelle-Aquitaine :\n- Mastère MAGI (Génie Industriel parcours Eco-Ingénierie) - Pau (64)\nL'IFRIA vous aide à organiser la mobilité si besoin. \n\nVos missions\n- Optimiser les systèmes de gestion des flux d'air et d'aspiration afin d'améliorer la performance des installations.\n- Identifier et suivre les fuites ainsi que les consommations énergétiques pour réduire les pertes et gagner en efficacité.\n- Participer aux audits environnementaux et mettre en place des actions de suivi (rondes énergie, contrôle des températures).\n\nVotre profil\nVous souhaitez préparer un diplôme bac+5  en maintenance\nVous êtes :\n- Rigoureux\n- Doté d'un bon sens de l'observation\n- Conscient des valeurs environnementales\n\nConditions\n- Contrat : Alternance \n- Durée : 24 mois\n- Rythme : 30% en formation / 70% en entreprise\n- Rémunération : selon la grille de l'apprentissage en vigueur et les avantages de l'entreprise à découvrir lors de l'entretien\n\nPourquoi rejoindre notre CFA ?\n- Un accompagnement individualisé & des aides possibles (à la mobilité, au prêt d'outils informatiques, à la restauration.)\n- Des formations reconnues dans la filière agroalimentaire \n- Un réseau d'entreprises partenaires en Nouvelle-Aquitaine \n- De réelles opportunités d'insertion professionnelle",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 51,
     "casquette_match": "Support"
   },
   {
@@ -5130,7 +5215,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101424826?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 68,
     "casquette_match": "RSG"
   },
   {
@@ -5147,7 +5232,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101424804?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 47,
     "casquette_match": "Support"
   },
   {
@@ -5164,7 +5249,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
+    "score_match": 52,
     "casquette_match": "Support"
   },
   {
@@ -5181,7 +5266,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -5198,7 +5283,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 34,
+    "score_match": 61,
     "casquette_match": "RSG"
   },
   {
@@ -5215,7 +5300,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -5232,7 +5317,7 @@
     "competences": "",
     "url_offre": "https://emploi.groupelip.com/offres-emploi/poste-b11-a69-technicien-de-maintenance-2663-353556",
     "statut": "nouveau",
-    "score_match": 12,
+    "score_match": 42,
     "casquette_match": "Support"
   },
   {
@@ -5249,7 +5334,7 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/technicien-de-maintenance-f-h-le-pian-medoc-sirems-service-cdi-2/applying",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 80,
     "casquette_match": "Support"
   },
   {
@@ -5266,7 +5351,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101423933?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -5283,7 +5368,7 @@
     "competences": "",
     "url_offre": "https://www.manpower.fr/offers/details/1101423895?partenaire=FRANCE_TRAVAIL",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -5300,7 +5385,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 73,
     "casquette_match": "RSG"
   },
   {
@@ -5317,7 +5402,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -5334,7 +5419,7 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5slp62256876b6034126a8da84ab419aaf1deAEADECAAAADAAAAAAAAAAAAAAAALFEOHBM&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=LHH_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 47,
     "casquette_match": "Manager"
   },
   {
@@ -5351,7 +5436,7 @@
     "competences": "",
     "url_offre": "https://www.aio-jobs.com/jobs/CESTAS%20(33)/Jungheinrich-France/TECHNICIEN-DE-MAINTENANCE-(POSTE-FIXE)-H%2FF/698a570546c898b8d6c78193?utm_source=FranceTravail&utm_medium=TargetingSourcing&utm_campaign=JUNGHEINRICH",
     "statut": "nouveau",
-    "score_match": 27,
+    "score_match": 52,
     "casquette_match": "Support"
   },
   {
@@ -5368,7 +5453,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 42,
     "casquette_match": "Support"
   },
   {
@@ -5385,7 +5470,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=rC25EkTy25xfJ6Xy+YKWOA==",
     "statut": "nouveau",
-    "score_match": 27,
+    "score_match": 60,
     "casquette_match": "Support"
   },
   {
@@ -5402,8 +5487,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 44,
-    "casquette_match": "RSG"
+    "score_match": 58,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "208DCBM",
@@ -5419,7 +5504,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=B9X/1FWkTVxP94FAfBwk+Q==",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 64,
     "casquette_match": "Support"
   },
   {
@@ -5436,7 +5521,7 @@
     "competences": "",
     "url_offre": "https://www.alphea-conseil.com/fr/offres-d-emploi/chauffagiste-maintenance-entretien-saint-medard-en-jalles-019dcdcb-a083-7d92-88cf-441ceebe86ff",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 60,
     "casquette_match": "Support"
   },
   {
@@ -5453,7 +5538,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 71,
     "casquette_match": "Support"
   },
   {
@@ -5470,7 +5555,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 71,
     "casquette_match": "Support"
   },
   {
@@ -5487,7 +5572,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 71,
     "casquette_match": "Support"
   },
   {
@@ -5504,7 +5589,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 60,
     "casquette_match": "Support"
   },
   {
@@ -5521,7 +5606,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=SO+1VUtWiQnqS719a2St0w==",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 65,
     "casquette_match": "Support"
   },
   {
@@ -5538,8 +5623,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 54,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "207WGZX",
@@ -5555,7 +5640,7 @@
     "competences": "",
     "url_offre": "https://smrtr.io/yB-3J",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 77,
     "casquette_match": "Support"
   },
   {
@@ -5572,7 +5657,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=wj1h/tcJYIjOQvTqNW4Erw==",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Support"
   },
   {
@@ -5589,7 +5674,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -5606,7 +5691,7 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5slp67c3cb0429a40926660714641af4feb3eAEADECAAAADAAAAAAAAAAAAAAAAOIKPWBM&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=LHH_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 12,
+    "score_match": 42,
     "casquette_match": "Support"
   },
   {
@@ -5623,7 +5708,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
+    "score_match": 54,
     "casquette_match": "RSG"
   },
   {
@@ -5640,7 +5725,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 69,
     "casquette_match": "Support"
   },
   {
@@ -5657,8 +5742,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
-    "casquette_match": "Support"
+    "score_match": 56,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207VRPY",
@@ -5674,8 +5759,8 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/technicien-polyvalent-bordeaux-le-boutique-hotels-collection-cdd/applying",
     "statut": "nouveau",
-    "score_match": 19,
-    "casquette_match": "RSG"
+    "score_match": 45,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "207TXVG",
@@ -5691,8 +5776,8 @@
     "competences": "",
     "url_offre": "https://emploi.murfy.fr/jobs/7675250-reconversion-reparateur-electromenager-f-h",
     "statut": "nouveau",
-    "score_match": 32,
-    "casquette_match": "Support"
+    "score_match": 49,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "207TJJH",
@@ -5708,7 +5793,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 57,
     "casquette_match": "RSG"
   },
   {
@@ -5725,7 +5810,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 50,
     "casquette_match": "Support"
   },
   {
@@ -5742,7 +5827,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 60,
     "casquette_match": "RSG"
   },
   {
@@ -5759,7 +5844,7 @@
     "competences": "",
     "url_offre": "https://www.randstad.fr/offre/001-849-0016409_01C/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 47,
     "casquette_match": "Support"
   },
   {
@@ -5776,7 +5861,7 @@
     "competences": "",
     "url_offre": "https://www.randstad.fr/offre/001-849-R000518_02R/A?utm_medium=jobboard_organic&utm_source=france-travail&utm_campaign=offres",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Support"
   },
   {
@@ -5793,7 +5878,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 34,
+    "score_match": 61,
     "casquette_match": "RSG"
   },
   {
@@ -5810,8 +5895,8 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1fe10257601ea78b9b7bfe1b425e3be864AEADECAAAADAAAAAAAAAAAAAAAAH2MYJBQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 28,
-    "casquette_match": "RSG"
+    "score_match": 46,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207QGSV",
@@ -5827,7 +5912,7 @@
     "competences": "",
     "url_offre": "https://www.groupe-netco.com/fr/carrieres/nos-offres-demplois/offre?id=recRK4W6UY6FeGU5U",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 62,
     "casquette_match": "Support"
   },
   {
@@ -5844,8 +5929,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 23,
-    "casquette_match": "Manager"
+    "score_match": 35,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "207NJQK",
@@ -5861,7 +5946,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 51,
     "casquette_match": "Support"
   },
   {
@@ -5878,7 +5963,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 51,
     "casquette_match": "Support"
   },
   {
@@ -5895,24 +5980,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 31,
-    "casquette_match": "RSG"
-  },
-  {
-    "id_offre": "207MBPX",
-    "titre": "Technicien mixte (H/F)",
-    "entreprise": "AQUITAINE PNEUMATIQUES",
-    "lieu": "33096 (33560)",
-    "distance_km": 59.5323685426283,
-    "salaire": "N/A",
-    "contrat": "CDI",
-    "date_publication": "2026-04-26",
-    "casquette": 3,
-    "description": "Nous recherchons un Technicien polyvalent (H/F) spécialisé en montage de pneus industriels et en mécanique automobile sur l'agence industrielle de Carbon Blanc (33).\nEn contact avec nos clients vous interviendrez aussi bien sur les véhicules légers que sur les véhicules industriels et engins dans le respect des procédures internes (fiches d'intervention...) et des règles de sécurité.\n\nVous serez en charge :\nmontage/démontage de pneumatiques,\nrecreusage,\npermutations,\nretour sur jante\ngéométrie\nRéalisation des opérations de mécanique rapide\nDiagnostique simple et contrôle de l'état des véhicules\n\n80 % du travail se situe en extérieur (dépannages et interventions sur sites clients avec le fourgon de l'agence) et 20 % en atelier (préparation de roue relais, réparation, rangement).",
-    "competences": "",
-    "url_offre": "",
-    "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 51,
     "casquette_match": "Support"
   },
   {
@@ -5929,8 +5997,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 23,
-    "casquette_match": "RSG"
+    "score_match": 41,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207FLCF",
@@ -5946,7 +6014,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 51,
     "casquette_match": "Support"
   },
   {
@@ -5963,7 +6031,7 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/technicien-sav-itinerant-pons-gms-equipements-cdi/applying",
     "statut": "nouveau",
-    "score_match": 50,
+    "score_match": 74,
     "casquette_match": "Support"
   },
   {
@@ -5980,7 +6048,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=nOn+E23pxPF6xbMuKqnz0w==",
     "statut": "nouveau",
-    "score_match": 21,
+    "score_match": 46,
     "casquette_match": "RSG"
   },
   {
@@ -5997,8 +6065,8 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=6f6RE/+LID2wiGmJ+zHNMg==",
     "statut": "nouveau",
-    "score_match": 17,
-    "casquette_match": "Support"
+    "score_match": 38,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "208DBTF",
@@ -6014,7 +6082,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=e3uCEP9OiF1GM60kTZePcA==",
     "statut": "nouveau",
-    "score_match": 44,
+    "score_match": 68,
     "casquette_match": "RSG"
   },
   {
@@ -6031,7 +6099,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 35,
     "casquette_match": "Support"
   },
   {
@@ -6048,25 +6116,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 63,
     "casquette_match": "Client"
-  },
-  {
-    "id_offre": "207HLLV",
-    "titre": "ALTERNANCE MAINTENANCE (F/H) (H/F)",
-    "entreprise": "COMPAGNIE DE SAINT-GOBAIN",
-    "lieu": "33138 (33230)",
-    "distance_km": 33.59154673512816,
-    "salaire": "N/A",
-    "contrat": "CDD - 24 Mois",
-    "date_publication": "2026-04-22",
-    "casquette": 3,
-    "description": "Pourquoi a-t-on besoin de vous?\nLes équipes de notre site Saint-Gobain Vitrage Bâtiment d'Angoulême sont prêts à vous confier ces missions qui rythmeront votre quotidien  :\n\nAu sein du service maintenance, vous contribuerez à la mise en oeuvre du plan d'amélioration du service en prenant en compte les enjeux de sécurité, de performance et de la maîtrise des coûts.\n\nVous participerez à l'analyse des dysfonctionnements des équipements et à l'évaluation des risques de défaillance, notamment sur les installations critiques. Dans ce cadre, vous serez amené.e à proposer et à mettre en place des solutions visant à améliorer la fiabilité et la performance des équipements.\n\nVous prendrez également part à la collaboration et à l'animation d'un plan de progrès en collaboration avec les agents techniques.\n\nEnfin, vous participerez aux interventions de maintenance corrective ainsi qu'aux opérations de maintenance préventive sur les intallations.\n\nCe poste est-il fait pour vous ?\nVous préparez un diplôme en alternance de niveau Bac+2 type BTS maintenance industrielle en alternance.\n\nVous êtes à l'aise avec l'informatique et le pack office.\n\nRigueur, facilités relationnelles, ténacité pour mener au bout les projets sont parmi les comportements professionnels nécessaires pour réussir dans ce poste.\n\nN'hésitez plus, rejoignez nous !",
-    "competences": "",
-    "url_offre": "https://joinus.saint-gobain.com/description?nPostingTargetId=294027&id=Q2FFK026203F3VBQBLO7V8M1O&LG=FR&languageSelect=FR&cType=JobBoard&sType=FranceTravail",
-    "statut": "nouveau",
-    "score_match": 16,
-    "casquette_match": "RSG"
   },
   {
     "id_offre": "208GMVP",
@@ -6082,7 +6133,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 27,
     "casquette_match": "RSG"
   },
   {
@@ -6099,7 +6150,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 23,
     "casquette_match": "Support"
   },
   {
@@ -6116,8 +6167,8 @@
     "competences": "",
     "url_offre": "https://taleez.com/apply/costing-airframe-h-f-bordeaux-ingeliance-cdi/applying",
     "statut": "nouveau",
-    "score_match": 35,
-    "casquette_match": "Support"
+    "score_match": 36,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207YYCD",
@@ -6133,8 +6184,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
-    "casquette_match": "Support"
+    "score_match": 50,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207WLRQ",
@@ -6150,7 +6201,7 @@
     "competences": "",
     "url_offre": "https://api-v2-multidiff.xtramile.io/collect/03acbd08c9a5da30c2c8ac63db6c7b51",
     "statut": "nouveau",
-    "score_match": 18,
+    "score_match": 20,
     "casquette_match": "RSG"
   },
   {
@@ -6184,7 +6235,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 16,
     "casquette_match": "Support"
   },
   {
@@ -6201,8 +6252,42 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 31,
     "casquette_match": "Support"
+  },
+  {
+    "id_offre": "207KXQK",
+    "titre": "Opératrice / Opérateur de centre de conduite ENR 5x8 H/F (H/F)",
+    "entreprise": "ENGIE GBS SOLUTIONS",
+    "lieu": "33063 (33000)",
+    "distance_km": 68.59423602774726,
+    "salaire": "12 mois",
+    "contrat": "CDI",
+    "date_publication": "2026-04-24",
+    "casquette": 3,
+    "description": "Opératrice / Opérateur de centre de conduite ENR 5x8 H/F\n\n\nEngie Green\n\nChâlons-en-champagne (51) \n\n \n\nLeader dans le domaine de l'Eolien en France, ENGIE Green accompagne ses clients dans le développement, la construction et l'exploitation des installations de production d'énergies vertes. (parcs éoliens, centrales solaires,). Nos équipes réalisent des projets sur-mesure performants et novateurs qui donnent sens à la transition énergétique.\n\nVous êtes à la recherche de nouveaux challenges dans une entreprise innovante et engagée ?\n\nNous recherchons justement notre futur : Opérateur/trice de centre de conduite ENR H/F\n\nRattaché-e au Responsable du Centre de Conduite des ENR (CCE), vous supervisez à distance, 7 jours sur 7, les installations ENR Vous êtes garants de la disponibilité des équipements et du matériel. La sécurité des biens et des personnes est votre priorité.\n\n \n\nVos missions\n\nSuperviser durant vos quarts, l'état des actifs (éoliens et PV) et leur bon fonctionnement\nRelever des informations de fonctionnement, suivre des alarmes logicielles\nExécuter à distance des manœuvres sur les machines\nRépondre aux appels émis vers le Centre de Conduite\nGérer les accès aux parcs lors des interventions\nInformer et interagir avec les exploitants Engie Green et les opérateurs de réseaux externes (RTE, Enedis)\nEffectuer l'analyse et le reporting des données, identifier des comportements machine anormaux, investiguer\nParticiper aux opérations de raccordement de parc\nRespecter et faire respecter les consignes Hygiène, Sécurité et Environnement dans toutes vos actions.\nCe poste se réalisera : de manière postée, par roulement d'équipes 5X8, 7 jours sur 7.\n\n \n\nCe qui nous plaira le plus chez vous :\n\nVotre capacité à observer, analyser des remontées de données ainsi que votre réactivité à prendre les bonnes décisions.\n\nUne expérience sur des installations de production électrique ainsi que des compétences en électrotechnique et/ou automatisme, voire en technologie éolienne serait un plus\n\nNiveau d'étude souhaité : Bac+2/3.\n\nVous appréciez vous appuyer sur des standards professionnels exigeants orientés sécurité et qualité et rédiger des documents de procédures\n\ntechniques.\n\nVous êtes quelqu'un de méthodique et de rigoureux.\n\nVous êtes à l'aise avec l'informatique et possédez une expérience sur un outils de supervision d'exploitation en temps réel.\n\nVous saurez vous montrer pertinent et efficace dans un environnement contraignant (respect des délais, des procédures sécuritaires.)\n\nVous êtes proactif et porteur de solutions dans la recherche de pannes exceptionnelles.\n\nSi vous aimez vous sentir responsable, et engagé.e dans la réussite de votre équipe, vous contribuerez à l'amélioration de nos pratiques. Vous êtes à l'aise avec les outils informatiques et maîtrisez l'anglais technique.\n\n\nCe qui vous plaira le plus chez nous :\n\nNos ambitions, succès et perspectives de croissance nous permettent d'envisager l'avenir durablement. Nos projets ouvrent la porte à l'acquisition de compétences\n\nvariées et permettent à chaque collaborateur d'envisager plusieurs métiers au sein d'Engie Green.\n\n \n\nRejoignez les équipes d'ENGIE Green!\n\nENGIE est un employeur engagé dans la diversité, l'égalité des chances et la création d'un environnement inclusif pour tous. Toutes les candidatures sont examinées en fonction des besoins de l'entreprise, des exigences du poste et des qualifications individuelles, sans aucun égard quant à l'origine, l'âge, le patronyme, l'identité, l'orientation ou la préférence sexuelle, la religion, la situation familiale, l'état de santé, le handicap, les opinions politiques, les engagements syndicats ou encore la citoyenneté. Nos différences font notre force !",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 35,
+    "casquette_match": "Manager"
+  },
+  {
+    "id_offre": "207JPTL",
+    "titre": "Ingénieur(e) de Service OneSource sur site (H/F)",
+    "entreprise": "PerkinElmer",
+    "lieu": "33003 (33440)",
+    "distance_km": 58.50459197371989,
+    "salaire": "A négocier",
+    "contrat": "CDI",
+    "date_publication": "2026-04-23",
+    "casquette": 3,
+    "description": "PerkinElmer est un leader mondial des solutions d'analyse et d'instrumentation au service de la santé, de la sécurité des personnes et de l'environnement.\n\nSon offre OneSource Enterprise propose une solution complète de services aux laboratoires : maintenance multimarques, gestion de parc, conformité réglementaire, relocalisation et qualification/validation automatisée des instruments.\nDans ce cadre, PerkinElmer recrute un(e) Ingénieur(e) de Service OneSource, basé(e) sur le site d'Ambarès (33).\n\nMissions principales \n\nÀ partir d'un ordre d'intervention, dans le respect du mode opératoire ainsi que des engagements contractuels, et dans le respect des règles QHSE :\n- Planifier son activité en suivant les priorités et donner de la visibilité sur son planning à sa hiérarchie et aux Gestionnaires Clients\n- Assurer la maintenance des instruments en application des recommandations constructeurs\n- Réaliser la qualification des instruments à la suite de l'expertise des besoins clients\n- Réaliser les mises à jour logicielles et matérielles\n- Appliquer les protocoles de maintenance et de qualification\n- Effectuer les diagnostics et dépanner les instruments multimarques\n- Gérer le stock de pièces détachées de manière optimale\n- Documenter systématiquement et assurer la traçabilité de chaque intervention dans le respect de la Qualité\n- Rédiger et mettre à jour les protocoles de maintenance et de qualification\n- Animer les formations techniques internes et/ou externes sur les instruments.\n\nProfil recherché :\n\n- Bac +2 à Bac +5 (chimie, biologie, physique, électronique ou équivalent)\n- Minimum 3 ans d'expérience en maintenance d'instruments de laboratoire\n- Solides compétences techniques (HPLC/GC, MS, UV, centrifugeuses, dissolution.)\n- Autonomie, rigueur, excellent relationnel, esprit d'équipe\n- Anglais professionnel requis\n\nPourquoi nous rejoindre ?\n\n- Mutuelle d'entreprise\n- Tickets restaurant\n- JRTT",
+    "competences": "",
+    "url_offre": "https://newperkinelmer.wd1.myworkdayjobs.com/External/job/Ambares-Sanofi-France---Customer-Site/Ingnieur-e--de-Service-OneSource-sur-site_REQ-057193",
+    "statut": "nouveau",
+    "score_match": 41,
+    "casquette_match": "RSG"
   },
   {
     "id_offre": "207ZVCX",
@@ -6218,8 +6303,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
-    "casquette_match": "Support"
+    "score_match": 49,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "207VXRP",
@@ -6235,7 +6320,7 @@
     "competences": "",
     "url_offre": "https://geosat-1749041609.teamtailor.com/jobs/7522057-technicien-ne-detection-de-reseaux-h-f?utm_campaign=jobs-widget&utm_source=geosat-1749041609.teamtailor.com&utm_content=jobs&utm_medium=web",
     "statut": "nouveau",
-    "score_match": 42,
+    "score_match": 71,
     "casquette_match": "Support"
   },
   {
@@ -6252,7 +6337,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 53,
     "casquette_match": "Support"
   },
   {
@@ -6269,7 +6354,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 67,
     "casquette_match": "Support"
   },
   {
@@ -6286,8 +6371,8 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=TQoiq7vbfOLkoVYMVuI6RA==",
     "statut": "nouveau",
-    "score_match": 7,
-    "casquette_match": "Support"
+    "score_match": 31,
+    "casquette_match": "Freelance"
   },
   {
     "id_offre": "208HJSS",
@@ -6303,7 +6388,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
+    "score_match": 52,
     "casquette_match": "Support"
   },
   {
@@ -6320,7 +6405,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6337,7 +6422,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 37,
     "casquette_match": "Support"
   },
   {
@@ -6354,8 +6439,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
-    "casquette_match": "Support"
+    "score_match": 53,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "208CKTZ",
@@ -6371,7 +6456,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 54,
     "casquette_match": "Support"
   },
   {
@@ -6388,8 +6473,8 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1fe47363ecd96438768ab7a3bdd2d5eefcAEADECAAAADAAAAAAAAAAAAAAAAJTXETBQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 21,
-    "casquette_match": "RSG"
+    "score_match": 37,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "207LBCV",
@@ -6405,7 +6490,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6422,8 +6507,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
-    "casquette_match": "Réseau"
+    "score_match": 47,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "207XVJY",
@@ -6439,7 +6524,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
+    "score_match": 15,
     "casquette_match": "Manager"
   },
   {
@@ -6456,8 +6541,8 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/description-offre.aspx?ojid=c2k27hyYfydVXGlwpn6Y1Q==",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "RSG"
+    "score_match": 46,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "208FTNW",
@@ -6473,8 +6558,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 18,
-    "casquette_match": "Manager"
+    "score_match": 38,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2474401",
@@ -6490,7 +6575,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
+    "score_match": 43,
     "casquette_match": "Support"
   },
   {
@@ -6507,7 +6592,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 60,
     "casquette_match": "Support"
   },
   {
@@ -6524,7 +6609,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 60,
     "casquette_match": "Support"
   },
   {
@@ -6541,7 +6626,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 36,
     "casquette_match": "Support"
   },
   {
@@ -6558,7 +6643,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6575,7 +6660,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6592,7 +6677,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6609,7 +6694,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6626,7 +6711,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6643,7 +6728,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 32,
+    "score_match": 57,
     "casquette_match": "Support"
   },
   {
@@ -6660,7 +6745,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 16,
+    "score_match": 51,
     "casquette_match": "Réseau"
   },
   {
@@ -6677,7 +6762,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 16,
+    "score_match": 51,
     "casquette_match": "Réseau"
   },
   {
@@ -6694,8 +6779,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "Manager"
+    "score_match": 46,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "2713202",
@@ -6711,8 +6796,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "Manager"
+    "score_match": 46,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "2389893",
@@ -6728,7 +6813,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
+    "score_match": 50,
     "casquette_match": "Support"
   },
   {
@@ -6745,8 +6830,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
-    "casquette_match": "Support"
+    "score_match": 38,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "1930371",
@@ -6762,7 +6847,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 53,
     "casquette_match": "Support"
   },
   {
@@ -6779,7 +6864,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 12,
+    "score_match": 42,
     "casquette_match": "Support"
   },
   {
@@ -6796,8 +6881,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 29,
-    "casquette_match": "RSG"
+    "score_match": 46,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "2443227",
@@ -6813,8 +6898,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
-    "casquette_match": "Support"
+    "score_match": 36,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2400916",
@@ -6830,7 +6915,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 39,
     "casquette_match": "Support"
   },
   {
@@ -6847,7 +6932,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 45,
     "casquette_match": "Support"
   },
   {
@@ -6864,7 +6949,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 22,
+    "score_match": 56,
     "casquette_match": "Support"
   },
   {
@@ -6881,8 +6966,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 26,
-    "casquette_match": "RSG"
+    "score_match": 46,
+    "casquette_match": "Support"
   },
   {
     "id_offre": "2575035",
@@ -6898,8 +6983,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 55,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2413732",
@@ -6915,7 +7000,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 39,
     "casquette_match": "Support"
   },
   {
@@ -6932,7 +7017,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 40,
     "casquette_match": "Réseau"
   },
   {
@@ -6949,7 +7034,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 47,
     "casquette_match": "Support"
   },
   {
@@ -7000,7 +7085,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 17,
+    "score_match": 25,
     "casquette_match": "Support"
   },
   {
@@ -7017,8 +7102,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
-    "casquette_match": "Réseau"
+    "score_match": 40,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "208FGWW",
@@ -7034,8 +7119,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 52,
-    "casquette_match": "Support"
+    "score_match": 85,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2642879",
@@ -7051,7 +7136,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 46,
+    "score_match": 73,
     "casquette_match": "Réseau"
   },
   {
@@ -7068,7 +7153,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 60,
     "casquette_match": "Réseau"
   },
   {
@@ -7085,7 +7170,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
+    "score_match": 66,
     "casquette_match": "Réseau"
   },
   {
@@ -7102,8 +7187,8 @@
     "competences": "",
     "url_offre": "https://leaubordeauxmetropole.fr/recrutement/operateurice-reseau-hf",
     "statut": "nouveau",
-    "score_match": 37,
-    "casquette_match": "Support"
+    "score_match": 43,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2186901",
@@ -7119,8 +7204,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 2,
-    "casquette_match": "Support"
+    "score_match": 6,
+    "casquette_match": "Freelance"
   },
   {
     "id_offre": "207ZZVQ",
@@ -7136,8 +7221,8 @@
     "competences": "",
     "url_offre": "https://emploi.groupelip.com/offres-emploi/poste-b9-a90-charge-dassistance-allemand-100-teletravail-45-355666",
     "statut": "nouveau",
-    "score_match": 35,
-    "casquette_match": "Support"
+    "score_match": 49,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "208HJGD",
@@ -7153,7 +7238,7 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1146256&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 48,
     "casquette_match": "Client"
   },
   {
@@ -7170,8 +7255,8 @@
     "competences": "",
     "url_offre": "https://tnl2.jometer.com/v2/job?jz=5st1f21abc0929b273186d3de4c758d477a2aAEADECAAAADAAAAAAAAAAAAAAAAIEYVIBQ&utm_source=FranceTravail&utm_medium=jobboard&utm_campaign=Adecco_Organic&Source=30",
     "statut": "nouveau",
-    "score_match": 20,
-    "casquette_match": "Support"
+    "score_match": 45,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "207TJQY",
@@ -7187,8 +7272,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
-    "casquette_match": "RSG"
+    "score_match": 49,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "207MHPZ",
@@ -7204,7 +7289,7 @@
     "competences": "",
     "url_offre": "https://emploi.groupelip.com/offres-emploi/poste-b9-a91-charge-de-relation-client-81-353638",
     "statut": "nouveau",
-    "score_match": 13,
+    "score_match": 45,
     "casquette_match": "Client"
   },
   {
@@ -7221,7 +7306,7 @@
     "competences": "",
     "url_offre": "https://www.proman-emploi.fr/?job=MP1144995&candidature&origine=POLE-EMPLOI-JTMO&utm_source=pole-emploi-jtmo&utm_medium=referral&utm_campaign=annonces-eerf&utm_term=offre",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 40,
     "casquette_match": "Client"
   },
   {
@@ -7238,8 +7323,8 @@
     "competences": "",
     "url_offre": "https://emploi.groupelip.com/offres-emploi/poste-b9-a91-conseiller-client-showroom-menuiserie-354844",
     "statut": "nouveau",
-    "score_match": 12,
-    "casquette_match": "Support"
+    "score_match": 29,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "208FDFS",
@@ -7255,8 +7340,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 42,
-    "casquette_match": "Support"
+    "score_match": 58,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "207ZWRV",
@@ -7272,7 +7357,24 @@
     "competences": "",
     "url_offre": "https://emploi.armatis.com/offre/charge-de-clientele-bilingue-neerlandais-f-h-2026-5318/?origin=518&utm_medium=annonce&utm_campaign=&utm_id=46149",
     "statut": "nouveau",
-    "score_match": 38,
+    "score_match": 63,
+    "casquette_match": "Client"
+  },
+  {
+    "id_offre": "208JKBJ",
+    "titre": "Chargé de clientèle (H/F)",
+    "entreprise": "AQUITAINE PNEUMATIQUES",
+    "lieu": "33063 (33300)",
+    "distance_km": 63.81280513143607,
+    "salaire": "N/A",
+    "contrat": "CDD - 6 Mois",
+    "date_publication": "2026-05-18",
+    "casquette": 5,
+    "description": "Dans le cadre d'un remplacement pour congé maternité, nous recherchons un Chargé de clientèle (H/F) sur l'agence de Bordeaux St Louis (33).\n\nRattaché au chef d'agence et en totale collaboration avec lui, vous êtes le Principal Acteur du développement des ventes de produits et services (Pneu et Entretien Automobile) et vous contribuez efficacement à la rentabilité de l'agence.\n\nSi vous aimez accueillir vos clients, les écouter, les conseiller pour proposer un produit adapté à leurs besoins.\n\nSi vous êtes animé par la vente et que le commerce signifie aussi, rendre service, satisfaire, et fidéliser,\n\nVotre mission, si vous l'acceptez :\n\nAccueillir le client professionnel et particulier au téléphone ou au comptoir en agence,\nPrendre en compte son besoin,\nProposer les produits et services adaptés,\nEtre convaincant dans l'argumentation,\nConcrétiser la vente,\nSatisfaire le client pour le fidéliser.",
+    "competences": "",
+    "url_offre": "",
+    "statut": "nouveau",
+    "score_match": 41,
     "casquette_match": "Client"
   },
   {
@@ -7289,8 +7391,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
-    "casquette_match": "Réseau"
+    "score_match": 66,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "208HRXP",
@@ -7306,7 +7408,7 @@
     "competences": "",
     "url_offre": "https://jobs.iziwork.com/fr/offre-emploi/conseiller-relation-client-appels-entrants-h-f-merignac-33-1327906091?utm_source=poleemploi_jtmo",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 48,
     "casquette_match": "Client"
   },
   {
@@ -7323,7 +7425,7 @@
     "competences": "",
     "url_offre": "http://mesevenementsemploi.francetravail.fr/mes-evenements-emploi/evenement/663018?at_medium=CMP&at_campaign=DSIMonstreuil&at_cmp_indicateur1=PromotionEvenementConseiller&at_cmp_indicateur2=Multicanal",
     "statut": "nouveau",
-    "score_match": 23,
+    "score_match": 52,
     "casquette_match": "Client"
   },
   {
@@ -7340,7 +7442,7 @@
     "competences": "",
     "url_offre": "https://www.macif.fr/assurance/la-macif/ressources-humaines/catalogue-des-offres?page=1",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 60,
     "casquette_match": "Client"
   },
   {
@@ -7357,8 +7459,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
-    "casquette_match": "Réseau"
+    "score_match": 46,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "208DHXN",
@@ -7374,7 +7476,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 49,
+    "score_match": 60,
     "casquette_match": "Client"
   },
   {
@@ -7391,7 +7493,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 25,
+    "score_match": 30,
     "casquette_match": "Client"
   },
   {
@@ -7408,7 +7510,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 40,
+    "score_match": 60,
     "casquette_match": "Client"
   },
   {
@@ -7425,7 +7527,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 37,
+    "score_match": 33,
     "casquette_match": "Client"
   },
   {
@@ -7442,7 +7544,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
+    "score_match": 33,
     "casquette_match": "Client"
   },
   {
@@ -7459,7 +7561,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
+    "score_match": 45,
     "casquette_match": "Client"
   },
   {
@@ -7476,8 +7578,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 13,
-    "casquette_match": "Manager"
+    "score_match": 34,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2672817",
@@ -7493,8 +7595,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
-    "casquette_match": "Support"
+    "score_match": 48,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2437130",
@@ -7510,8 +7612,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 12,
-    "casquette_match": "Freelance"
+    "score_match": 28,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2210038",
@@ -7527,8 +7629,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 27,
-    "casquette_match": "Support"
+    "score_match": 40,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2081218",
@@ -7544,8 +7646,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 2,
-    "casquette_match": "Support"
+    "score_match": 6,
+    "casquette_match": "Réseau"
   },
   {
     "id_offre": "2137497",
@@ -7561,7 +7663,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 18,
     "casquette_match": "Client"
   },
   {
@@ -7578,7 +7680,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 7,
+    "score_match": 9,
     "casquette_match": "Réseau"
   },
   {
@@ -7663,7 +7765,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 11,
+    "score_match": 19,
     "casquette_match": "RSG"
   },
   {
@@ -7697,8 +7799,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 12,
-    "casquette_match": "Support"
+    "score_match": 36,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2287322",
@@ -7714,7 +7816,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 15,
+    "score_match": 41,
     "casquette_match": "Client"
   },
   {
@@ -7731,7 +7833,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 33,
+    "score_match": 60,
     "casquette_match": "Client"
   },
   {
@@ -7748,7 +7850,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 19,
+    "score_match": 58,
     "casquette_match": "Client"
   },
   {
@@ -7765,7 +7867,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 16,
+    "score_match": 51,
     "casquette_match": "Client"
   },
   {
@@ -7782,7 +7884,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 45,
+    "score_match": 50,
     "casquette_match": "Manager"
   },
   {
@@ -7799,7 +7901,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 58,
     "casquette_match": "Client"
   },
   {
@@ -7816,8 +7918,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 36,
-    "casquette_match": "RSG"
+    "score_match": 58,
+    "casquette_match": "Manager"
   },
   {
     "id_offre": "2207866",
@@ -7833,7 +7935,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 10,
+    "score_match": 38,
     "casquette_match": "Client"
   },
   {
@@ -7850,8 +7952,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 20,
-    "casquette_match": "RSG"
+    "score_match": 35,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "2087625",
@@ -7867,8 +7969,8 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 30,
-    "casquette_match": "Support"
+    "score_match": 46,
+    "casquette_match": "Client"
   },
   {
     "id_offre": "207LYHM",
@@ -7884,7 +7986,7 @@
     "competences": "",
     "url_offre": "https://app.mytalentplug.com/redirection.aspx?ojid=Y11IdpDTaudvg9ywcoDj6w==",
     "statut": "nouveau",
-    "score_match": 7,
+    "score_match": 11,
     "casquette_match": "Client"
   },
   {
@@ -7901,7 +8003,7 @@
     "competences": "",
     "url_offre": "",
     "statut": "nouveau",
-    "score_match": 35,
+    "score_match": 55,
     "casquette_match": "Client"
   }
 ]
