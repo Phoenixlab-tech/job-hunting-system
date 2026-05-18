@@ -4,76 +4,119 @@
   "telephone": "06 29 62 04 02",
   "adresse": "83 Av. des portes, 33450 IZON",
   "permis": "B",
-  "localisation_recherche": {
-    "centre": "Libourne",
-    "code_postal": "33500",
-    "rayon_km": 25
-  },
-  "contrats_acceptes": ["CDI", "CDD", "Freelance", "Intérim"],
   "disponibilite": "Immédiate",
   "annees_experience": 28,
+
+  "accroches": {
+    "RSG": "Responsable Services Généraux avec 14 ans d'expérience opérationnelle chez SFR. Management d'équipes mixtes jusqu'à 9 personnes, pilotage budgétaire, négociation fournisseurs et conformité réglementaire EHS. Habilité électriquement B1V-B2V-BR-BC, disponible immédiatement.",
+    "Manager": "Manager d'équipe technique avec 14 ans d'encadrement d'équipes mixtes (techniciens internes + prestataires terrain). Pilotage SLA, recrutement, plannings d'intervention et reporting direction. Orienté résultats, rigoureux et fédérateur.",
+    "Support": "Technicien Support N3 avec 28 ans d'expérience en support technique B2B/B2C. Diagnostic, dépannage et maintenance de systèmes complexes (bornes AC/DC, réseaux, postes utilisateurs). Habilitations B1V-B2V-BR-BC, rigueur du reporting et autonomie terrain.",
+    "Réseau": "Technicien Réseaux avec expérience en supervision et maintenance d'infrastructure LAN/WAN (Neuf Cegetel, SFR). Diagnostic réseau, dépannage équipements actifs, documentation technique. Autodidacte rigoureux.",
+    "Client": "Chargé de Relation Client Technique avec 10+ ans en support B2B/B2C (AOL, Neuf Cegetel, SFR). Gestion d'incidents multi-canal, pédagogie technique, suivi satisfaction. Aisance relationnelle et sens du service.",
+    "Freelance": "Consultant Freelance polyvalent : dépannage informatique, configuration réseaux et automatisation no-code via Make et n8n. 28 ans d'expertise technique combinés aux outils IA pour livrer des solutions concrètes aux TPE/PME bordelaises."
+  },
+
   "experiences": [
     {
-      "poste": "Support Technique N3",
+      "poste": "Consultant Freelance – Tech & Automatisation",
+      "entreprise": "Auto-entrepreneur",
+      "debut": "01/2026",
+      "fin": "présent",
+      "priorite": { "Freelance": 1, "Support": 3, "Réseau": 3, "Client": 3, "RSG": 5, "Manager": 5 },
+      "missions": [
+        "Dépannage informatique à domicile et en entreprise (TPE/PME bordelaises)",
+        "Configuration de réseaux informatiques pour clients professionnels",
+        "Automatisation de processus métier via Make et n8n (workflows no-code)"
+      ]
+    },
+    {
+      "poste": "Technicien Support Technique N3",
       "entreprise": "Madic Industries",
       "debut": "03/2021",
       "fin": "12/2024",
-      "competences": ["diagnostic", "réparation bornes AC/DC", "habilitations électriques", "firmware", "logs", "reporting"]
+      "priorite": { "Support": 1, "Réseau": 2, "RSG": 3, "Manager": 4, "Client": 4, "Freelance": 3 },
+      "missions": [
+        "Diagnostic et réparation d'équipements de bornes électriques AC/DC",
+        "Obtention des habilitations électriques B1V – B2V – BR – BC (2023)",
+        "Tests firmware et analyse de logs pour identifier les causes racines d'incidents",
+        "Rédaction de comptes-rendus techniques et traçabilité des interventions",
+        "Coordination avec prestataires et équipes terrain pour résolution rapide d'incidents"
+      ]
     },
     {
       "poste": "Responsable Services Généraux",
       "entreprise": "SFR",
       "debut": "09/2013",
       "fin": "02/2018",
-      "competences": ["management 9 personnes", "budget", "fournisseurs", "SLA", "recrutement", "veille réglementaire"]
+      "priorite": { "RSG": 1, "Manager": 1, "Support": 4, "Réseau": 4, "Client": 3, "Freelance": 5 },
+      "missions": [
+        "Management direct d'une équipe de 9 personnes (2 techniciens internes + 7 prestataires terrain)",
+        "Pilotage et contrôle du budget services généraux multi-sites",
+        "Négociation fournisseurs : optimisation tarifaire et amélioration des conditions d'achat",
+        "Suivi des SLA et engagements de service avec reporting direction mensuel",
+        "Recrutement de techniciens et conduite des entretiens annuels d'évaluation",
+        "Veille réglementaire EHS (environnement, sécurité, hygiène) et mise en conformité"
+      ]
     },
     {
       "poste": "Adjoint Services Généraux",
       "entreprise": "SFR",
       "debut": "04/2010",
       "fin": "09/2013",
-      "competences": ["coordination", "outils gestion", "fournisseurs", "indicateurs performance"]
+      "priorite": { "RSG": 2, "Manager": 2, "Support": 5, "Réseau": 5, "Client": 4, "Freelance": 5 },
+      "missions": [
+        "Coordination des prestataires et suivi des contrats services généraux",
+        "Mise en place d'outils de gestion et tableaux de bord pour le suivi opérationnel",
+        "Suivi des indicateurs de performance et reporting régulier",
+        "Appui opérationnel au Responsable des Services Généraux sur projets transverses"
+      ]
     },
     {
-      "poste": "Supervision Réseau",
-      "entreprise": "Neuf Cegetel",
-      "debut": "08/2001",
-      "fin": "10/2005",
-      "competences": ["réseau informatique", "équipements actifs", "dépannage", "documentation technique"]
+      "poste": "Technicien Supervision Réseau N3",
+      "entreprise": "Neuf Cegetel (devenu SFR)",
+      "debut": "03/2003",
+      "fin": "04/2010",
+      "priorite": { "Réseau": 1, "Support": 2, "RSG": 5, "Manager": 5, "Client": 3, "Freelance": 4 },
+      "missions": [
+        "Supervision du réseau informatique et maintenance des équipements actifs",
+        "Diagnostic et résolution rapide d'incidents réseau",
+        "Rédaction et mise à jour de la documentation technique (procédures, configs)",
+        "Gestion des incidents et coordination des interventions terrain"
+      ]
     },
     {
-      "poste": "Technicien Hotline",
-      "entreprise": "AOL France",
-      "debut": "1999",
-      "fin": "08/2001",
-      "competences": ["support B2C/B2B", "diagnostic connexion", "gestion incidents"]
-    },
-    {
-      "poste": "Freelance",
-      "entreprise": "Auto-entrepreneur",
-      "debut": "01/2026",
-      "fin": "présent",
-      "competences": ["Make", "n8n", "dépannage informatique", "réseaux", "automatisation"]
+      "poste": "Conseiller Technique N1→N3",
+      "entreprise": "AOL France / CompuServe",
+      "debut": "09/1999",
+      "fin": "03/2003",
+      "priorite": { "Client": 1, "Support": 3, "Réseau": 4, "RSG": 6, "Manager": 6, "Freelance": 5 },
+      "missions": [
+        "Support technique clients B2C et B2B par téléphone et email (forts volumes)",
+        "Diagnostic et résolution des problèmes de connexion internet en temps réel",
+        "Évolution rapide N1 → N3 en 18 mois via performance reconnue"
+      ]
     }
   ],
+
+  "competences": {
+    "RSG": "Management équipes mixtes (9 personnes) | Pilotage budgétaire | Négociation fournisseurs | Suivi SLA | Veille réglementaire EHS | Recrutement & évaluation | Coordination multi-prestataires | Habilitations B1V-B2V-BR-BC | Reporting direction | Suite Office",
+    "Manager": "Management équipes techniques (9 personnes) | Recrutement & entretiens annuels | Gestion des plannings | Pilotage SLA | Coordination prestataires | Reporting direction | Gestion budgétaire | Tableaux de bord | Suite Office",
+    "Support": "Support technique N3 | Diagnostic & résolution d'incidents | Habilitations B1V-B2V-BR-BC | Réparation bornes AC/DC | Analyse logs & firmware | Documentation technique | Windows | Réseaux LAN/WAN | Ticketing & reporting",
+    "Réseau": "Supervision réseau LAN/WAN | Maintenance équipements actifs | Diagnostic incidents réseau | Documentation technique | Configuration réseaux | Habilitations B1V-B2V-BR-BC | Windows Server | Outils de monitoring",
+    "Client": "Support client B2B & B2C | Gestion d'incidents centre d'appels | Pédagogie technique | Relation client professionnelle | CRM & ticketing | Suivi satisfaction | Gestion réclamations | Écoute active",
+    "Freelance": "Automatisation no-code (Make, n8n) | Intégration IA | Dépannage informatique TPE/PME | Configuration réseaux | Habilitations B1V-B2V-BR-BC | Conseil & diagnostic | Polyvalence technique"
+  },
+
   "formations": [
-    {"titre": "Formation RSG", "organisme": "Comundi", "annee": 2010},
-    {"titre": "Habilitations électriques B1V-B2V-BR-BC", "organisme": "Madic Industries", "annee": 2023},
-    {"titre": "BEP Force de Vente", "organisme": "Lycée Beaupré", "annee": 1996},
-    {"titre": "VAE Bac Pro Gestion-Administration", "organisme": "DAVA Bordeaux", "annee": "en cours"}
+    { "annee": "en cours", "diplome": "VAE Bac Pro Gestion-Administration", "etablissement": "DAVA Bordeaux" },
+    { "annee": "2023", "diplome": "Habilitations électriques B1V-B2V-BR-BC", "etablissement": "Madic Industries" },
+    { "annee": "2010", "diplome": "Formation Responsable Services Généraux", "etablissement": "Comundi" },
+    { "annee": "1996", "diplome": "BEP Force de Vente", "etablissement": "Lycée Beaupré" }
   ],
-  "competences_cles": [
-    "Management équipes mixtes (jusqu'à 9 personnes)",
-    "Support technique N3",
-    "Réseaux informatiques (LAN/WAN)",
-    "Habilitations électriques B1V-B2V-BR-BC",
-    "Pilotage budgétaire",
-    "Gestion fournisseurs et prestataires",
-    "Automatisation no-code (Make, n8n)",
-    "Relation client B2B/B2C",
-    "Suite Office, Windows",
-    "Veille réglementaire EHS"
-  ],
-  "langues": ["Français (natif)"],
-  "interets": ["Production fichiers 3D (CAO)", "Jeux d'échecs (tournois)"]
+
+  "langues": "Française (natif)",
+  "centres_interet": [
+    { "titre": "CONCEPTION 3D", "detail": "Production de fichiers 3D (CAO)" },
+    { "titre": "ÉCHECS", "detail": "Participation à des tournois – stratégie et anticipation" }
+  ]
 }

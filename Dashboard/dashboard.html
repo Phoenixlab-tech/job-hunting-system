@@ -256,52 +256,6 @@
     align-items: center;
   }
 
-  .btn-select-all {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    color: var(--text2);
-    padding: 8px 14px;
-    border-radius: 8px;
-    font-size: 12px;
-    cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
-    transition: all 0.2s;
-  }
-
-  .btn-select-all:hover { border-color: var(--accent); color: var(--accent); }
-
-  .btn-generate {
-    background: linear-gradient(135deg, var(--accent3), #0fa);;
-    color: #0f0f13;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    letter-spacing: 0.3px;
-  }
-
-  .btn-generate:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(67,233,123,0.3); }
-  .btn-generate:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
-
-  .selected-count {
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    color: var(--text2);
-    padding: 8px 12px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-  }
-
-  .selected-count b { color: var(--gold); }
-
   /* TABLE */
   .table-wrapper {
     background: var(--surface);
@@ -331,54 +285,19 @@
     white-space: nowrap;
   }
 
-  th:first-child { width: 44px; }
-
   tbody tr {
     border-bottom: 1px solid var(--border);
     transition: background 0.15s;
-    cursor: pointer;
   }
 
   tbody tr:last-child { border-bottom: none; }
 
   tbody tr:hover { background: var(--surface2); }
 
-  tbody tr.selected { background: rgba(108, 99, 255, 0.08); }
-
   td {
     padding: 14px 16px;
     font-size: 13px;
     vertical-align: middle;
-  }
-
-  /* CHECKBOX */
-  .checkbox-cell {
-    width: 44px;
-    text-align: center;
-  }
-
-  .custom-check {
-    width: 18px; height: 18px;
-    border: 2px solid var(--border);
-    border-radius: 5px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.15s;
-    cursor: pointer;
-    background: transparent;
-  }
-
-  tr.selected .custom-check {
-    background: var(--accent);
-    border-color: var(--accent);
-  }
-
-  tr.selected .custom-check::after {
-    content: '✓';
-    color: white;
-    font-size: 11px;
-    font-weight: 700;
   }
 
   /* TITRE */
@@ -463,6 +382,8 @@
   }
 
   /* ACTION */
+  .row-actions { display: flex; gap: 5px; align-items: center; }
+
   .btn-detail {
     background: transparent;
     border: 1px solid var(--border);
@@ -474,8 +395,23 @@
     transition: all 0.15s;
     font-family: 'DM Sans', sans-serif;
   }
-
   .btn-detail:hover { border-color: var(--accent); color: var(--accent); }
+
+  .btn-row-cv, .btn-row-lm {
+    border: none;
+    padding: 5px 9px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .btn-row-cv { background: var(--accent); color: white; }
+  .btn-row-cv:hover { background: #5a52e0; }
+  .btn-row-lm { background: var(--accent2); color: white; }
+  .btn-row-lm:hover { background: #e05070; }
+  .btn-row-cv:disabled, .btn-row-lm:disabled { opacity: 0.5; cursor: wait; }
 
   /* EMPTY STATE */
   .empty-state {
@@ -573,64 +509,6 @@
   }
 
   /* GENERATION PANEL */
-  .gen-panel {
-    background: var(--surface);
-    border: 1px solid var(--accent);
-    border-radius: 14px;
-    padding: 24px;
-    display: none;
-    animation: fadeIn 0.3s ease;
-  }
-
-  .gen-panel.open { display: block; }
-
-  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-
-  .gen-panel h3 {
-    font-family: 'DM Serif Display', serif;
-    font-size: 18px;
-    margin-bottom: 16px;
-    color: var(--accent);
-  }
-
-  .gen-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .gen-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 16px;
-    background: var(--surface2);
-    border-radius: 8px;
-    border: 1px solid var(--border);
-  }
-
-  .gen-item-info { font-size: 13px; }
-  .gen-item-info span { color: var(--text2); font-size: 11px; display: block; margin-top: 2px; }
-
-  .gen-item-actions { display: flex; gap: 8px; }
-
-  .btn-cv, .btn-lm {
-    border: none;
-    padding: 6px 12px;
-    border-radius: 6px;
-    font-size: 11px;
-    font-weight: 600;
-    cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
-    transition: all 0.15s;
-  }
-
-  .btn-cv { background: var(--accent); color: white; }
-  .btn-lm { background: var(--accent2); color: white; }
-  .btn-cv:hover { background: #5a52e0; }
-  .btn-lm:hover { background: #e05070; }
-
   /* TOAST */
   .toast {
     position: fixed;
@@ -665,48 +543,15 @@
   ::-webkit-scrollbar-track { background: var(--surface); }
   ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
-  /* CV RENDER */
-  .cv-render {
-    background: #fff;
-    color: #1a1a2e;
-    padding: 40px 50px;
-    font-family: 'Georgia', serif;
-    font-size: 13px;
-    line-height: 1.75;
-    border-radius: 4px;
+  /* CV RENDER — wrapper pour la prévisualisation dans le modal */
+  #cv-content {
+    transform-origin: top left;
+    transform: scale(0.6);
+    width: calc(210mm);
+    height: calc(297mm);
+    overflow: hidden;
+    margin-bottom: -120mm;
   }
-  .cv-render h1 {
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-bottom: 3px solid #1a1a2e;
-    padding-bottom: 8px;
-    margin: 0 0 6px 0;
-    color: #1a1a2e;
-  }
-  .cv-render h2 {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #4a6fa5;
-    border-bottom: 1px solid #dde;
-    padding-bottom: 4px;
-    margin: 22px 0 10px 0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 600;
-  }
-  .cv-render h3 {
-    font-size: 13px;
-    font-weight: bold;
-    margin: 12px 0 2px 0;
-    color: #1a1a2e;
-  }
-  .cv-render p { margin: 4px 0; }
-  .cv-render ul { padding-left: 18px; margin: 4px 0; }
-  .cv-render li { margin: 2px 0; }
-  .cv-render strong { color: #1a1a2e; font-weight: 700; }
-  .cv-render hr { display: none; }
   .cv-render em { color: #555; }
 
   /* LM RENDER */
@@ -808,20 +653,12 @@
         <span class="search-icon">⌕</span>
         <input type="text" placeholder="Rechercher un poste, entreprise..." oninput="searchOffres(this.value)">
       </div>
-      <div class="actions-bar">
-        <span class="selected-count">Sélectionnées : <b id="sel-count">0</b></span>
-        <button class="btn-select-all" onclick="selectAll()">Tout sélectionner</button>
-        <button class="btn-generate" id="btn-gen" onclick="openGenPanel()" disabled>
-          ⚡ Générer CV + LM
-        </button>
-      </div>
     </div>
 
     <div class="table-wrapper">
       <table>
         <thead>
           <tr>
-            <th></th>
             <th>Poste / Entreprise</th>
             <th>Casquette</th>
             <th>Lieu</th>
@@ -834,7 +671,7 @@
         </thead>
         <tbody id="offres-table">
           <tr>
-            <td colspan="9">
+            <td colspan="8">
               <div class="empty-state">
                 <div class="icon">📡</div>
                 <p>Clique sur <b>"Actualiser les offres"</b><br>pour récupérer les offres Pôle Emploi</p>
@@ -845,14 +682,6 @@
       </table>
     </div>
 
-    <!-- PANNEAU GENERATION -->
-    <div class="gen-panel" id="gen-panel">
-      <h3>⚡ Génération CV + Lettre de Motivation</h3>
-      <div class="gen-list" id="gen-list"></div>
-      <div style="font-size:12px;color:var(--text3);font-family:'DM Mono',monospace;">
-        ℹ️ Copie le prompt dans Claude pour générer le document adapté à chaque offre
-      </div>
-    </div>
   </main>
 </div>
 
@@ -878,7 +707,6 @@
     </div>
     <div class="modal-actions">
       <button class="btn-close" onclick="closeModal()">Fermer</button>
-      <button class="btn-gen-single" onclick="genSingle()">Générer CV + LM</button>
     </div>
   </div>
 </div>
@@ -926,7 +754,6 @@ const DEMO_OFFRES = [];
 
 let allOffres = [];
 let filteredOffres = [];
-let selectedIds = new Set();
 let activeCasquette = 'all';
 let currentModalOffre = null;
 
@@ -945,8 +772,7 @@ function renderTable(offres) {
     return;
   }
   tbody.innerHTML = offres.map(o => `
-    <tr id="row-${o.id}" class="${selectedIds.has(o.id) ? 'selected' : ''}" onclick="toggleSelect(${o.id})">
-      <td class="checkbox-cell"><div class="custom-check" id="check-${o.id}"></div></td>
+    <tr id="row-${o.id}">
       <td>
         <div class="job-title">${o.titre}</div>
         <div class="job-company">${o.entreprise} · ${o.distance}km</div>
@@ -968,31 +794,14 @@ function renderTable(offres) {
         </div>
       </td>
       <td onclick="event.stopPropagation()">
-        <button class="btn-detail" onclick="openModal(${o.id})">Détail</button>
+        <div class="row-actions">
+          <button class="btn-detail" onclick="openModal(${o.id})">Détail</button>
+          <button class="btn-row-cv" id="cv-btn-${o.id}" onclick="genCV(${o.id}, this)">CV</button>
+          <button class="btn-row-lm" id="lm-btn-${o.id}" onclick="genLM(${o.id}, this)">LM</button>
+        </div>
       </td>
     </tr>
   `).join('');
-  updateGenBtn();
-}
-
-// ======= TOGGLE SELECT =======
-function toggleSelect(id) {
-  if (selectedIds.has(id)) selectedIds.delete(id);
-  else selectedIds.add(id);
-  const row = document.getElementById(`row-${id}`);
-  row.classList.toggle('selected', selectedIds.has(id));
-  updateGenBtn();
-}
-
-function updateGenBtn() {
-  const n = selectedIds.size;
-  document.getElementById('sel-count').textContent = n;
-  document.getElementById('btn-gen').disabled = n === 0;
-}
-
-function selectAll() {
-  filteredOffres.forEach(o => selectedIds.add(o.id));
-  renderTable(filteredOffres);
 }
 
 // ======= FILTERS =======
@@ -1036,12 +845,9 @@ function fetchOffres() {
     bar.style.width = '10%';
   }, 50);
 
-  showToast('⟳ Récupération depuis GitHub...');
+  showToast('⟳ Récupération des offres...');
 
-  // URL GitHub
-  const githubUrl = 'https://raw.githubusercontent.com/Phoenixlab-tech/job-hunting-system/main/outputs/offers_scored.json';
-
-  fetch(githubUrl)
+  fetch('/api/offers')
     .then(res => {
       bar.style.width = '50%';
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -1136,79 +942,138 @@ function closeModal() {
   document.getElementById('modal').classList.remove('open');
 }
 
-function genSingle() {
-  if (currentModalOffre) {
-    selectedIds.add(currentModalOffre.id);
-    closeModal();
-    openGenPanel();
-  }
-}
-
 // ======= CV/LM MODALS =======
+const CV_CSS = `
+  *{margin:0;padding:0;box-sizing:border-box;}
+  .cv-page{width:210mm;height:297mm;display:grid;grid-template-columns:25% 75%;background:white;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;line-height:1.4;color:#2c2c2c;}
+  .cv-sidebar{background:#e8e8e8;padding:25px 18px;display:flex;flex-direction:column;}
+  .cv-photo-section{text-align:center;margin-bottom:20px;padding-bottom:15px;border-bottom:2px solid #2c2c2c;}
+  .cv-photo{width:70px;height:70px;border-radius:50%;background:white;border:2px solid #2c2c2c;margin:0 auto 8px;display:flex;align-items:center;justify-content:center;font-size:30px;}
+  .cv-section{margin-bottom:16px;}
+  .cv-section:last-child{margin-bottom:0;}
+  .cv-stitle{font-size:11px;font-weight:700;text-transform:uppercase;color:#2c2c2c;border-bottom:2px solid #2c2c2c;padding-bottom:4px;margin-bottom:8px;letter-spacing:0.5px;}
+  .cv-scontent{font-size:9px;line-height:1.5;color:#2c2c2c;}
+  .cv-contact-row{display:flex;align-items:flex-start;margin-bottom:6px;}
+  .cv-contact-icon{margin-right:6px;min-width:14px;font-weight:bold;}
+  .cv-centre{margin-bottom:8px;}
+  .cv-centre-titre{font-weight:600;font-size:9px;text-transform:uppercase;}
+  .cv-centre-desc{font-size:8px;color:#444;margin-top:1px;}
+  .cv-main{padding:25px 22px;background:white;display:flex;flex-direction:column;}
+  .cv-header{text-align:right;margin-bottom:18px;border-bottom:2px solid #2c2c2c;padding-bottom:10px;}
+  .cv-nom{font-size:28px;font-weight:300;letter-spacing:2px;color:#2c2c2c;margin-bottom:2px;}
+  .cv-poste{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#666;}
+  .cv-msection{margin-bottom:14px;}
+  .cv-msection:last-child{margin-bottom:0;}
+  .cv-mtitle{font-size:11px;font-weight:700;text-transform:uppercase;color:#2c2c2c;border-bottom:2px solid #999;padding-bottom:3px;margin-bottom:8px;letter-spacing:1px;}
+  .cv-mcontent{font-size:9px;line-height:1.5;}
+  .cv-form-item{margin-bottom:4px;}
+  .cv-exp-item{margin-bottom:13px;}
+  .cv-exp-header{margin-bottom:2px;}
+  .cv-exp-date{font-weight:400;font-size:11px;color:#555;}
+  .cv-exp-title{font-weight:700;font-size:11px;text-transform:uppercase;color:#2c2c2c;}
+  .cv-exp-company{font-size:10px;color:#555;margin-bottom:3px;}
+  .cv-exp-missions{font-size:11px;color:#2c2c2c;padding-left:14px;}
+  .cv-exp-missions li{margin-bottom:2px;}
+  .cv-comp-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .cv-comp-label{font-weight:600;text-transform:uppercase;font-size:10px;margin-bottom:2px;}
+  .cv-comp-value{font-size:11px;color:#2c2c2c;}
+  .cv-scontent{font-size:11px;line-height:1.5;color:#2c2c2c;}
+  .cv-mcontent{font-size:11px;line-height:1.5;}
+`;
+
 function buildCVHTML(cv) {
-  const left = `
-    <div style="width:28%;background:#f0f0f0;padding:20px 14px;box-sizing:border-box;min-height:100%;">
-      <div style="text-align:center;margin-bottom:16px;">
-        <div style="width:72px;height:72px;border-radius:50%;border:2px solid #bbb;display:inline-flex;align-items:center;justify-content:center;font-size:28px;">🎓</div>
+  const centres = (cv.centres_interet||[]).map(c => `
+    <div class="cv-centre">
+      <div class="cv-centre-titre">${c.titre}</div>
+      <div class="cv-centre-desc">${c.detail}</div>
+    </div>`).join('');
+
+  const formation = (cv.formation||[]).map(f => `
+    <div class="cv-form-item">
+      <span style="font-weight:600;margin-right:6px;">${f.annee}</span>
+      <span style="font-weight:600;">${f.diplome}</span>
+      <div style="font-size:8px;color:#555;margin-top:1px;">${f.etablissement}</div>
+    </div>`).join('');
+
+  const experiences = (cv.experiences||[]).map(e => {
+    const missions = (e.missions||[]).length
+      ? `<ul class="cv-exp-missions">${(e.missions||[]).map(m=>`<li>${m}</li>`).join('')}</ul>`
+      : '';
+    return `
+    <div class="cv-exp-item">
+      <div class="cv-exp-header">
+        <span class="cv-exp-title">${e.titre}</span> <span class="cv-exp-date">${e.date}</span>
       </div>
-      <p style="letter-spacing:4px;font-size:8.5px;text-align:center;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">P R O F I L</p>
-      <div style="width:28px;height:2px;background:#bbb;margin:0 auto 8px auto;"></div>
-      <p style="font-size:10px;line-height:1.55;color:#333;margin:0 0 14px 0;">${cv.profil||''}</p>
-      <p style="letter-spacing:4px;font-size:8.5px;text-align:center;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">C O N T A C T</p>
-      <div style="width:28px;height:2px;background:#bbb;margin:0 auto 8px auto;"></div>
-      <ul style="list-style:none;padding:0;margin:0 0 14px 0;font-size:10px;color:#333;">
-        <li style="margin:4px 0;">📍 ${cv.contact?.adresse||''}</li>
-        <li style="margin:4px 0;">✉️ ${cv.contact?.email||''}</li>
-        <li style="margin:4px 0;">📞 ${cv.contact?.telephone||''}</li>
-        <li style="margin:4px 0;">🚗 ${cv.contact?.permis||'Permis B'}</li>
-      </ul>
-      <p style="letter-spacing:3px;font-size:8.5px;text-align:center;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">C E N T R E S<br>D'INTÉRÊT</p>
-      <div style="width:28px;height:2px;background:#bbb;margin:0 auto 8px auto;"></div>
-      ${(cv.centres_interet||[]).map(c=>`
-        <p style="font-size:10px;font-weight:bold;text-decoration:underline;margin:6px 0 1px 0;">${c.titre}</p>
-        <p style="font-size:10px;color:#555;margin:0 0 6px 0;">${c.detail}</p>
-      `).join('')}
+      <div class="cv-exp-company">${e.entreprise}</div>
+      ${missions}
     </div>`;
-  const right = `
-    <div style="width:72%;padding:20px 18px;box-sizing:border-box;background:#fff;">
-      <h1 style="font-size:26px;font-weight:300;letter-spacing:1px;margin:0 0 2px 0;color:#1a1a2e;font-family:Arial,sans-serif;">${cv.nom||''}</h1>
-      <p style="font-size:11px;letter-spacing:3px;color:#999;margin:0 0 14px 0;font-family:Arial,sans-serif;text-transform:uppercase;">${cv.titre_poste||''}</p>
-      <p style="letter-spacing:5px;font-size:10px;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">F O R M A T I O N</p>
-      <div style="width:36px;height:2px;background:#bbb;margin:0 0 8px 0;"></div>
-      <ul style="list-style:none;padding:0;margin:0 0 12px 0;">
-        ${(cv.formation||[]).map(f=>`<li style="font-size:11px;margin:3px 0;"><strong>${f.annee}</strong> – ${f.diplome} – <em>${f.etablissement}</em></li>`).join('')}
-      </ul>
-      <p style="letter-spacing:5px;font-size:10px;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">E X P É R I E N C E S</p>
-      <div style="width:36px;height:2px;background:#bbb;margin:0 0 8px 0;"></div>
-      ${(cv.experiences||[]).map(e=>`
-        <div style="display:flex;margin-bottom:10px;">
-          <div style="width:82px;flex-shrink:0;padding-right:8px;">
-            <strong style="font-size:10px;">${e.date}</strong><br>
-            <span style="font-size:10px;color:#777;">${e.entreprise}</span>
-          </div>
-          <div style="flex:1;">
-            <p style="font-size:10px;font-weight:bold;letter-spacing:1px;margin:0 0 3px 0;">${e.titre}</p>
-            <ul style="margin:0;padding-left:14px;">
-              ${(e.missions||[]).map(m=>`<li style="font-size:10px;margin:1px 0;">${m}</li>`).join('')}
-            </ul>
-          </div>
+  }).join('');
+
+  return `
+  <div class="cv-page">
+    <div class="cv-sidebar">
+      <div class="cv-photo-section">
+        <div class="cv-photo">🎓</div>
+      </div>
+      <div class="cv-section">
+        <div class="cv-stitle">Profil</div>
+        <div class="cv-scontent">${cv.profil||''}</div>
+      </div>
+      <div class="cv-section">
+        <div class="cv-stitle">Contact</div>
+        <div class="cv-scontent">
+          <div class="cv-contact-row"><span class="cv-contact-icon">📍</span><span>${cv.contact?.adresse||''}</span></div>
+          <div class="cv-contact-row"><span class="cv-contact-icon">✉</span><span>${cv.contact?.email||''}</span></div>
+          <div class="cv-contact-row"><span class="cv-contact-icon">📱</span><span>${cv.contact?.telephone||''}</span></div>
+          <div class="cv-contact-row"><span class="cv-contact-icon">🚗</span><span>${cv.contact?.permis||'Permis B'}</span></div>
         </div>
-      `).join('')}
-      <p style="letter-spacing:5px;font-size:10px;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">C O M P É T E N C E S</p>
-      <div style="width:36px;height:2px;background:#bbb;margin:0 0 8px 0;"></div>
-      <div style="display:flex;gap:30px;">
-        <div><p style="font-size:10px;font-weight:bold;margin:0 0 2px 0;">LANGUES</p><p style="font-size:10px;margin:0;">${cv.competences?.langues||'Française'}</p></div>
-        <div><p style="font-size:10px;font-weight:bold;margin:0 0 2px 0;">LOGICIELS MAÎTRISÉS</p><p style="font-size:10px;margin:0;">${cv.competences?.logiciels||''}</p></div>
       </div>
-    </div>`;
-  return `<div style="display:flex;min-height:100%;font-family:Georgia,serif;">${left}${right}</div>`;
+      <div class="cv-section">
+        <div class="cv-stitle">Centres d'intérêt</div>
+        <div class="cv-scontent">${centres}</div>
+      </div>
+    </div>
+    <div class="cv-main">
+      <div class="cv-header">
+        <div class="cv-nom">${cv.nom||''}</div>
+        <div class="cv-poste">${cv.titre_poste||''}</div>
+      </div>
+      <div class="cv-msection">
+        <div class="cv-mtitle">Formation</div>
+        <div class="cv-mcontent">${formation}</div>
+      </div>
+      <div class="cv-msection">
+        <div class="cv-mtitle">Expériences</div>
+        <div class="cv-mcontent">${experiences}</div>
+      </div>
+      <div class="cv-msection">
+        <div class="cv-mtitle">Compétences</div>
+        <div class="cv-comp-grid">
+          <div><div class="cv-comp-label">Langues</div><div class="cv-comp-value">${cv.competences?.langues||''}</div></div>
+          <div><div class="cv-comp-label">Logiciels maîtrisés</div><div class="cv-comp-value">${cv.competences?.logiciels||''}</div></div>
+        </div>
+        ${cv.competences?.cles ? `<div style="margin-top:6px"><div class="cv-comp-label">Compétences clés</div><div class="cv-comp-value" style="margin-top:3px">${cv.competences.cles}</div></div>` : ''}
+      </div>
+    </div>
+  </div>`;
 }
 
 function showCVModal(content, titre) {
+  // Injecte le CSS du CV une seule fois dans le <head>
+  if (!document.getElementById('cv-injected-styles')) {
+    const styleEl = document.createElement('style');
+    styleEl.id = 'cv-injected-styles';
+    styleEl.textContent = CV_CSS;
+    document.head.appendChild(styleEl);
+  }
+
   document.getElementById('cv-title').textContent = titre;
   let html;
   try {
-    const cv = JSON.parse(content);
+    const start = content.indexOf('{');
+    const end = content.lastIndexOf('}');
+    const jsonStr = (start !== -1 && end !== -1) ? content.slice(start, end + 1) : content;
+    const cv = JSON.parse(jsonStr);
     html = buildCVHTML(cv);
   } catch(e) {
     html = marked.parse(content);
@@ -1254,8 +1119,9 @@ function downloadCV() {
   w.document.write(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>${filename}</title>
 <style>
 @page { size: A4; margin: 0; }
-html, body { margin: 0; padding: 0; width: 210mm; min-height: 297mm; }
-@media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+html, body { margin: 0; padding: 0; width: 210mm; height: 297mm; }
+@media print { html, body { width: 210mm; height: 297mm; } body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+${CV_CSS}
 </style></head><body>${bodyHTML}<script>window.onload=()=>{setTimeout(()=>{window.print();},400);};<\/script></body></html>`);
   w.document.close();
   showToast('🖨️ Choisis "Enregistrer en PDF" dans la boîte d\'impression');
@@ -1299,29 +1165,6 @@ function copyLMToClipboard() {
   });
 }
 
-// ======= GENERATION PANEL =======
-function openGenPanel() {
-  const panel = document.getElementById('gen-panel');
-  const list = document.getElementById('gen-list');
-
-  const selected = allOffres.filter(o => selectedIds.has(o.id));
-
-  list.innerHTML = selected.map(o => `
-    <div class="gen-item">
-      <div class="gen-item-info">
-        <b>${o.titre}</b>
-        <span>${o.entreprise} · ${o.casquette}</span>
-      </div>
-      <div class="gen-item-actions">
-        <button class="btn-cv" onclick="genCV(${o.id})">📄 CV</button>
-        <button class="btn-lm" onclick="genLM(${o.id})">✉️ LM</button>
-      </div>
-    </div>
-  `).join('');
-
-  panel.classList.add('open');
-  panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
 
 // Profil candidat (chargé une fois au démarrage)
 let userProfile = null;
@@ -1329,7 +1172,7 @@ let userProfile = null;
 async function loadProfile() {
   if (userProfile) return userProfile;
   try {
-    const res = await fetch('https://raw.githubusercontent.com/Phoenixlab-tech/job-hunting-system/main/data/mon-profil.json');
+    const res = await fetch('/api/profile');
     if (!res.ok) throw new Error('Profil non disponible');
     userProfile = await res.json();
     return userProfile;
@@ -1340,19 +1183,19 @@ async function loadProfile() {
   }
 }
 
-async function genCV(id) {
+async function genCV(id, btn) {
   const o = allOffres.find(x => x.id === id);
   const profile = await loadProfile();
   if (!profile) return;
 
-  const btn = document.querySelector(`button[onclick="genCV(${id})"]`);
+  btn = btn || document.getElementById(`cv-btn-${id}`);
   const originalText = btn.textContent;
   btn.disabled = true;
-  btn.textContent = '⟳ Génération...';
+  btn.textContent = '⏳';
   showToast('⟳ Génération du CV...');
 
   try {
-    const res = await fetch('/.netlify/functions/generate-cv-lm', {
+    const res = await fetch('/api/generate-cv-lm', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -1384,19 +1227,19 @@ async function genCV(id) {
   }
 }
 
-async function genLM(id) {
+async function genLM(id, btn) {
   const o = allOffres.find(x => x.id === id);
   const profile = await loadProfile();
   if (!profile) return;
 
-  const btn = document.querySelector(`button[onclick="genLM(${id})"]`);
+  btn = btn || document.getElementById(`lm-btn-${id}`);
   const originalText = btn.textContent;
   btn.disabled = true;
-  btn.textContent = '⟳ Génération...';
+  btn.textContent = '⏳';
   showToast('⟳ Génération de la lettre...');
 
   try {
-    const res = await fetch('/.netlify/functions/generate-cv-lm', {
+    const res = await fetch('/api/generate-cv-lm', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
