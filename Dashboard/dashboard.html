@@ -28,6 +28,8 @@
 })();
 </script>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <style>
   :root {
     --bg: #0f0f13;
@@ -662,6 +664,68 @@
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: var(--surface); }
   ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  /* CV RENDER */
+  .cv-render {
+    background: #fff;
+    color: #1a1a2e;
+    padding: 40px 50px;
+    font-family: 'Georgia', serif;
+    font-size: 13px;
+    line-height: 1.75;
+    border-radius: 4px;
+  }
+  .cv-render h1 {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #1a1a2e;
+    padding-bottom: 8px;
+    margin: 0 0 6px 0;
+    color: #1a1a2e;
+  }
+  .cv-render h2 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4a6fa5;
+    border-bottom: 1px solid #dde;
+    padding-bottom: 4px;
+    margin: 22px 0 10px 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+  }
+  .cv-render h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 12px 0 2px 0;
+    color: #1a1a2e;
+  }
+  .cv-render p { margin: 4px 0; }
+  .cv-render ul { padding-left: 18px; margin: 4px 0; }
+  .cv-render li { margin: 2px 0; }
+  .cv-render strong { color: #1a1a2e; font-weight: 700; }
+  .cv-render hr { display: none; }
+  .cv-render em { color: #555; }
+
+  /* LM RENDER */
+  .lm-render {
+    background: #fff;
+    color: #1a1a2e;
+    padding: 50px 60px;
+    font-family: 'Georgia', serif;
+    font-size: 13px;
+    line-height: 1.9;
+    border-radius: 4px;
+  }
+  .lm-render h1, .lm-render h2, .lm-render h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 16px 0 4px 0;
+  }
+  .lm-render p { margin: 8px 0; }
+  .lm-render hr { display: none; }
 </style>
 </head>
 <body>
@@ -821,30 +885,34 @@
 
 <!-- CV MODAL -->
 <div class="modal-overlay" id="cv-modal">
-  <div class="modal" style="max-width: 900px; max-height: 90vh; overflow-y: auto;">
-    <h2>CV Généré — <span id="cv-title"></span></h2>
+  <div class="modal" style="max-width: 850px; max-height: 90vh; overflow-y: auto;">
+    <h2 style="color:var(--text1);margin-bottom:12px;">CV Généré — <span id="cv-title"></span></h2>
     <div class="modal-section">
-      <div id="cv-content" style="font-family: 'DM Mono', monospace; font-size: 13px; line-height: 1.6; white-space: pre-wrap; color: var(--text2); background: var(--surface); padding: 15px; border-radius: 4px;"></div>
+      <div id="cv-print-zone">
+        <div id="cv-content" class="cv-render"></div>
+      </div>
     </div>
     <div class="modal-actions">
       <button class="btn-close" onclick="closeCVModal()">Fermer</button>
-      <button class="btn-gen-single" onclick="downloadCV()">⬇️ Télécharger</button>
-      <button class="btn-gen-single" onclick="copyCVToClipboard()">📋 Copier</button>
+      <button class="btn-gen-single" onclick="downloadCV()">⬇️ Télécharger PDF</button>
+      <button class="btn-gen-single" onclick="copyCVToClipboard()">📋 Copier texte</button>
     </div>
   </div>
 </div>
 
 <!-- LM MODAL -->
 <div class="modal-overlay" id="lm-modal">
-  <div class="modal" style="max-width: 900px; max-height: 90vh; overflow-y: auto;">
-    <h2>Lettre Générée — <span id="lm-title"></span></h2>
+  <div class="modal" style="max-width: 850px; max-height: 90vh; overflow-y: auto;">
+    <h2 style="color:var(--text1);margin-bottom:12px;">Lettre Générée — <span id="lm-title"></span></h2>
     <div class="modal-section">
-      <div id="lm-content" style="font-family: 'DM Mono', monospace; font-size: 13px; line-height: 1.6; white-space: pre-wrap; color: var(--text2); background: var(--surface); padding: 15px; border-radius: 4px;"></div>
+      <div id="lm-print-zone">
+        <div id="lm-content" class="lm-render"></div>
+      </div>
     </div>
     <div class="modal-actions">
       <button class="btn-close" onclick="closeLMModal()">Fermer</button>
-      <button class="btn-gen-single" onclick="downloadLM()">⬇️ Télécharger</button>
-      <button class="btn-gen-single" onclick="copyLMToClipboard()">📋 Copier</button>
+      <button class="btn-gen-single" onclick="downloadLM()">⬇️ Télécharger PDF</button>
+      <button class="btn-gen-single" onclick="copyLMToClipboard()">📋 Copier texte</button>
     </div>
   </div>
 </div>
@@ -1079,10 +1147,9 @@ function genSingle() {
 // ======= CV/LM MODALS =======
 function showCVModal(content, titre) {
   document.getElementById('cv-title').textContent = titre;
-  document.getElementById('cv-content').textContent = content;
+  document.getElementById('cv-content').innerHTML = marked.parse(content);
   document.getElementById('cv-modal').classList.add('open');
   document.getElementById('cv-modal').cvContent = content;
-  // Close on overlay click
   document.getElementById('cv-modal').onclick = (e) => {
     if (e.target.id === 'cv-modal') closeCVModal();
   };
@@ -1094,10 +1161,9 @@ function closeCVModal() {
 
 function showLMModal(content, titre) {
   document.getElementById('lm-title').textContent = titre;
-  document.getElementById('lm-content').textContent = content;
+  document.getElementById('lm-content').innerHTML = marked.parse(content);
   document.getElementById('lm-modal').classList.add('open');
   document.getElementById('lm-modal').lmContent = content;
-  // Close on overlay click
   document.getElementById('lm-modal').onclick = (e) => {
     if (e.target.id === 'lm-modal') closeLMModal();
   };
@@ -1108,31 +1174,31 @@ function closeLMModal() {
 }
 
 function downloadCV() {
-  const content = document.getElementById('cv-modal').cvContent;
   const titre = document.getElementById('cv-title').textContent;
-  const filename = `CV_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.md`;
-  const blob = new Blob([content], { type: 'text/markdown' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  a.click();
-  URL.revokeObjectURL(url);
-  showToast('✓ CV téléchargé');
+  const element = document.getElementById('cv-print-zone');
+  const filename = `CV_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.pdf`;
+  html2pdf().set({
+    margin: [10, 10],
+    filename,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, useCORS: true },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+  }).from(element).save();
+  showToast('⬇️ Téléchargement PDF...');
 }
 
 function downloadLM() {
-  const content = document.getElementById('lm-modal').lmContent;
   const titre = document.getElementById('lm-title').textContent;
-  const filename = `LM_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.md`;
-  const blob = new Blob([content], { type: 'text/markdown' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  a.click();
-  URL.revokeObjectURL(url);
-  showToast('✓ Lettre téléchargée');
+  const element = document.getElementById('lm-print-zone');
+  const filename = `LM_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}.pdf`;
+  html2pdf().set({
+    margin: [15, 20],
+    filename,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, useCORS: true },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+  }).from(element).save();
+  showToast('⬇️ Téléchargement PDF...');
 }
 
 function copyCVToClipboard() {
