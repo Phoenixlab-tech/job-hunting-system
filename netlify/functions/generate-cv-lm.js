@@ -46,7 +46,7 @@ exports.handler = async (event) => {
 };
 
 async function generateCV(profile, offer) {
-  const prompt = `Tu es un expert en rédaction de CV ATS (optimisé pour les systèmes de scanning).
+  const prompt = `Tu es un expert en rédaction de CV. Génère un CV adapté à l'offre en JSON STRICT (aucun texte avant ou après, uniquement le JSON valide).
 
 PROFIL CANDIDAT:
 ${JSON.stringify(profile, null, 2)}
@@ -58,15 +58,41 @@ Description: ${offer.description || ""}
 Lieu: ${offer.lieu}
 Casquette cible: ${offer.casquette_match}
 
-Génère un CV ATS-friendly en Markdown pour cette offre:
-1. Adapte l'accroche aux besoins de l'offre
-2. Réordonne les expériences par pertinence (la plus récente/pertinente d'abord)
-3. Mets en avant les compétences qui matchent l'offre
-4. Garde un format strictement lisible (pas de graphiques, pas de couleurs)
-5. Inclus les habilitations électriques si pertinent pour le poste
-6. Format: PRENOM NOM, email, téléphone, adresse en en-tête
+Structure JSON EXACTE à respecter:
+{
+  "nom": "Prénom Nom",
+  "titre_poste": "Titre ciblé adapté à l'offre",
+  "profil": "Texte profil 3-4 phrases percutantes adaptées à l'offre",
+  "contact": {
+    "adresse": "adresse complète",
+    "email": "email",
+    "telephone": "téléphone",
+    "permis": "Permis B"
+  },
+  "formation": [
+    {"annee": "2023", "diplome": "Nom diplôme", "etablissement": "Établissement"}
+  ],
+  "experiences": [
+    {
+      "date": "MMM. AAAA",
+      "entreprise": "Nom entreprise",
+      "titre": "TITRE POSTE EN MAJUSCULES",
+      "missions": ["Mission 1 courte", "Mission 2 courte", "Mission 3 courte"]
+    }
+  ],
+  "competences": {
+    "langues": "Française",
+    "logiciels": "Suite Office, ..."
+  },
+  "centres_interet": [
+    {"titre": "TITRE MAJUSCULES", "detail": "description courte"}
+  ]
+}
 
-CV résultat:`;
+Règles:
+- Adapte profil et missions à l'offre cible
+- Maximum 4 expériences, 4 missions par expérience
+- Réponds UNIQUEMENT avec le JSON valide, rien d'autre`;
 
   const message = await client.messages.create({
     model: "claude-opus-4-7",

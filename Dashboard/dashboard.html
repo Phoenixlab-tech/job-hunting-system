@@ -1145,9 +1145,75 @@ function genSingle() {
 }
 
 // ======= CV/LM MODALS =======
+function buildCVHTML(cv) {
+  const left = `
+    <div style="width:28%;background:#f0f0f0;padding:20px 14px;box-sizing:border-box;min-height:100%;">
+      <div style="text-align:center;margin-bottom:16px;">
+        <div style="width:72px;height:72px;border-radius:50%;border:2px solid #bbb;display:inline-flex;align-items:center;justify-content:center;font-size:28px;">🎓</div>
+      </div>
+      <p style="letter-spacing:4px;font-size:8.5px;text-align:center;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">P R O F I L</p>
+      <div style="width:28px;height:2px;background:#bbb;margin:0 auto 8px auto;"></div>
+      <p style="font-size:10px;line-height:1.55;color:#333;margin:0 0 14px 0;">${cv.profil||''}</p>
+      <p style="letter-spacing:4px;font-size:8.5px;text-align:center;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">C O N T A C T</p>
+      <div style="width:28px;height:2px;background:#bbb;margin:0 auto 8px auto;"></div>
+      <ul style="list-style:none;padding:0;margin:0 0 14px 0;font-size:10px;color:#333;">
+        <li style="margin:4px 0;">📍 ${cv.contact?.adresse||''}</li>
+        <li style="margin:4px 0;">✉️ ${cv.contact?.email||''}</li>
+        <li style="margin:4px 0;">📞 ${cv.contact?.telephone||''}</li>
+        <li style="margin:4px 0;">🚗 ${cv.contact?.permis||'Permis B'}</li>
+      </ul>
+      <p style="letter-spacing:3px;font-size:8.5px;text-align:center;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">C E N T R E S<br>D'INTÉRÊT</p>
+      <div style="width:28px;height:2px;background:#bbb;margin:0 auto 8px auto;"></div>
+      ${(cv.centres_interet||[]).map(c=>`
+        <p style="font-size:10px;font-weight:bold;text-decoration:underline;margin:6px 0 1px 0;">${c.titre}</p>
+        <p style="font-size:10px;color:#555;margin:0 0 6px 0;">${c.detail}</p>
+      `).join('')}
+    </div>`;
+  const right = `
+    <div style="width:72%;padding:20px 18px;box-sizing:border-box;background:#fff;">
+      <h1 style="font-size:26px;font-weight:300;letter-spacing:1px;margin:0 0 2px 0;color:#1a1a2e;font-family:Arial,sans-serif;">${cv.nom||''}</h1>
+      <p style="font-size:11px;letter-spacing:3px;color:#999;margin:0 0 14px 0;font-family:Arial,sans-serif;text-transform:uppercase;">${cv.titre_poste||''}</p>
+      <p style="letter-spacing:5px;font-size:10px;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">F O R M A T I O N</p>
+      <div style="width:36px;height:2px;background:#bbb;margin:0 0 8px 0;"></div>
+      <ul style="list-style:none;padding:0;margin:0 0 12px 0;">
+        ${(cv.formation||[]).map(f=>`<li style="font-size:11px;margin:3px 0;"><strong>${f.annee}</strong> – ${f.diplome} – <em>${f.etablissement}</em></li>`).join('')}
+      </ul>
+      <p style="letter-spacing:5px;font-size:10px;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">E X P É R I E N C E S</p>
+      <div style="width:36px;height:2px;background:#bbb;margin:0 0 8px 0;"></div>
+      ${(cv.experiences||[]).map(e=>`
+        <div style="display:flex;margin-bottom:10px;">
+          <div style="width:82px;flex-shrink:0;padding-right:8px;">
+            <strong style="font-size:10px;">${e.date}</strong><br>
+            <span style="font-size:10px;color:#777;">${e.entreprise}</span>
+          </div>
+          <div style="flex:1;">
+            <p style="font-size:10px;font-weight:bold;letter-spacing:1px;margin:0 0 3px 0;">${e.titre}</p>
+            <ul style="margin:0;padding-left:14px;">
+              ${(e.missions||[]).map(m=>`<li style="font-size:10px;margin:1px 0;">${m}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+      `).join('')}
+      <p style="letter-spacing:5px;font-size:10px;color:#666;margin:12px 0 3px 0;font-family:Arial,sans-serif;">C O M P É T E N C E S</p>
+      <div style="width:36px;height:2px;background:#bbb;margin:0 0 8px 0;"></div>
+      <div style="display:flex;gap:30px;">
+        <div><p style="font-size:10px;font-weight:bold;margin:0 0 2px 0;">LANGUES</p><p style="font-size:10px;margin:0;">${cv.competences?.langues||'Française'}</p></div>
+        <div><p style="font-size:10px;font-weight:bold;margin:0 0 2px 0;">LOGICIELS MAÎTRISÉS</p><p style="font-size:10px;margin:0;">${cv.competences?.logiciels||''}</p></div>
+      </div>
+    </div>`;
+  return `<div style="display:flex;min-height:100%;font-family:Georgia,serif;">${left}${right}</div>`;
+}
+
 function showCVModal(content, titre) {
   document.getElementById('cv-title').textContent = titre;
-  document.getElementById('cv-content').innerHTML = marked.parse(content);
+  let html;
+  try {
+    const cv = JSON.parse(content);
+    html = buildCVHTML(cv);
+  } catch(e) {
+    html = marked.parse(content);
+  }
+  document.getElementById('cv-content').innerHTML = html;
   document.getElementById('cv-modal').classList.add('open');
   document.getElementById('cv-modal').cvContent = content;
   document.getElementById('cv-modal').onclick = (e) => {
@@ -1175,26 +1241,24 @@ function closeLMModal() {
 
 function downloadCV() {
   const titre = document.getElementById('cv-title').textContent;
-  const content = document.getElementById('cv-content').innerHTML;
+  const rawContent = document.getElementById('cv-modal').cvContent;
   const filename = `CV_${titre.replace(/\s+/g, '_')}_${new Date().toLocaleDateString('fr-FR').replace(/\//g, '-')}`;
+  let bodyHTML;
+  try {
+    const cv = JSON.parse(rawContent);
+    bodyHTML = buildCVHTML(cv);
+  } catch(e) {
+    bodyHTML = `<div style="padding:20px;">${marked.parse(rawContent)}</div>`;
+  }
   const w = window.open('', '_blank');
   w.document.write(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>${filename}</title>
 <style>
-@page { size: A4; margin: 7mm 10mm; }
-body { font-family: Georgia, 'Times New Roman', serif; color: #1a1a2e; font-size: 10.5px; line-height: 1.35; margin: 0; padding: 0; }
-h1 { font-size: 18px; text-transform: uppercase; letter-spacing: 2px; border-bottom: 2px solid #1a1a2e; padding-bottom: 5px; margin: 0 0 4px 0; font-weight: bold; }
-h2 { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #4a6fa5; border-bottom: 1px solid #ccd; padding-bottom: 2px; margin: 10px 0 5px 0; font-family: Arial, sans-serif; font-weight: 600; }
-h3 { font-size: 11px; font-weight: bold; margin: 6px 0 1px 0; }
-p { margin: 2px 0; }
-ul { padding-left: 14px; margin: 2px 0; }
-li { margin: 1px 0; }
-strong { font-weight: 700; color: #1a1a2e; }
-em { color: #555; font-style: italic; }
-hr { display: none; }
+@page { size: A4; margin: 0; }
+html, body { margin: 0; padding: 0; width: 210mm; min-height: 297mm; }
 @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
-</style></head><body>${content}<script>window.onload=()=>{setTimeout(()=>{window.print();},300);};<\/script></body></html>`);
+</style></head><body>${bodyHTML}<script>window.onload=()=>{setTimeout(()=>{window.print();},400);};<\/script></body></html>`);
   w.document.close();
-  showToast('🖨️ Boîte d\'impression : choisis "Enregistrer en PDF"');
+  showToast('🖨️ Choisis "Enregistrer en PDF" dans la boîte d\'impression');
 }
 
 function downloadLM() {
