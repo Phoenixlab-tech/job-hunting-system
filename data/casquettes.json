@@ -1,0 +1,164 @@
+{
+  "casquettes": [
+    {
+      "id": 1,
+      "nom": "RSG",
+      "label": "Responsable Services Généraux / Facility Manager",
+      "couleur": "#f5c842",
+      "contrats": ["CDI", "CDD"],
+      "postes_cibles": [
+        "Responsable Services Généraux",
+        "Facility Manager",
+        "Coordinateur Services Généraux",
+        "Responsable Logistique Interne",
+        "Responsable Maintenance & Services"
+      ],
+      "mots_cles_ats": [
+        "services généraux", "facility management", "RSG", "gestion fournisseurs",
+        "budget", "prestataires", "maintenance", "sécurité", "hygiène", "EHS",
+        "SLA", "management d'équipe", "coordination", "logistique interne",
+        "conformité réglementaire", "habilitation électrique"
+      ],
+      "mots_cles_api": [
+        "responsable services généraux",
+        "facility manager",
+        "coordinateur services généraux",
+        "responsable logistique interne"
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Manager",
+      "label": "Manager d'Équipe Technique",
+      "couleur": "#ff6584",
+      "contrats": ["CDI", "CDD"],
+      "postes_cibles": [
+        "Chef d'équipe technique",
+        "Coordinateur d'interventions",
+        "Responsable maintenance",
+        "Team leader technique",
+        "Superviseur technique",
+        "Responsable d'exploitation"
+      ],
+      "mots_cles_ats": [
+        "management équipe technique", "chef d'équipe", "encadrement", "team leader",
+        "coordination interventions", "plannings", "recrutement", "entretiens annuels",
+        "SLA", "budget", "prestataires", "sous-traitants", "supervision", "reporting",
+        "responsable maintenance"
+      ],
+      "mots_cles_api": [
+        "chef équipe technique",
+        "responsable maintenance",
+        "superviseur technique",
+        "coordinateur interventions"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Support",
+      "label": "Technicien Support & Helpdesk N2/N3",
+      "couleur": "#43e97b",
+      "contrats": ["CDI", "CDD", "Freelance"],
+      "postes_cibles": [
+        "Technicien Support N2/N3",
+        "Technicien de Proximité",
+        "Technicien Terrain",
+        "Technicien Helpdesk",
+        "Technicien Maintenance",
+        "Technicien Itinérant"
+      ],
+      "mots_cles_ats": [
+        "technicien support", "helpdesk", "N2", "N3", "dépannage", "maintenance",
+        "technicien de proximité", "technicien terrain", "itinérant", "diagnostic",
+        "Windows", "réseau", "firmware", "habilitation électrique", "B1V", "B2V",
+        "BR", "BC", "intervention", "ticketing"
+      ],
+      "mots_cles_api": [
+        "technicien support",
+        "technicien proximité",
+        "technicien helpdesk",
+        "technicien maintenance"
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Réseau",
+      "label": "Technicien Réseaux Informatiques",
+      "couleur": "#00c6ff",
+      "contrats": ["CDI", "CDD", "Freelance"],
+      "postes_cibles": [
+        "Technicien Réseaux",
+        "Technicien Systèmes & Réseaux",
+        "Administrateur Réseau",
+        "Technicien Infrastructure",
+        "Technicien NOC",
+        "Technicien Télécoms"
+      ],
+      "mots_cles_ats": [
+        "réseau informatique", "LAN", "WAN", "infrastructure", "technicien réseau",
+        "systèmes et réseaux", "équipements actifs", "switch", "routeur", "supervision",
+        "NOC", "dépannage réseau", "configuration réseau", "télécoms",
+        "documentation technique", "Windows", "habilitation électrique"
+      ],
+      "mots_cles_api": [
+        "technicien réseaux",
+        "technicien systèmes réseaux",
+        "administrateur réseau",
+        "technicien infrastructure"
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Client",
+      "label": "Chargé de Relation Client Technique B2B/B2C",
+      "couleur": "#fa8231",
+      "contrats": ["CDI", "CDD"],
+      "postes_cibles": [
+        "Chargé de Support Client Technique",
+        "Technicien Support Client",
+        "Account Manager Technique",
+        "Chargé de Relation Client B2B",
+        "Technico-commercial",
+        "Responsable Service Client"
+      ],
+      "mots_cles_ats": [
+        "relation client", "service client", "support client", "B2B", "B2C",
+        "hotline", "téléphone", "email", "centre d'appels", "technico-commercial",
+        "account manager", "pédagogie", "satisfaction client", "gestion des réclamations",
+        "CRM", "ticketing", "résolution d'incidents"
+      ],
+      "mots_cles_api": [
+        "chargé support client",
+        "technicien support client",
+        "chargé relation client",
+        "responsable service client"
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Freelance",
+      "label": "Consultant Freelance / Automatisation No-Code",
+      "couleur": "#a29bfe",
+      "contrats": ["Freelance"],
+      "postes_cibles": [
+        "Consultant Automatisation No-Code",
+        "Intégrateur Make / n8n",
+        "Technicien Freelance Polyvalent",
+        "Consultant Digitalisation des Processus",
+        "Prestataire Support Informatique"
+      ],
+      "mots_cles_ats": [
+        "freelance", "consultant", "automatisation", "no-code", "Make", "n8n",
+        "intégration", "workflow", "digitalisation", "dépannage informatique",
+        "réseau", "technicien indépendant", "prestataire", "TPE", "PME",
+        "support technique", "habilitation électrique", "polyvalent"
+      ],
+      "mots_cles_api": [
+        "consultant automatisation",
+        "intégrateur Make",
+        "technicien freelance",
+        "consultant digitalisation"
+      ]
+    }
+  ]
+}

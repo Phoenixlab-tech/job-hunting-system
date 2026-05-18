@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Hunter — Accès privé</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{min-height:100vh;background:#0f0f13;display:flex;align-items:center;justify-content:center;font-family:sans-serif}
+.box{background:#16161d;border:1px solid #2a2a38;border-radius:20px;padding:48px 40px;width:360px;text-align:center}
+.icon{font-size:40px;margin-bottom:16px}
+h1{font-size:24px;color:#e8e8f0;margin-bottom:8px}
+.sub{color:#5555aa;font-size:12px;margin-bottom:32px}
+input[type=password]{width:100%;background:#1e1e28;border:1px solid #2a2a38;color:#e8e8f0;padding:13px 16px;border-radius:10px;font-size:15px;outline:none;margin-bottom:10px;text-align:center}
+input[type=password]:focus{border-color:#6c63ff}
+.err{color:#ff6584;font-size:12px;margin-bottom:10px;min-height:18px}
+button{width:100%;background:#6c63ff;color:white;border:none;padding:13px;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer}
+button:hover{background:#5a52e0}
+</style>
+</head>
+<body>
+<div class="box">
+<div class="icon">🔒</div>
+<h1>Job Hunter</h1>
+<div class="sub">Accès privé</div>
+<input type="password" id="mdp" placeholder="Mot de passe" autofocus/>
+<div class="err" id="err"></div>
+<button id="btn">Accéder →</button>
+</div>
+<script>
+var H="4b9a3c2f8e1d";function S(p){var h=0;for(var i=0;i<p.length;i++){h=((h<<5)-h)+p.charCodeAt(i);h|=0}return h.toString(16)}
+document.getElementById('btn').onclick=function(){
+var v=document.getElementById('mdp').value;
+if(v.length>0){
+document.cookie="jh="+btoa(v)+";path=/;max-age=28800;SameSite=Strict";
+window.location.href="dashboard.html";
+}else{document.getElementById('err').textContent='Entrez un mot de passe'}
+};
+document.getElementById('mdp').onkeydown=function(e){if(e.key==='Enter')document.getElementById('btn').click()};
+</script>
+</body>
+</html>

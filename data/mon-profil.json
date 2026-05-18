@@ -1,0 +1,79 @@
+{
+  "nom": "Arnaud Chédeville",
+  "email": "Arnaudchedeville@gmail.com",
+  "telephone": "06 29 62 04 02",
+  "adresse": "83 Av. des portes, 33450 IZON",
+  "permis": "B",
+  "localisation_recherche": {
+    "centre": "Libourne",
+    "code_postal": "33500",
+    "rayon_km": 25
+  },
+  "contrats_acceptes": ["CDI", "CDD", "Freelance", "Intérim"],
+  "disponibilite": "Immédiate",
+  "annees_experience": 28,
+  "experiences": [
+    {
+      "poste": "Support Technique N3",
+      "entreprise": "Madic Industries",
+      "debut": "03/2021",
+      "fin": "12/2024",
+      "competences": ["diagnostic", "réparation bornes AC/DC", "habilitations électriques", "firmware", "logs", "reporting"]
+    },
+    {
+      "poste": "Responsable Services Généraux",
+      "entreprise": "SFR",
+      "debut": "09/2013",
+      "fin": "02/2018",
+      "competences": ["management 9 personnes", "budget", "fournisseurs", "SLA", "recrutement", "veille réglementaire"]
+    },
+    {
+      "poste": "Adjoint Services Généraux",
+      "entreprise": "SFR",
+      "debut": "04/2010",
+      "fin": "09/2013",
+      "competences": ["coordination", "outils gestion", "fournisseurs", "indicateurs performance"]
+    },
+    {
+      "poste": "Supervision Réseau",
+      "entreprise": "Neuf Cegetel",
+      "debut": "08/2001",
+      "fin": "10/2005",
+      "competences": ["réseau informatique", "équipements actifs", "dépannage", "documentation technique"]
+    },
+    {
+      "poste": "Technicien Hotline",
+      "entreprise": "AOL France",
+      "debut": "1999",
+      "fin": "08/2001",
+      "competences": ["support B2C/B2B", "diagnostic connexion", "gestion incidents"]
+    },
+    {
+      "poste": "Freelance",
+      "entreprise": "Auto-entrepreneur",
+      "debut": "01/2026",
+      "fin": "présent",
+      "competences": ["Make", "n8n", "dépannage informatique", "réseaux", "automatisation"]
+    }
+  ],
+  "formations": [
+    {"titre": "Formation RSG", "organisme": "Comundi", "annee": 2010},
+    {"titre": "Habilitations électriques B1V-B2V-BR-BC", "organisme": "Madic Industries", "annee": 2023},
+    {"titre": "BEP Force de Vente", "organisme": "Lycée Beaupré", "annee": 1996},
+    {"titre": "VAE Bac Pro Gestion-Administration", "organisme": "DAVA Bordeaux", "annee": "en cours"}
+  ],
+  "competences_cles": [
+    "Management équipes mixtes (jusqu'à 9 personnes)",
+    "Support technique N3",
+    "Réseaux informatiques (LAN/WAN)",
+    "Habilitations électriques B1V-B2V-BR-BC",
+    "Pilotage budgétaire",
+    "Gestion fournisseurs et prestataires",
+    "Automatisation no-code (Make, n8n)",
+    "Relation client B2B/B2C",
+    "Suite Office, Windows",
+    "Veille réglementaire EHS"
+  ],
+  "langues": ["Français (natif)"],
+  "interets": ["Production fichiers 3D (CAO)", "Jeux d'échecs (tournois)"]
+}

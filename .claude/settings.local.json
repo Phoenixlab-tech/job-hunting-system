@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:francetravail.io)",
+      "mcp__firecrawl__firecrawl_scrape"
+    ]
+  }
+}

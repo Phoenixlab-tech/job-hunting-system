@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Hunter — Dashboard</title>
+<script>
+// Protection : vérifie le cookie, sinon prompt mot de passe
+(function(){
+  var MDP = "TON_MDP_ICI";
+  function getCookie(n){var c=document.cookie.split(';');for(var i=0;i<c.length;i++){var p=c[i].trim().split('=');if(p[0]===n)return p[1]}return null}
+  var ck = getCookie('jh');
+  if(ck){
+    try{if(atob(ck)!==MDP){throw 1}}catch(e){
+      document.cookie="jh=;path=/;max-age=0";
+      window.location.href='index.html';
+    }
+  } else {
+    // Pas de cookie = prompt direct
+    var p = prompt("🔒 Mot de passe Job Hunter :");
+    if(p === MDP){
+      document.cookie="jh="+btoa(p)+";path=/;max-age=28800;SameSite=Strict";
+    } else {
+      alert("❌ Mot de passe incorrect");
+      window.location.href='index.html';
+    }
+  }
+})();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f0f13;
+    --surface: #16161d;
+    --surface2: #1e1e28;
+    --border: #2a2a38;
+    --accent: #6c63ff;
+    --accent2: #ff6584;
+    --accent3: #43e97b;
+    --text: #e8e8f0;
+    --text2: #8888aa;
+    --text3: #5555aa;
+    --gold: #f5c842;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* HEADER */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    color: var(--text);
+  }
+
+  .logo span { color: var(--accent); }
+
+  .header-stats {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .stat-pill {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text2);
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+
+  .stat-pill b { color: var(--accent); }
+
+  /* LAYOUT */
+  .container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: calc(100vh - 64px);
+  }
+
+  /* SIDEBAR */
+  aside {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .sidebar-section h3 {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text3);
+    margin-bottom: 12px;
+  }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .filter-label {
+    font-size: 12px;
+    color: var(--text2);
+    margin-bottom: 4px;
+  }
+
+  .filter-select, .filter-input {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .filter-select:focus, .filter-input:focus {
+    border-color: var(--accent);
+  }
+
+  .casquette-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .casquette-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--text2);
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .casquette-btn:hover { background: var(--surface2); color: var(--text); }
+
+  .casquette-btn.active {
+    background: var(--surface2);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .casquette-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .btn-fetch {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.3px;
+  }
+
+  .btn-fetch:hover { background: #5a52e0; transform: translateY(-1px); }
+  .btn-fetch:active { transform: translateY(0); }
+
+  /* MAIN */
+  main {
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .search-box {
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+  }
+
+  .search-box input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 16px 10px 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-box input:focus { border-color: var(--accent); }
+
+  .search-icon {
+    position: absolute;
+    left: 14px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--text3);
+    font-size: 14px;
+  }
+
+  .actions-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .btn-select-all {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.2s;
+  }
+
+  .btn-select-all:hover { border-color: var(--accent); color: var(--accent); }
+
+  .btn-generate {
+    background: linear-gradient(135deg, var(--accent3), #0fa);;
+    color: #0f0f13;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    letter-spacing: 0.3px;
+  }
+
+  .btn-generate:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(67,233,123,0.3); }
+  .btn-generate:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+  .selected-count {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--text2);
+    padding: 8px 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+
+  .selected-count b { color: var(--gold); }
+
+  /* TABLE */
+  .table-wrapper {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+  }
+
+  th {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text3);
+    padding: 12px 16px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  th:first-child { width: 44px; }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+    cursor: pointer;
+  }
+
+  tbody tr:last-child { border-bottom: none; }
+
+  tbody tr:hover { background: var(--surface2); }
+
+  tbody tr.selected { background: rgba(108, 99, 255, 0.08); }
+
+  td {
+    padding: 14px 16px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  /* CHECKBOX */
+  .checkbox-cell {
+    width: 44px;
+    text-align: center;
+  }
+
+  .custom-check {
+    width: 18px; height: 18px;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  tr.selected .custom-check {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+
+  tr.selected .custom-check::after {
+    content: '✓';
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  /* TITRE */
+  .job-title {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 14px;
+  }
+
+  .job-company {
+    font-size: 11px;
+    color: var(--text2);
+    margin-top: 2px;
+  }
+
+  /* CASQUETTE BADGE */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 9px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  /* LIEU */
+  .lieu-cell { color: var(--text2); font-size: 12px; }
+
+  /* SALAIRE */
+  .salaire-cell {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--gold);
+  }
+
+  /* DATE */
+  .date-cell {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text3);
+  }
+
+  /* SCORE */
+  .score-cell { white-space: nowrap; }
+
+  .score-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .score-bar {
+    width: 60px; height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .score-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.6s ease;
+  }
+
+  .score-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    min-width: 32px;
+  }
+
+  /* CONTRAT */
+  .contrat-badge {
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-family: 'DM Mono', monospace;
+    border: 1px solid var(--border);
+    color: var(--text2);
+  }
+
+  /* ACTION */
+  .btn-detail {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text2);
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .btn-detail:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* EMPTY STATE */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text3);
+  }
+
+  .empty-state .icon { font-size: 40px; margin-bottom: 12px; }
+
+  .empty-state p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* MODAL */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 200;
+    backdrop-filter: blur(4px);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 560px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .modal h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .modal-section {
+    margin-bottom: 20px;
+  }
+
+  .modal-section label {
+    display: block;
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text3);
+    margin-bottom: 8px;
+  }
+
+  .modal-section p {
+    font-size: 14px;
+    color: var(--text2);
+    line-height: 1.7;
+  }
+
+  .modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 24px;
+  }
+
+  .btn-close {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+  }
+
+  .btn-gen-single {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  /* GENERATION PANEL */
+  .gen-panel {
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    border-radius: 14px;
+    padding: 24px;
+    display: none;
+    animation: fadeIn 0.3s ease;
+  }
+
+  .gen-panel.open { display: block; }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+  .gen-panel h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--accent);
+  }
+
+  .gen-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .gen-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: var(--surface2);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+
+  .gen-item-info { font-size: 13px; }
+  .gen-item-info span { color: var(--text2); font-size: 11px; display: block; margin-top: 2px; }
+
+  .gen-item-actions { display: flex; gap: 8px; }
+
+  .btn-cv, .btn-lm {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.15s;
+  }
+
+  .btn-cv { background: var(--accent); color: white; }
+  .btn-lm { background: var(--accent2); color: white; }
+  .btn-cv:hover { background: #5a52e0; }
+  .btn-lm:hover { background: #e05070; }
+
+  /* TOAST */
+  .toast {
+    position: fixed;
+    bottom: 24px; right: 24px;
+    background: var(--surface);
+    border: 1px solid var(--accent3);
+    color: var(--accent3);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: 'DM Mono', monospace;
+    z-index: 999;
+    transform: translateY(60px);
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .toast.show { transform: translateY(0); opacity: 1; }
+
+  /* LOADING */
+  .loading-bar {
+    height: 2px;
+    background: var(--accent);
+    width: 0%;
+    transition: width 0.4s ease;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--surface); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Job<span>Hunter</span> <span style="color:var(--text3);font-size:14px;font-family:'DM Mono',monospace;"> — Arnaud Chédeville</span></div>
+  <div class="header-stats">
+    <div class="stat-pill">Rayon <b>25km</b> Libourne</div>
+    <div class="stat-pill">Source <b>Pôle Emploi</b></div>
+    <div class="stat-pill" id="last-sync">Sync <b>—</b></div>
+  </div>
+</header>
+
+<div class="container">
+  <aside>
+    <div class="sidebar-section">
+      <h3>Profil / Casquette</h3>
+      <div class="casquette-list">
+        <button class="casquette-btn active" data-val="all" onclick="filterCasquette('all', this)">
+          <span class="casquette-dot" style="background:#6c63ff"></span> Toutes les casquettes
+        </button>
+        <button class="casquette-btn" data-val="RSG" onclick="filterCasquette('RSG', this)">
+          <span class="casquette-dot" style="background:#f5c842"></span> RSG / Facility
+        </button>
+        <button class="casquette-btn" data-val="Manager" onclick="filterCasquette('Manager', this)">
+          <span class="casquette-dot" style="background:#ff6584"></span> Manager Technique
+        </button>
+        <button class="casquette-btn" data-val="Support" onclick="filterCasquette('Support', this)">
+          <span class="casquette-dot" style="background:#43e97b"></span> Support N2/N3
+        </button>
+        <button class="casquette-btn" data-val="Réseau" onclick="filterCasquette('Réseau', this)">
+          <span class="casquette-dot" style="background:#00c6ff"></span> Technicien Réseaux
+        </button>
+        <button class="casquette-btn" data-val="Client" onclick="filterCasquette('Client', this)">
+          <span class="casquette-dot" style="background:#fa8231"></span> Relation Client
+        </button>
+        <button class="casquette-btn" data-val="Freelance" onclick="filterCasquette('Freelance', this)">
+          <span class="casquette-dot" style="background:#a29bfe"></span> Freelance / No-Code
+        </button>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Filtres</h3>
+      <div class="filter-group">
+        <span class="filter-label">Salaire minimum (€/an)</span>
+        <input type="number" class="filter-input" id="salaire-min" placeholder="Ex: 28000" oninput="applyFilters()">
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Type de contrat</span>
+        <select class="filter-select" id="contrat-filter" onchange="applyFilters()">
+          <option value="all">Tous</option>
+          <option value="CDI">CDI</option>
+          <option value="CDD">CDD</option>
+          <option value="Freelance">Freelance</option>
+          <option value="Intérim">Intérim</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Score minimum</span>
+        <select class="filter-select" id="score-filter" onchange="applyFilters()">
+          <option value="0">Tous les scores</option>
+          <option value="70">70%+</option>
+          <option value="80">80%+</option>
+          <option value="90">90%+</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <button class="btn-fetch" onclick="fetchOffres()">⟳ Actualiser les offres</button>
+    </div>
+  </aside>
+
+  <main>
+    <div class="loading-bar" id="loading-bar"></div>
+
+    <div class="topbar">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input type="text" placeholder="Rechercher un poste, entreprise..." oninput="searchOffres(this.value)">
+      </div>
+      <div class="actions-bar">
+        <span class="selected-count">Sélectionnées : <b id="sel-count">0</b></span>
+        <button class="btn-select-all" onclick="selectAll()">Tout sélectionner</button>
+        <button class="btn-generate" id="btn-gen" onclick="openGenPanel()" disabled>
+          ⚡ Générer CV + LM
+        </button>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Poste / Entreprise</th>
+            <th>Casquette</th>
+            <th>Lieu</th>
+            <th>Salaire</th>
+            <th>Contrat</th>
+            <th>Publié</th>
+            <th>Score</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="offres-table">
+          <tr>
+            <td colspan="9">
+              <div class="empty-state">
+                <div class="icon">📡</div>
+                <p>Clique sur <b>"Actualiser les offres"</b><br>pour récupérer les offres Pôle Emploi</p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- PANNEAU GENERATION -->
+    <div class="gen-panel" id="gen-panel">
+      <h3>⚡ Génération CV + Lettre de Motivation</h3>
+      <div class="gen-list" id="gen-list"></div>
+      <div style="font-size:12px;color:var(--text3);font-family:'DM Mono',monospace;">
+        ℹ️ Copie le prompt dans Claude pour générer le document adapté à chaque offre
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- MODAL DETAIL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <h2 id="modal-title">Titre du poste</h2>
+    <div class="modal-section">
+      <label>Entreprise</label>
+      <p id="modal-company">—</p>
+    </div>
+    <div class="modal-section">
+      <label>Description</label>
+      <p id="modal-desc">—</p>
+    </div>
+    <div class="modal-section">
+      <label>Compétences requises</label>
+      <p id="modal-skills">—</p>
+    </div>
+    <div class="modal-section">
+      <label>Conditions</label>
+      <p id="modal-conditions">—</p>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-close" onclick="closeModal()">Fermer</button>
+      <button class="btn-gen-single" onclick="genSingle()">Générer CV + LM</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ======= DONNÉES DÉMO =======
+const DEMO_OFFRES = [
+  {
+    id: 1, titre: "Responsable Services Généraux", entreprise: "Groupe Safran", lieu: "Mérignac (33)",
+    distance: 18, salaire: "38 000 – 45 000 €", contrat: "CDI", date: "Aujourd'hui",
+    casquette: "RSG", score: 94,
+    desc: "Pilotage des services généraux du site de Mérignac. Management d'une équipe de 6 techniciens. Gestion budgétaire, fournisseurs et conformité réglementaire.",
+    skills: "Management équipe, gestion fournisseurs, budget, EHS, SLA", couleur: "#f5c842"
+  },
+  {
+    id: 2, titre: "Facility Manager", entreprise: "Bordeaux Métropole", lieu: "Bordeaux (33)",
+    distance: 22, salaire: "35 000 – 40 000 €", contrat: "CDI", date: "Hier",
+    casquette: "RSG", score: 88,
+    desc: "Gestion des bâtiments et équipements de la métropole. Coordination prestataires maintenance.",
+    skills: "Facility management, maintenance, coordination prestataires", couleur: "#f5c842"
+  },
+  {
+    id: 3, titre: "Chef d'Équipe Technique", entreprise: "Enedis", lieu: "Libourne (33)",
+    distance: 5, salaire: "32 000 – 38 000 €", contrat: "CDI", date: "Il y a 2 jours",
+    casquette: "Manager", score: 91,
+    desc: "Encadrement d'une équipe de 8 techniciens terrain. Planification des interventions et suivi SLA.",
+    skills: "Encadrement, planification, SLA, rapport direction", couleur: "#ff6584"
+  },
+  {
+    id: 4, titre: "Technicien Support N3", entreprise: "Atos", lieu: "Mérignac (33)",
+    distance: 18, salaire: "28 000 – 34 000 €", contrat: "CDI", date: "Il y a 3 jours",
+    casquette: "Support", score: 96,
+    desc: "Support technique niveau 3 sur environnement Windows. Diagnostic, résolution d'incidents complexes.",
+    skills: "Support N3, Windows, diagnostic, ticketing, réseau", couleur: "#43e97b"
+  },
+  {
+    id: 5, titre: "Technicien Réseaux", entreprise: "Orange Business", lieu: "Bordeaux (33)",
+    distance: 20, salaire: "30 000 – 36 000 €", contrat: "CDD", date: "Il y a 4 jours",
+    casquette: "Réseau", score: 82,
+    desc: "Configuration et maintenance d'équipements réseau actifs. Supervision NOC.",
+    skills: "LAN/WAN, switch, routeur, supervision, documentation", couleur: "#00c6ff"
+  },
+  {
+    id: 6, titre: "Chargé Support Client Technique", entreprise: "Engie", lieu: "Bordeaux (33)",
+    distance: 21, salaire: "27 000 – 32 000 €", contrat: "CDI", date: "Il y a 5 jours",
+    casquette: "Client", score: 85,
+    desc: "Support client B2B sur des équipements techniques. Relation client multi-canal, reporting.",
+    skills: "Relation client, B2B, support technique, CRM, ticketing", couleur: "#fa8231"
+  },
+  {
+    id: 7, titre: "Intégrateur Make / n8n", entreprise: "Startup Bordeaux", lieu: "Bordeaux (33)",
+    distance: 20, salaire: "Freelance — TJM 300-450€", contrat: "Freelance", date: "Il y a 6 jours",
+    casquette: "Freelance", score: 78,
+    desc: "Automatisation de workflows no-code pour TPE/PME. Intégration CRM, Google Workspace, APIs.",
+    skills: "Make, n8n, automatisation, no-code, API, CRM", couleur: "#a29bfe"
+  },
+  {
+    id: 8, titre: "Responsable Maintenance", entreprise: "Leroy Merlin", lieu: "Saint-André-de-Cubzac (33)",
+    distance: 15, salaire: "33 000 – 40 000 €", contrat: "CDI", date: "Il y a 7 jours",
+    casquette: "Manager", score: 79,
+    desc: "Coordination des équipes de maintenance du site. Suivi préventif et curatif.",
+    skills: "Maintenance, coordination, planning, habilitation électrique", couleur: "#ff6584"
+  }
+];
+
+let allOffres = [];
+let filteredOffres = [];
+let selectedIds = new Set();
+let activeCasquette = 'all';
+let currentModalOffre = null;
+
+// ======= COULEURS SCORE =======
+function scoreColor(s) {
+  if (s >= 90) return '#43e97b';
+  if (s >= 75) return '#f5c842';
+  return '#ff6584';
+}
+
+// ======= RENDER TABLE =======
+function renderTable(offres) {
+  const tbody = document.getElementById('offres-table');
+  if (!offres.length) {
+    tbody.innerHTML = `<tr><td colspan="9"><div class="empty-state"><div class="icon">🔍</div><p>Aucune offre ne correspond à vos filtres.</p></div></td></tr>`;
+    return;
+  }
+  tbody.innerHTML = offres.map(o => `
+    <tr id="row-${o.id}" class="${selectedIds.has(o.id) ? 'selected' : ''}" onclick="toggleSelect(${o.id})">
+      <td class="checkbox-cell"><div class="custom-check" id="check-${o.id}"></div></td>
+      <td>
+        <div class="job-title">${o.titre}</div>
+        <div class="job-company">${o.entreprise} · ${o.distance}km</div>
+      </td>
+      <td>
+        <span class="badge" style="background:${o.couleur}22;color:${o.couleur};border:1px solid ${o.couleur}44">
+          <span style="width:6px;height:6px;border-radius:50%;background:${o.couleur};display:inline-block"></span>
+          ${o.casquette}
+        </span>
+      </td>
+      <td class="lieu-cell">${o.lieu}</td>
+      <td class="salaire-cell">${o.salaire}</td>
+      <td><span class="contrat-badge">${o.contrat}</span></td>
+      <td class="date-cell">${o.date}</td>
+      <td class="score-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar"><div class="score-fill" style="width:${o.score}%;background:${scoreColor(o.score)}"></div></div>
+          <span class="score-num" style="color:${scoreColor(o.score)}">${o.score}%</span>
+        </div>
+      </td>
+      <td onclick="event.stopPropagation()">
+        <button class="btn-detail" onclick="openModal(${o.id})">Détail</button>
+      </td>
+    </tr>
+  `).join('');
+  updateGenBtn();
+}
+
+// ======= TOGGLE SELECT =======
+function toggleSelect(id) {
+  if (selectedIds.has(id)) selectedIds.delete(id);
+  else selectedIds.add(id);
+  const row = document.getElementById(`row-${id}`);
+  row.classList.toggle('selected', selectedIds.has(id));
+  updateGenBtn();
+}
+
+function updateGenBtn() {
+  const n = selectedIds.size;
+  document.getElementById('sel-count').textContent = n;
+  document.getElementById('btn-gen').disabled = n === 0;
+}
+
+function selectAll() {
+  filteredOffres.forEach(o => selectedIds.add(o.id));
+  renderTable(filteredOffres);
+}
+
+// ======= FILTERS =======
+function filterCasquette(val, btn) {
+  activeCasquette = val;
+  document.querySelectorAll('.casquette-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
+}
+
+function applyFilters() {
+  const sMin = parseInt(document.getElementById('salaire-min').value) || 0;
+  const contrat = document.getElementById('contrat-filter').value;
+  const scoreMin = parseInt(document.getElementById('score-filter').value) || 0;
+
+  filteredOffres = allOffres.filter(o => {
+    if (activeCasquette !== 'all' && o.casquette !== activeCasquette) return false;
+    if (contrat !== 'all' && o.contrat !== contrat) return false;
+    if (o.score < scoreMin) return false;
+    return true;
+  });
+  renderTable(filteredOffres);
+}
+
+function searchOffres(q) {
+  const lower = q.toLowerCase();
+  filteredOffres = allOffres.filter(o =>
+    o.titre.toLowerCase().includes(lower) || o.entreprise.toLowerCase().includes(lower)
+  );
+  renderTable(filteredOffres);
+}
+
+// ======= FETCH OFFRES =======
+function fetchOffres() {
+  const bar = document.getElementById('loading-bar');
+  bar.style.width = '0%';
+  bar.style.transition = 'none';
+
+  setTimeout(() => {
+    bar.style.transition = 'width 1.5s ease';
+    bar.style.width = '90%';
+  }, 50);
+
+  showToast('⟳ Connexion à Pôle Emploi API...');
+
+  setTimeout(() => {
+    bar.style.width = '100%';
+    allOffres = DEMO_OFFRES;
+    filteredOffres = [...allOffres];
+    renderTable(filteredOffres);
+
+    const now = new Date();
+    document.getElementById('last-sync').innerHTML = `Sync <b>${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')}</b>`;
+
+    showToast(`✓ ${allOffres.length} offres récupérées`);
+
+    setTimeout(() => { bar.style.width = '0%'; bar.style.transition = 'width 0.3s'; }, 500);
+  }, 1800);
+}
+
+// ======= MODAL =======
+function openModal(id) {
+  const o = allOffres.find(x => x.id === id);
+  currentModalOffre = o;
+  document.getElementById('modal-title').textContent = o.titre;
+  document.getElementById('modal-company').textContent = `${o.entreprise} — ${o.lieu}`;
+  document.getElementById('modal-desc').textContent = o.desc;
+  document.getElementById('modal-skills').textContent = o.skills;
+  document.getElementById('modal-conditions').textContent = `${o.contrat} · ${o.salaire} · ${o.date}`;
+  document.getElementById('modal').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+}
+
+function genSingle() {
+  if (currentModalOffre) {
+    selectedIds.add(currentModalOffre.id);
+    closeModal();
+    openGenPanel();
+  }
+}
+
+// ======= GENERATION PANEL =======
+function openGenPanel() {
+  const panel = document.getElementById('gen-panel');
+  const list = document.getElementById('gen-list');
+
+  const selected = allOffres.filter(o => selectedIds.has(o.id));
+
+  list.innerHTML = selected.map(o => `
+    <div class="gen-item">
+      <div class="gen-item-info">
+        <b>${o.titre}</b>
+        <span>${o.entreprise} · ${o.casquette}</span>
+      </div>
+      <div class="gen-item-actions">
+        <button class="btn-cv" onclick="genCV(${o.id})">📄 CV</button>
+        <button class="btn-lm" onclick="genLM(${o.id})">✉️ LM</button>
+      </div>
+    </div>
+  `).join('');
+
+  panel.classList.add('open');
+  panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function genCV(id) {
+  const o = allOffres.find(x => x.id === id);
+  const prompt = `Tu es un expert RH et rédacteur de CV ATS-friendly.
+
+PROFIL CANDIDAT : Arnaud Chédeville
+- 28 ans d'expérience technique et managériale
+- Casquette visée : ${o.casquette}
+- Compétences clés : support N3, management équipe, services généraux, réseaux, Make/n8n
+- Habilitations électriques B1V-B2V-BR-BC
+- Localisation : Izon (33), rayon 25km Libourne
+
+OFFRE CIBLÉE :
+- Poste : ${o.titre}
+- Entreprise : ${o.entreprise}
+- Lieu : ${o.lieu}
+- Compétences requises : ${o.skills}
+
+INSTRUCTIONS :
+1. Génère un CV ATS-friendly en format Markdown
+2. Adapte l'accroche exactement à cette offre
+3. Mets en avant les expériences SFR (RSG, Adjoint), Madic Industries et Neuf Cegetel
+4. Utilise les mots-clés de l'offre dans les bullet points
+5. Format : Accroche → Expériences → Compétences → Formations → Certifications
+6. Maximum 1 page (bullet points concis)`;
+
+  navigator.clipboard.writeText(prompt).catch(() => {});
+  showToast('📋 Prompt CV copié ! Colle-le dans Claude.');
+}
+
+function genLM(id) {
+  const o = allOffres.find(x => x.id === id);
+  const prompt = `Tu es expert en rédaction de lettres de motivation percutantes.
+
+PROFIL : Arnaud Chédeville
+- Autodidacte, 28 ans d'expérience
+- Points forts : terrain + management + technique + automatisation
+- Casquette : ${o.casquette}
+
+OFFRE :
+- Poste : ${o.titre} chez ${o.entreprise}
+- Lieu : ${o.lieu}
+- Compétences : ${o.skills}
+
+INSTRUCTIONS :
+1. LM courte (3 paragraphes max), ton professionnel mais direct
+2. Para 1 : Accroche forte liée à l'offre
+3. Para 2 : 2-3 réalisations concrètes avec chiffres
+4. Para 3 : Motivation + call to action
+5. Évite les formules génériques
+6. Format : prêt à copier-coller dans un email`;
+
+  navigator.clipboard.writeText(prompt).catch(() => {});
+  showToast('📋 Prompt LM copié ! Colle-le dans Claude.');
+}
+
+// ======= TOAST =======
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// Close modal on overlay click
+document.getElementById('modal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+</script>
+</body>
+</html>
