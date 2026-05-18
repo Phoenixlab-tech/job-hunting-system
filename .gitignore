@@ -22,3 +22,6 @@ Thumbs.db
 
 # Outputs (optionnel - à garder pour que GitHub serve les données)
 # outputs/ — on va garder ce dossier dans le repo
+
+# Local Netlify folder
+.netlify

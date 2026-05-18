@@ -1212,7 +1212,13 @@ async function genCV(id) {
       body: JSON.stringify({
         offerId: id,
         profile: profile,
-        offer: o,
+        offer: {
+          titre: o.titre,
+          entreprise: o.entreprise,
+          description: o.desc,
+          lieu: o.lieu,
+          casquette_match: o.casquette
+        },
         docType: 'cv'
       })
     });
@@ -1224,8 +1230,8 @@ async function genCV(id) {
     showCVModal(data.content, o.titre);
     showToast('✓ CV généré !');
   } catch (err) {
-    console.error('Erreur:', err);
-    showToast('❌ Erreur: ' + err.message);
+    console.error('Erreur CV:', err);
+    showToast('❌ Erreur CV: ' + err.message);
   } finally {
     btn.disabled = false;
     btn.textContent = originalText;
@@ -1250,7 +1256,13 @@ async function genLM(id) {
       body: JSON.stringify({
         offerId: id,
         profile: profile,
-        offer: o,
+        offer: {
+          titre: o.titre,
+          entreprise: o.entreprise,
+          description: o.desc,
+          lieu: o.lieu,
+          casquette_match: o.casquette
+        },
         docType: 'lm'
       })
     });
@@ -1262,8 +1274,8 @@ async function genLM(id) {
     showLMModal(data.content, o.titre);
     showToast('✓ Lettre générée !');
   } catch (err) {
-    console.error('Erreur:', err);
-    showToast('❌ Erreur: ' + err.message);
+    console.error('Erreur LM:', err);
+    showToast('❌ Erreur LM: ' + err.message);
   } finally {
     btn.disabled = false;
     btn.textContent = originalText;
