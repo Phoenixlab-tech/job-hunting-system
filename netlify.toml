@@ -1,0 +1,9 @@
+[build]
+  publish = "Dashboard"
+  command = "echo 'Static site ready'"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
